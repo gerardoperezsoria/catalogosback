@@ -83,10 +83,41 @@ const Pedidos = sequelize.define('pedidos', {
   descripcion: {
     type: Sequelize.STRING
   },
+  idpedido: {
+    type: Sequelize.CHAR(4)
+  }
 });
 
 
 const Productos = sequelize.define('productos', {
+  preciobase: {
+    type: Sequelize.DECIMAL(16, 2),
+  },
+  preciocliente: {
+    type: Sequelize.DECIMAL(16, 2),
+  },
+  clavecliente: {
+    type: Sequelize.STRING
+  },
+  status: {
+    type: Sequelize.INTEGER
+  },
+  fotos: {
+    type: Sequelize.STRING
+  },
+  idproducto: {
+    type: Sequelize.STRING
+  },
+  catalogo: {
+    type: Sequelize.STRING
+  },
+  categoria: {
+    type: Sequelize.STRING
+  },
+});
+
+
+const Productosxcliente = sequelize.define('productosxcliente', {
   preciobase: {
     type: Sequelize.DECIMAL(16, 2),
   },
@@ -165,6 +196,9 @@ const Invitados = sequelize.define('invitados', {
 Productos.sync()
   .then(() => console.log('Oh yeah! User table Productos created successfully'))
   .catch(err => console.log('BTW, did you enter wrong database credentials?'));
+Productosxcliente.sync()
+  .then(() => console.log('Oh yeah! User table Productosxcliente created successfully'))
+  .catch(err => console.log('BTW, did you enter wrong database credentials?'));
 // create table with user model
 Clientes.sync()
   .then(() => console.log('Oh yeah! User table Clientes created successfully'))
@@ -209,31 +243,69 @@ const createCarritos = async ({ status, clavecliente, invitado, ganancia, idprod
   return await Carritos.create({ status, clavecliente, invitado, ganancia, idproducto, cantidad, precio, descripcion });
 };
 
-const createPedidos = async ({ status, clavecliente, invitado, ganancia, idproducto, cantidad, precio, descripcion }) => {
-  return await Carritos.create({ status, clavecliente, invitado, ganancia, idproducto, cantidad, precio, descripcion });
-};
-
-const buscarProducto = async (id) => {
-  return await Productos.findOne({
+const buscarProducto = async (id, clavecliente) => {
+  return await Productosxcliente.findOne({
     where: {
       status: 1,
-      idproducto: id
+      idproducto: id,
+      clavecliente: clavecliente
     }
+  });
+};
+
+const generarCatalogo = async (clavecliente) => {
+  var data = await Productos.findAll().then(function (filesSeq) {
+    var files = filesSeq.map(function (fileSeq) {
+      var file = fileSeq.toJSON();
+      file['clavecliente'] = clavecliente;
+      delete file.id
+      return file;
+    });
+    return files;
+  })
+  return Productosxcliente.bulkCreate(data).then(() => {
+    return true;
+  }).catch((err) => {
+    // console.log('failed to create notes');
+    return false;
+    console.log(err);
+  }).finally(() => {
+    // sequelize.close();
   });
 };
 
 const buscarCarrito = async (clavecliente, invitado) => {
-  return await Productos.findAll({
-    where: {
-      status: 1,
-      clavecliente,
-      invitado
-    }
+  var data = await Carritos.findAll({
+    where: { status: 1, clavecliente: clavecliente, invitado: invitado }
+  }).then(function (filesSeq) {
+    let cadenauuid = uuid().split('-');
+    let clave = cadenauuid[1];
+    var files = filesSeq.map(function (fileSeq) {
+      var file = fileSeq.toJSON();
+      file['idpedido'] = clave;
+      delete file.id
+      return file;
+    });
+    return files;
+  })
+  return Pedidos.bulkCreate(data).then(() => {
+    Carritos.destroy({
+      where: {
+        clavecliente: clavecliente, invitado: invitado
+      }
+    });
+    return true;
+  }).catch((err) => {
+    // console.log('failed to create notes');
+    return false;
+    console.log(err);
+  }).finally(() => {
+    // sequelize.close();
   });
 };
 
 const getAllProductos = async () => {
-  return await Productos.findAll({
+  return await Productosxcliente.findAll({
     where: {
       status: 1
     }
@@ -285,6 +357,21 @@ const getValidarInvitado = async (clavecliente, invitado) => {
   }
 };
 
+const validaDatosLogin = async (email, password) => {
+  var cliente = await Registro.findOne({
+    where: {
+      status: 1,
+      email,
+      password
+    }
+  });
+
+  if (cliente !== null) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
 // get all Products
 app.post('/productos', function (req, res) {
@@ -342,11 +429,16 @@ app.post('/registro', (req, res) => {
   const form = JSON.parse(JSON.stringify(req.body))
   var cadenauuid = uuid().split('-');
   var clave = cadenauuid[1];
-  console.log(cadenauuid, '*', clave);
   /**Tipo de planes prueba 30 dias, vencido, mensual */
   const { plan = 'prueba', clavecliente = clave, status = 1, email, password, repassword, telefono, cp, calle, numero, rfc } = form;
-  createClientes({ plan, clavecliente, status, email, password, repassword, telefono, cp, calle, numero, rfc }).then(user =>
-    res.json(JSON.stringify({ status: 200, clave: clave }))
+  createClientes({ plan, clavecliente, status, email, password, repassword, telefono, cp, calle, numero, rfc }).then(user => {
+    let rescatalogo = generarCatalogo(clave);
+    if (rescatalogo) {
+      res.json(JSON.stringify({ status: 200, clave: clave }))
+    } else {
+      res.json(JSON.stringify({ status: 200, mensaje: "Error al crear catálogo, intente nuevamente." }))
+    }
+  }
   );
 })
 
@@ -356,27 +448,41 @@ app.post('/validarinvitado', (req, res) => {
   getValidarInvitado(clavecliente, telefono).then(cliente => res.json(cliente));
 })
 
-app.post('/carrito', (req, res) => {
-  const form = JSON.parse(JSON.stringify(req.body))
-  /**Buscar producto por id */
-  var id = form.idproducto;
-  var producto = buscarProducto(id)
-  var ganancianeta = producto.precio * form.cantidad;
-  const { status = 1, clavecliente, invitado, ganancia = ganancianeta, idproducto=id, cantidad, precio, descripcion } = form;
-  createCarritos({ status, clavecliente, invitado, ganancia, idproducto, cantidad, precio, descripcion }).then(user =>
-    res.json(JSON.stringify({ status: 200 }))
+app.post('/login', (req, res) => {
+  let { email, password } = req.body
+  validaDatosLogin(email, password).then(cliente =>
+    res.json(JSON.stringify({ status: 200, mensaje: cliente }))
   );
 })
 
-app.post('/pedido', (req, res) => {
+app.post('/carrito', async (req, res) => {
   const form = JSON.parse(JSON.stringify(req.body))
   /**Buscar producto por id */
   var id = form.idproducto;
-  var producto = buscarCarrito(clavecliente, invitado)
-  const { status = 1, clavecliente, invitado, ganancia = ganancianeta, idproducto, cantidad, precio, descripcion } = form;
-  createPedidos({ status, clavecliente, invitado, ganancia, idproducto, cantidad, precio, descripcion }).then(user =>
-    res.json(JSON.stringify({ status: 200 }))
-  );
+  var clave = form.clavecliente;
+  var producto = await buscarProducto(id, clave);
+  if (producto !== null) {
+    var ganancianeta = producto.preciocliente * form.cantidad;
+    const { status = 1, clavecliente, invitado, ganancia = ganancianeta, idproducto = id, cantidad, precio = producto.preciocliente, descripcion } = form;
+    createCarritos({ status, clavecliente, invitado, ganancia, idproducto, cantidad, precio, descripcion }).then(user =>
+      res.json(JSON.stringify({ status: 200, mensaje: "OK" }))
+    );
+  } else {
+    res.json(JSON.stringify({ status: 200, mensaje: "Producto no existe." }))
+  }
+})
+
+app.post('/pedido', async (req, res) => {
+  const form = JSON.parse(JSON.stringify(req.body))
+  /**Buscar producto por id */
+  var clave = form.clavecliente
+  var inv = form.invitado;
+  var producto = await buscarCarrito(clave, inv)
+  if (producto) {
+    res.json(JSON.stringify({ status: 200, mensaje: "Pedido creado con exito." }))
+  } else {
+    res.json(JSON.stringify({ status: 200, mensaje: "Error al crear pedido, intente nuevamente." }))
+  }
 })
 
 app.use('/static', express.static(__dirname + '/public/uploads'));
