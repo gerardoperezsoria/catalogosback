@@ -305,7 +305,7 @@ const buscarCarrito = async (clavecliente, invitado) => {
 };
 
 const getAllProductos = async () => {
-  return await Productosxcliente.findAll({
+  return await Productos.findAll({
     where: {
       status: 1
     }
