@@ -91,32 +91,52 @@ const Pedidos = sequelize.define('pedidos', {
   }
 });
 
-
 const Productos = sequelize.define('productos', {
-  preciobase: {
-    type: Sequelize.DECIMAL(16, 2),
-  },
-  preciocliente: {
-    type: Sequelize.DECIMAL(16, 2),
-  },
-  clavecliente: {
-    type: Sequelize.STRING
-  },
   status: {
-    type: Sequelize.INTEGER
-  },
-  fotos: {
-    type: Sequelize.STRING
+    type: Sequelize.CHAR(1)
   },
   idproducto: {
     type: Sequelize.STRING
   },
-  catalogo: {
+  idcatalogo: {
     type: Sequelize.STRING
   },
   categoria: {
     type: Sequelize.STRING
   },
+  subcategoria: {
+    type: Sequelize.STRING
+  },
+  fotos: {
+    type: Sequelize.STRING
+  },
+  
+  
+  
+  // preciobase: {
+  //   type: Sequelize.DECIMAL(16, 2),
+  // },
+  // preciocliente: {
+  //   type: Sequelize.DECIMAL(16, 2),
+  // },
+  // clavecliente: {
+  //   type: Sequelize.STRING
+  // },
+  // status: {
+  //   type: Sequelize.INTEGER
+  // },
+  // fotos: {
+  //   type: Sequelize.STRING
+  // },
+  // idproducto: {
+  //   type: Sequelize.STRING
+  // },
+  // catalogo: {
+  //   type: Sequelize.STRING
+  // },
+  // categoria: {
+  //   type: Sequelize.STRING
+  // },
 });
 
 
@@ -180,6 +200,9 @@ const Clientes = sequelize.define('clientes', {
   },
   clavecliente: {
     type: Sequelize.STRING
+  },
+  perfil: {
+    type: Sequelize.CHAR(1)
   },
 });
 
@@ -342,12 +365,12 @@ const createConfiguracionprecios = async ({ status, precioamigos, preciocredito,
   return await Configuracionprecios.create({ status, precioamigos, preciocredito, preciocontado, clavecliente });
 };
 // create some helper functions to work on the database
-const createProductos = async ({ status, clavecliente, preciobase, preciocliente, fotos, idproducto, categoria, catalogo }) => {
-  return await Productos.create({ status, clavecliente, preciobase, preciocliente, fotos, idproducto, categoria, catalogo });
+const createProductos = async ({ status,idproducto,idcatalogo,categoria,subcategoria, fotos }) => {
+  return await Productos.create({ status,idproducto,idcatalogo,categoria,subcategoria, fotos });
 };
 
-const createClientes = async ({ plan, clavecliente, status, email, password, repassword, telefono, cp, calle, numero, rfc }) => {
-  return await Clientes.create({ plan, clavecliente, status, email, password, repassword, telefono, cp, calle, numero, rfc });
+const createClientes = async ({ plan, clavecliente, status, email, password, repassword, telefono, cp, calle, numero, rfc, perfil }) => {
+  return await Clientes.create({ plan, clavecliente, status, email, password, repassword, telefono, cp, calle, numero, rfc, perfil });
 };
 
 const createInvitados = async ({ status, clavecliente, telefono }) => {
@@ -608,8 +631,9 @@ app.post('/registro', (req, res) => {
   var cadenauuid = uuid().split('-');
   var clave = cadenauuid[1];
   /**Tipo de planes prueba 30 dias, vencido, mensual */
-  const { plan = 'prueba', clavecliente = clave, status = 1, email, password, repassword, telefono, cp, calle, numero, rfc } = form;
-  createClientes({ plan, clavecliente, status, email, password, repassword, telefono, cp, calle, numero, rfc }).then(user => {
+  /**Perfiles: 0 = cliente, 1 = invitado, 2 = administrador */
+  const { plan = 'prueba', clavecliente = clave, status = 1, email, password, repassword, telefono, cp, calle, numero, rfc, perfil } = form;
+  createClientes({ plan, clavecliente, status, email, password, repassword, telefono, cp, calle, numero, rfc, perfil }).then(user => {
     let rescatalogo = generarCatalogo(clave);
     if (rescatalogo) {
       res.json(JSON.stringify({ status: 200, clave: clave }))
