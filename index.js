@@ -109,62 +109,32 @@ const Productos = sequelize.define('productos', {
   },
   fotos: {
     type: Sequelize.STRING
-  },
-  
-  
-  
-  // preciobase: {
-  //   type: Sequelize.DECIMAL(16, 2),
-  // },
-  // preciocliente: {
-  //   type: Sequelize.DECIMAL(16, 2),
-  // },
-  // clavecliente: {
-  //   type: Sequelize.STRING
-  // },
-  // status: {
-  //   type: Sequelize.INTEGER
-  // },
-  // fotos: {
-  //   type: Sequelize.STRING
-  // },
-  // idproducto: {
-  //   type: Sequelize.STRING
-  // },
-  // catalogo: {
-  //   type: Sequelize.STRING
-  // },
-  // categoria: {
-  //   type: Sequelize.STRING
-  // },
+  }
 });
 
 
 const Productosxcliente = sequelize.define('productosxcliente', {
-  preciobase: {
-    type: Sequelize.DECIMAL(16, 2),
-  },
-  preciocliente: {
-    type: Sequelize.DECIMAL(16, 2),
-  },
-  clavecliente: {
-    type: Sequelize.STRING
-  },
   status: {
-    type: Sequelize.INTEGER
-  },
-  fotos: {
-    type: Sequelize.STRING
+    type: Sequelize.CHAR(1)
   },
   idproducto: {
     type: Sequelize.STRING
   },
-  catalogo: {
+  idcatalogo: {
     type: Sequelize.STRING
   },
   categoria: {
     type: Sequelize.STRING
   },
+  subcategoria: {
+    type: Sequelize.STRING
+  },
+  fotos: {
+    type: Sequelize.STRING
+  },
+  clavecliente: {
+    type: Sequelize.STRING
+  }
 });
 
 const Clientes = sequelize.define('clientes', {
@@ -357,6 +327,9 @@ const getCarritos = async (clavecliente, invitado) => {
   });
 };
 
+const createPrecios = async ({ status, pagina, pasillo, marca, idproducto, corrida, colores, corte, forro, plantilla, claves, sug_c, precio, modelo, fechas_observaciones, idcatalogo }) => {
+  return await Precios.create({ status, pagina, pasillo, marca, idproducto, corrida, colores, corte, forro, plantilla, claves, sug_c, precio, modelo, fechas_observaciones, idcatalogo });
+};
 
 const createCatalogos = async ({ status, idcatalogo, nombre, fotos }) => {
   return await Catalogos.create({ status, idcatalogo, nombre, fotos });
@@ -365,8 +338,8 @@ const createConfiguracionprecios = async ({ status, precioamigos, preciocredito,
   return await Configuracionprecios.create({ status, precioamigos, preciocredito, preciocontado, clavecliente });
 };
 // create some helper functions to work on the database
-const createProductos = async ({ status,idproducto,idcatalogo,categoria,subcategoria, fotos }) => {
-  return await Productos.create({ status,idproducto,idcatalogo,categoria,subcategoria, fotos });
+const createProductos = async ({ status, idproducto, idcatalogo, categoria, subcategoria, fotos }) => {
+  return await Productos.create({ status, idproducto, idcatalogo, categoria, subcategoria, fotos });
 };
 
 const createClientes = async ({ plan, clavecliente, status, email, password, repassword, telefono, cp, calle, numero, rfc, perfil }) => {
@@ -401,6 +374,7 @@ const generarCatalogo = async (clavecliente) => {
     });
     return files;
   })
+  console.log("data", data)
   return Productosxcliente.bulkCreate(data).then(() => {
     return true;
   }).catch((err) => {
@@ -458,11 +432,40 @@ const getAllProductos = async () => {
 
 };
 
+const getProdcutsXCat = async (idcatalogo, clavecliente) => {
+  return await sequelize.query(`select pc.id, (p.precio+(p.precio*(select preciocredito from configuracionprecios where clavecliente="${clavecliente}")/100)) 
+  as preciocliente,pc.fotos,pc.idproducto from productosxclientes pc right join precios p on pc.idproducto=p.idproducto where pc.idcatalogo=
+  "${idcatalogo}" and pc.clavecliente="${clavecliente}"`, { type: sequelize.QueryTypes.SELECT })
+    .then(users => {
+      // We don't need spread here, since only the results will be returned for select queries
+      return users;
+    })
+
+};
+
+
 const getNegocio = async obj => {
   return await Negocios.findOne({
     where: obj,
   });
 };
+
+const buscarPrecio = async (idproducto) => {
+  var precio = await Precios.findOne({
+    where: {
+      status: 1,
+      idproducto: idproducto
+    }
+  });
+
+  if (precio === null) {
+    return false;
+  }
+
+  if (precio !== null) {
+    return true;
+  }
+}
 
 const upsert = async (credito, contado, amigos, clavecliente) => {
   var cliente = await Configuracionprecios.findOne({
@@ -501,9 +504,9 @@ const buscarCatalogos = async (nombre) => {
   let catalogos = await Catalogos.findAll({
     where: {
       status: 1,
-      nombre: {
-        [Op.like]: `%${nombre}%`,
-      }
+      // nombre: {
+      //   [Op.like]: `%${nombre}%`,
+      // }
     }
   });
   return catalogos;
@@ -553,7 +556,7 @@ const getValidarInvitado = async (clavecliente, invitado) => {
 };
 
 const validaDatosLogin = async (email, password) => {
-  var cliente = await Registro.findOne({
+  var cliente = await Clientes.findOne({
     where: {
       status: 1,
       email,
@@ -562,7 +565,7 @@ const validaDatosLogin = async (email, password) => {
   });
 
   if (cliente !== null) {
-    return true;
+    return cliente;
   } else {
     return false;
   }
@@ -577,6 +580,12 @@ app.post('/micarrito', function (req, res) {
 // get all Products
 app.post('/productos', function (req, res) {
   getAllProductos().then(products => res.json(products));
+});
+
+//Buscar productos por catalogo
+app.post('/porcatalogo', function (req, res) {
+  let { idcatalogo, clavecliente } = req.body
+  getProdcutsXCat(idcatalogo, clavecliente).then(products => res.json(products));
 });
 
 // Busqueda
@@ -603,7 +612,7 @@ const storage = multer.diskStorage({
 
 var upload = multer({ storage: storage })
 
-app.post('/guardarproductos', upload.array('myFiles', 12), (req, res) => {
+app.post('/guardararticulos', upload.array('myFiles', 12), async (req, res) => {
   const form = JSON.parse(JSON.stringify(req.body))
   const files = req.files;
   if (!files) {
@@ -616,14 +625,15 @@ app.post('/guardarproductos', upload.array('myFiles', 12), (req, res) => {
     photosCad = `${photosCad}&${row}`
   });
   nombres.length = 0;
-  const { status = 1, clavecliente = 0, preciobase, preciocliente, fotos = photosCad, idproducto, categoria, catalogo } = form;
-  createProductos({ status, clavecliente, preciobase, preciocliente, fotos, idproducto, categoria, catalogo }).then(user =>
-    res.json(JSON.stringify({ status: 200 }))
-    //res.send("success")
-  );
-
-  //res.send(files)
-  //res.json({ "nameImages": photosCad })
+  const { status = 1, fotos = photosCad, idproducto, categoria, subcategoria, idcatalogo } = form;
+  let validaArticulo = await validaArticulo(idproducto)
+  if(validaArticulo){
+    res.json(JSON.stringify({ status: 204,mensaje:"El articulo ya se encuentra registrado." }))
+  }else{
+    createProductos({ status, fotos, idproducto, categoria, subcategoria, idcatalogo }).then(user =>
+      res.json(JSON.stringify({ status: 200 }))
+    );
+  }
 })
 
 app.post('/registro', (req, res) => {
@@ -632,8 +642,12 @@ app.post('/registro', (req, res) => {
   var clave = cadenauuid[1];
   /**Tipo de planes prueba 30 dias, vencido, mensual */
   /**Perfiles: 0 = cliente, 1 = invitado, 2 = administrador */
+  let preciocredito = 30;
+  let preciocontado = 30;
+  let precioamigos = 30;
   const { plan = 'prueba', clavecliente = clave, status = 1, email, password, repassword, telefono, cp, calle, numero, rfc, perfil } = form;
   createClientes({ plan, clavecliente, status, email, password, repassword, telefono, cp, calle, numero, rfc, perfil }).then(user => {
+    createConfiguracionprecios({ status, preciocredito, preciocontado, precioamigos, clavecliente });
     let rescatalogo = generarCatalogo(clave);
     if (rescatalogo) {
       res.json(JSON.stringify({ status: 200, clave: clave }))
@@ -647,14 +661,23 @@ app.post('/registro', (req, res) => {
 app.post('/validarinvitado', (req, res) => {
   // const form = JSON.parse(JSON.stringify(req.body))
   let { clavecliente, telefono } = req.body
+  console.log(clavecliente, telefono);
   getValidarInvitado(clavecliente, telefono).then(cliente => res.json(cliente));
 })
 
-app.post('/login', (req, res) => {
+app.post('/login', async (req, res) => {
   let { email, password } = req.body
-  validaDatosLogin(email, password).then(cliente =>
-    res.json(JSON.stringify({ status: 200, mensaje: cliente }))
+  let datclient = await validaDatosLogin(email, password).then(cliente => {
+    return cliente
+  }
   );
+
+  if ((datclient !== null) && datclient !== false) {
+    res.json(JSON.stringify({ status: 200, datos: datclient }))
+  }
+  if (datclient === false) {
+    res.json(JSON.stringify({ status: 204, mensaje: "No existe el cliente" }))
+  }
 })
 
 app.post('/carrito', async (req, res) => {
@@ -664,8 +687,8 @@ app.post('/carrito', async (req, res) => {
   var clave = form.clavecliente;
   var producto = await buscarProducto(id, clave);
   if (producto !== null) {
-    var ganancianeta = producto.preciocliente * form.cantidad;
-    const { status = 1, clavecliente, invitado, ganancia = ganancianeta, idproducto = id, cantidad, precio = producto.preciocliente, descripcion, foto } = form;
+    // var ganancianeta = producto.preciocliente * form.cantidad;
+    const { status = 1, clavecliente, invitado, ganancia = 0, idproducto = id, cantidad, precio = producto.preciocliente, descripcion, foto } = form;
     createCarritos({ status, clavecliente, invitado, ganancia, idproducto, cantidad, precio, descripcion, foto }).then(user =>
       res.json(JSON.stringify({ status: 200, mensaje: "OK" }))
     );
@@ -720,5 +743,18 @@ app.post('/buscarcatalogos', async function (req, res) {
   let { nombre } = req.body
   await buscarCatalogos(nombre).then(catalogos => res.json({ catalogos: catalogos }));
 });
+
+app.post('/createprecios', async (req, res) => {
+  const form = JSON.parse(JSON.stringify(req.body))
+  const { status = 1, pagina, pasillo, marca, idproducto, corrida, colores, corte, forro, plantilla, claves, sug_c, precio, modelo, fechas_observaciones, idcatalogo } = form;
+  let getprecio = await buscarPrecio(idproducto);
+  if (getprecio) {
+    res.json(JSON.stringify({ status: 204, mensaje:"Ya existe el precio." }))
+  } else {
+    createPrecios({ status, pagina, pasillo, marca, idproducto, corrida, colores, corte, forro, plantilla, claves, sug_c, precio, modelo, fechas_observaciones, idcatalogo }).then(user =>
+      res.json(JSON.stringify({ status: 200 }))
+    );
+  }
+})
 
 app.use('/static', express.static(__dirname + '/public/uploads'));
