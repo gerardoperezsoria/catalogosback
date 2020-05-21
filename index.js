@@ -344,6 +344,9 @@ const getCarritos = async (clavecliente, invitado) => {
   });
 };
 
+const createPrecios = async ({ status, pagina, pasillo, marca, idproducto, corrida, colores, corte, forro, plantilla, claves, sug_c, precio, modelo, fechas_observaciones, idcatalogo }) => {
+  return await Precios.create({ status, pagina, pasillo, marca, idproducto, corrida, colores, corte, forro, plantilla, claves, sug_c, precio, modelo, fechas_observaciones, idcatalogo });
+};
 
 const createCatalogoXC = async ({ status, idcatalogo, clavecliente }) => {
   return await CatalogoXC.create({ status, idcatalogo, clavecliente });
@@ -581,12 +584,6 @@ const getProdcutsXCat = async (idcatalogo, clavecliente) => {
 const getNegocio = async obj => {
   return await Negocios.findOne({
     where: obj,
-  });
-};
-
-const productosParaclientes = async () => {
-  return await Productos.findAll({
-    where: { status: 1 },
   });
 };
 
@@ -838,10 +835,10 @@ app.post('/guardararticulos', upload.array('myFiles', 12), async (req, res) => {
   });
   nombres.length = 0;
   const { status = 1, fotos = photosCad, idproducto, categoria, subcategoria, idcatalogo } = form;
-  let validaArt = await validaArticulos(idproducto)
-  if (validaArt) {
-    res.json(JSON.stringify({ status: 204, mensaje: "El articulo ya se encuentra registrado." }))
-  } else {
+  let validaArticulo = await validaArticulo(idproducto)
+  if(validaArticulo){
+    res.json(JSON.stringify({ status: 204,mensaje:"El articulo ya se encuentra registrado." }))
+  }else{
     createProductos({ status, fotos, idproducto, categoria, subcategoria, idcatalogo }).then(user =>
       res.json(JSON.stringify({ status: 200 }))
     );
@@ -860,8 +857,6 @@ app.post('/registro', (req, res) => {
   const { plan = 'prueba', clavecliente = clave, status = 1, email, password, repassword, telefono, cp, calle, numero, rfc, perfil } = form;
   createClientes({ plan, clavecliente, status, email, password, repassword, telefono, cp, calle, numero, rfc, perfil }).then(user => {
     createConfiguracionprecios({ status, preciocredito, preciocontado, precioamigos, clavecliente });
-    
-    let rescatalogoXC = generarCXCliente(clave);
     let rescatalogo = generarCatalogo(clave);
     if (rescatalogo) {
       res.json(JSON.stringify({ status: 200, clave: clave }))
@@ -875,6 +870,7 @@ app.post('/registro', (req, res) => {
 app.post('/validarinvitado', (req, res) => {
   // const form = JSON.parse(JSON.stringify(req.body))
   let { clavecliente, telefono } = req.body
+  console.log(clavecliente, telefono);
   getValidarInvitado(clavecliente, telefono).then(cliente => res.json(cliente));
 })
 
@@ -900,8 +896,8 @@ app.post('/carrito', async (req, res) => {
   var talla = form.talla;
   var producto = await buscarProducto(id, clave);
   if (producto !== null) {
-    let preciounitario = producto[0].precio;
-    const { status = 1, clavecliente, invitado, ganancia = 0, idproducto = id, cantidad, precio = preciounitario, descripcion=talla, foto } = form;
+    // var ganancianeta = producto.preciocliente * form.cantidad;
+    const { status = 1, clavecliente, invitado, ganancia = 0, idproducto = id, cantidad, precio = producto.preciocliente, descripcion, foto } = form;
     createCarritos({ status, clavecliente, invitado, ganancia, idproducto, cantidad, precio, descripcion, foto }).then(user =>
       res.json(JSON.stringify({ status: 200, mensaje: "OK" }))
     );
@@ -957,17 +953,12 @@ app.post('/buscarcatalogos', async function (req, res) {
   await buscarCatalogos(nombre).then(catalogos => res.json({ catalogos: catalogos }));
 });
 
-app.post('/edicionproductos', async function (req, res) {
-  let dato = req.body.idcatalogo;
-  await edicionproductos(dato).then(productos => res.json({ productos: productos }));
-});
-
 app.post('/createprecios', async (req, res) => {
   const form = JSON.parse(JSON.stringify(req.body))
   const { status = 1, pagina, pasillo, marca, idproducto, corrida, colores, corte, forro, plantilla, claves, sug_c, precio, modelo, fechas_observaciones, idcatalogo } = form;
   let getprecio = await buscarPrecio(idproducto);
   if (getprecio) {
-    res.json(JSON.stringify({ status: 204, mensaje: "Ya existe el precio." }))
+    res.json(JSON.stringify({ status: 204, mensaje:"Ya existe el precio." }))
   } else {
     createPrecios({ status, pagina, pasillo, marca, idproducto, corrida, colores, corte, forro, plantilla, claves, sug_c, precio, modelo, fechas_observaciones, idcatalogo }).then(user =>
       res.json(JSON.stringify({ status: 200 }))
