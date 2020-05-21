@@ -1,0 +1,1742 @@
+{
+   "annotation_balloon_color_green": {
+      "message": "Ova veza je bezbedna"
+   },
+   "annotation_balloon_color_hackersafe": {
+      "message": "Dnevno testiranje"
+   },
+   "annotation_balloon_color_red": {
+      "message": "Ova veza je opasna"
+   },
+   "annotation_balloon_color_unknown": {
+      "message": "Ova veza nije ocenjena"
+   },
+   "annotation_balloon_color_yellow": {
+      "message": "Ova veza je sumnjiva"
+   },
+   "annotation_balloon_view_site_report": {
+      "message": "Pogledati izveštaj o lokaciji"
+   },
+   "balloon_adblock_notification": {
+      "message": "$ads_blocked_counter$ ads blocked",
+      "placeholders": {
+         "ads_blocked_counter": {
+            "content": "$1"
+         }
+      }
+   },
+   "balloon_download_scanning_notification_plural": {
+      "message": "Scanning $download_scanning_counter$ downloads",
+      "placeholders": {
+         "download_scanning_counter": {
+            "content": "$1"
+         }
+      }
+   },
+   "balloon_download_scanning_notification_singular": {
+      "message": "Scanning $download_scanning_counter$ download",
+      "placeholders": {
+         "download_scanning_counter": {
+            "content": "$1"
+         }
+      }
+   },
+   "category_id_100_name": {
+      "message": "Umetnost/Kultura/Nasleđe"
+   },
+   "category_id_101_name": {
+      "message": "Alkohol"
+   },
+   "category_id_102_name": {
+      "message": "Alati za skrivanje identiteta"
+   },
+   "category_id_104_name": {
+      "message": "Uslužni programi za sakrivanje identiteta"
+   },
+   "category_id_105_name": {
+      "message": "Posao"
+   },
+   "category_id_106_name": {
+      "message": "Ćaskanje"
+   },
+   "category_id_108_name": {
+      "message": "Javne informacije"
+   },
+   "category_id_109_name": {
+      "message": "Potencijalno kriminalne aktivnosti"
+   },
+   "category_id_110_name": {
+      "message": "Narkotici"
+   },
+   "category_id_111_name": {
+      "message": "Obrazovanje/Reference"
+   },
+   "category_id_112_name": {
+      "message": "Zabava"
+   },
+   "category_id_113_name": {
+      "message": "Ekstremno"
+   },
+   "category_id_114_name": {
+      "message": "Finnansije/Bankarstvo"
+   },
+   "category_id_115_name": {
+      "message": "Kockanje"
+   },
+   "category_id_116_name": {
+      "message": "Igrice"
+   },
+   "category_id_117_name": {
+      "message": "Vlada/Vojska"
+   },
+   "category_id_118_name": {
+      "message": "Potencijalno hakovanje/Računarski kriminal"
+   },
+   "category_id_119_name": {
+      "message": "Zdravlje"
+   },
+   "category_id_120_name": {
+      "message": "Humor/Stripovi"
+   },
+   "category_id_121_name": {
+      "message": "Diskriminacija"
+   },
+   "category_id_122_name": {
+      "message": "Instant razmena poruka"
+   },
+   "category_id_123_name": {
+      "message": "Trgovina deonicama"
+   },
+   "category_id_124_name": {
+      "message": "Internet Radio/TV"
+   },
+   "category_id_125_name": {
+      "message": "Traženje posla"
+   },
+   "category_id_126_name": {
+      "message": "Bezbednost informacija"
+   },
+   "category_id_127_name": {
+      "message": "Upoznavanje/Društveno umrežavanje"
+   },
+   "category_id_128_name": {
+      "message": "Mobilni telefon"
+   },
+   "category_id_129_name": {
+      "message": "Preuzimanje medijuma"
+   },
+   "category_id_130_name": {
+      "message": "Zlonamerne lokacije"
+   },
+   "category_id_132_name": {
+      "message": "Nagost"
+   },
+   "category_id_133_name": {
+      "message": "Neprofitno/Advokatura/NVO"
+   },
+   "category_id_134_name": {
+      "message": "Opšte vesti"
+   },
+   "category_id_136_name": {
+      "message": "Kupovina na mreži"
+   },
+   "category_id_137_name": {
+      "message": "Provokativna odeća"
+   },
+   "category_id_138_name": {
+      "message": "P2P/Deljenje datoteka"
+   },
+   "category_id_139_name": {
+      "message": "Politika/Mišljenje"
+   },
+   "category_id_140_name": {
+      "message": "Lične stranice"
+   },
+   "category_id_141_name": {
+      "message": "Portali"
+   },
+   "category_id_142_name": {
+      "message": "Daljinski pristup"
+   },
+   "category_id_143_name": {
+      "message": "Religija/Ideologija"
+   },
+   "category_id_144_name": {
+      "message": "Deljenje resursa"
+   },
+   "category_id_145_name": {
+      "message": "Pretraživači"
+   },
+   "category_id_146_name": {
+      "message": "Sport"
+   },
+   "category_id_147_name": {
+      "message": "Strimovani medijum"
+   },
+   "category_id_148_name": {
+      "message": "Deljeni softver/Besplatan softver"
+   },
+   "category_id_149_name": {
+      "message": "Pornografija"
+   },
+   "category_id_150_name": {
+      "message": "Špijunski softver/Adver/Keyloggers"
+   },
+   "category_id_151_name": {
+      "message": "Duvan"
+   },
+   "category_id_152_name": {
+      "message": "Putovanja"
+   },
+   "category_id_153_name": {
+      "message": "Nasilje"
+   },
+   "category_id_154_name": {
+      "message": "Veb oglasi"
+   },
+   "category_id_155_name": {
+      "message": "Oružje"
+   },
+   "category_id_156_name": {
+      "message": "Veb pošta"
+   },
+   "category_id_157_name": {
+      "message": "Veb telefon"
+   },
+   "category_id_158_name": {
+      "message": "Aukcije/Oglasnik"
+   },
+   "category_id_159_name": {
+      "message": "Forum/Oglasne table"
+   },
+   "category_id_160_name": {
+      "message": "Vulgarnost"
+   },
+   "category_id_161_name": {
+      "message": "Informacije o varanju u školi"
+   },
+   "category_id_162_name": {
+      "message": "Seksualni materijal"
+   },
+   "category_id_163_name": {
+      "message": "Strašan sadržaj"
+   },
+   "category_id_164_name": {
+      "message": "Vizuelni pretraživač"
+   },
+   "category_id_165_name": {
+      "message": "Tehnika/Poslovni forumi"
+   },
+   "category_id_166_name": {
+      "message": "Povezano sa kockanjem"
+   },
+   "category_id_167_name": {
+      "message": "Razmena poruka"
+   },
+   "category_id_168_name": {
+      "message": "Nasilje u Igricama/Crtanim filmovima"
+   },
+   "category_id_169_name": {
+      "message": "Phishing"
+   },
+   "category_id_170_name": {
+      "message": "Lično skladište na mreži"
+   },
+   "category_id_171_name": {
+      "message": "Spam URL adrese"
+   },
+   "category_id_172_name": {
+      "message": "Interaktivne veb aplikacije"
+   },
+   "category_id_174_name": {
+      "message": "Moda/Lepota"
+   },
+   "category_id_175_name": {
+      "message": "Softver/hardver"
+   },
+   "category_id_176_name": {
+      "message": "Potencijalno nelegalan softver"
+   },
+   "category_id_177_name": {
+      "message": "Server sa sadržajem"
+   },
+   "category_id_178_name": {
+      "message": "Internet servisi"
+   },
+   "category_id_179_name": {
+      "message": "Deljenje medijuma"
+   },
+   "category_id_180_name": {
+      "message": "Slučajna nagost"
+   },
+   "category_id_181_name": {
+      "message": "Marketing/Prodaja"
+   },
+   "category_id_183_name": {
+      "message": "Parkirani domen"
+   },
+   "category_id_184_name": {
+      "message": "Farmacija"
+   },
+   "category_id_185_name": {
+      "message": "Restorani"
+   },
+   "category_id_186_name": {
+      "message": "Nekretnine"
+   },
+   "category_id_187_name": {
+      "message": "Rekreacija/Hobi"
+   },
+   "category_id_188_name": {
+      "message": "Blogovi/Wiki"
+   },
+   "category_id_189_name": {
+      "message": "Digitalne razglednice"
+   },
+   "category_id_190_name": {
+      "message": "Revizija istorije"
+   },
+   "category_id_191_name": {
+      "message": "Tehničke informacije"
+   },
+   "category_id_192_name": {
+      "message": "Upoznavanje/Lične poruke"
+   },
+   "category_id_193_name": {
+      "message": "Motorna vozila"
+   },
+   "category_id_194_name": {
+      "message": "Profesionalno umrežavanje"
+   },
+   "category_id_195_name": {
+      "message": "Društveno umrežavanje"
+   },
+   "category_id_196_name": {
+      "message": "Prevodioci teksta"
+   },
+   "category_id_197_name": {
+      "message": "Veb sastanci"
+   },
+   "category_id_198_name": {
+      "message": "Kontroverzna mišljenja"
+   },
+   "category_id_199_name": {
+      "message": "Kućne IP adrese"
+   },
+   "category_id_200_name": {
+      "message": "Iskorišćenje pregledača"
+   },
+   "category_id_201_name": {
+      "message": "Zaštita potrošača"
+   },
+   "category_id_202_name": {
+      "message": "Nelegalno u UK"
+   },
+   "category_id_203_name": {
+      "message": "Ekstremno"
+   },
+   "category_id_204_name": {
+      "message": "Štetna preuzimanja"
+   },
+   "category_id_205_name": {
+      "message": "PUP-ovi"
+   },
+   "category_id_600_name": {
+      "message": "Za decu"
+   },
+   "category_id_601_name": {
+      "message": "Istorija"
+   },
+   "category_id_602_name": {
+      "message": "Kontrolisano"
+   },
+   "category_id_603_name": {
+      "message": "Tekst/Samo govor"
+   },
+   "crypto_allow_desc": {
+      "message": "Kada blokiramo kripto otimanje, možete odlučiti da ga dozvolite. To ne preporučujemo, ali imate opciju ako želite da date podršku lokacijama koje zarađuju novac kroz kripto otimanje."
+   },
+   "crypto_allow_title": {
+      "message": "Želite da dopustite kripto otimanje?"
+   },
+   "crypto_footer_message1": {
+      "message": "McAfee i McAfee logotip su registrovani zaštitni znakovi ili zaštitni znakovi kompanije McAfee LLC ili njenih ogranaka u Sjedinjenim Američkim Državama i drugim zemljama."
+   },
+   "crypto_footer_message2": {
+      "message": "Na druge nazive i brendove pravo mogu polagati druge kompanije. Copyright ©2020 McAfee, LLC"
+   },
+   "crypto_header_subtitle": {
+      "message": "Pomoći ćemo u zaustavljanju kripto otimača da kradu snagu i resurse vašeg računara."
+   },
+   "crypto_header_title": {
+      "message": "Blokator kripto otimanja je uključen"
+   },
+   "crypto_own_desc": {
+      "message": "Ne morate posedovati kripto valutu da biste doživeli kripto otimanje. Kripto otimači pristupaju resursima vašeg računara, ne kripto valuti koju možda posedujete."
+   },
+   "crypto_own_title": {
+      "message": "Da li morate posedovati kripto valutu da biste postali žrtva kripto otimanja?"
+   },
+   "crypto_protect_desc": {
+      "message": "Držite McAfee WebAdvisor ekstenziju uključenom tako da vam naš Blokator kripto otimanja može pomoći u zaštiti od kripto otimača. Obavestićemo vas kada blokiramo pokušaj kripto otimanja."
+   },
+   "crypto_protect_title": {
+      "message": "Kako se možete zaštititi?"
+   },
+   "crypto_signs_desc1": {
+      "message": "Sporo pregledanje"
+   },
+   "crypto_signs_desc2": {
+      "message": "Baterija se troši suviše brzo"
+   },
+   "crypto_signs_desc3": {
+      "message": "Glasan ventilator"
+   },
+   "crypto_signs_desc4": {
+      "message": "Povećanje potrošnje struje"
+   },
+   "crypto_signs_title": {
+      "message": "Šta su znaci da ste žrtva kripto otimanja?"
+   },
+   "crypto_title": {
+      "message": "McAfee blokator kripto otimanja"
+   },
+   "crypto_whatis_point1": {
+      "message": "Kripto otimači (hakeri) pristupaju vašem računaru kroz veb lokacije u toku pregledanja."
+   },
+   "crypto_whatis_point2": {
+      "message": "Oni kradu snagu vašeg računara (njegov CPU i memoriju) kako bi im pomogla da završe kompleksne zadatke."
+   },
+   "crypto_whatis_point3": {
+      "message": "Oni zarađuju kriptovalutu, što je onlajn novac."
+   },
+   "crypto_whatis_title": {
+      "message": "Šta je kripto otimanje"
+   },
+   "cryptojacking_banner_allow_btn": {
+      "message": "Dozvolite kripto otimanje na ovoj lokaciji."
+   },
+   "cryptojacking_banner_learn_more": {
+      "message": "Saznajte više."
+   },
+   "cryptojacking_banner_message": {
+      "message": "Na tejto lokalite sme zablokovali ťažbu kryptomien. Zdroje vášho počítača sú zabezpečené a môžete pokračovať v prehľadávaní. $cryptojacking_banner_learn_more$",
+      "placeholders": {
+         "cryptojacking_banner_learn_more": {
+            "content": "$1"
+         }
+      }
+   },
+   "iframe_banner_message": {
+      "message": "Testirali smo ovu stranicu i blokirali sadržaj koji dolazi sa potencijalno opasnih ili sumnjivih lokacija. Dozvolite ovaj sadržaj samo ako ste sigurni da dolazi sa bezbednih lokacija."
+   },
+   "iframe_banner_view_all_btn": {
+      "message": "Pogledajte sav blokirani sadržaj"
+   },
+   "overlay_accept_ss": {
+      "message": "Now agree to change your search engine to McAfee® Secure Search"
+   },
+   "overlay_add_ss": {
+      "message": "Add McAfee® Secure Search to your browser"
+   },
+   "overlay_ss_description": {
+      "message": "We flag risky sites in your search results, so you know which sites are safe to visit, and which aren't."
+   },
+   "overlay_step_1": {
+      "message": "STEP 1"
+   },
+   "overlay_step_2": {
+      "message": "STEP 2"
+   },
+   "res_100": {
+      "message": "sr-latn-cs"
+   },
+   "res_1000": {
+      "message": "http://www.siteadvisor.com/restricted.html?domain=%s&originalURL=%s"
+   },
+   "res_1001": {
+      "message": "http://www.siteadvisor.com/phishing.html?domain=%s&originalURL=%s"
+   },
+   "res_101": {
+      "message": "sr-latn-cs"
+   },
+   "res_102": {
+      "message": "sr-latn-cs"
+   },
+   "res_11010": {
+      "message": "Bezbedna pretraga"
+   },
+   "res_1102": {
+      "message": "http://www.siteadvisor.com/support/index.html"
+   },
+   "res_1107": {
+      "message": "https://home.mcafee.com/Store/PackageDetail.aspx?pkgid=284&culture=%s"
+   },
+   "res_1110": {
+      "message": "http://home.mcafee.com/Store/PackageDetail.aspx?pkgid=284&culture=%s"
+   },
+   "res_1116": {
+      "message": "http://www.ebates.com/mcafee/index.htm"
+   },
+   "res_114": {
+      "message": "Opcije..."
+   },
+   "res_120": {
+      "message": "Pomoć"
+   },
+   "res_12001": {
+      "message": "Umetnost/Kultura/Nasleđe"
+   },
+   "res_12002": {
+      "message": "Alkohol"
+   },
+   "res_12003": {
+      "message": "Alati za skrivanje identiteta"
+   },
+   "res_12004": {
+      "message": "Uslužni programi za sakrivanje identiteta"
+   },
+   "res_12005": {
+      "message": "Posao"
+   },
+   "res_12006": {
+      "message": "Ćaskanje"
+   },
+   "res_12007": {
+      "message": "Javne informacije"
+   },
+   "res_12008": {
+      "message": "Potencijalno kriminalne aktivnosti"
+   },
+   "res_12009": {
+      "message": "Narkotici"
+   },
+   "res_12010": {
+      "message": "Obrazovanje/Reference"
+   },
+   "res_12011": {
+      "message": "Zabava"
+   },
+   "res_12012": {
+      "message": "Ekstremno"
+   },
+   "res_12013": {
+      "message": "Finnansije/Bankarstvo"
+   },
+   "res_12014": {
+      "message": "Kockanje"
+   },
+   "res_12015": {
+      "message": "Igrice"
+   },
+   "res_12016": {
+      "message": "Vlada/Vojska"
+   },
+   "res_12017": {
+      "message": "Potencijalno hakovanje/Računarski kriminal"
+   },
+   "res_12018": {
+      "message": "Zdravlje"
+   },
+   "res_12019": {
+      "message": "Humor/Stripovi"
+   },
+   "res_12020": {
+      "message": "Diskriminacija"
+   },
+   "res_12021": {
+      "message": "Instant razmena poruka"
+   },
+   "res_12022": {
+      "message": "Trgovina deonicama"
+   },
+   "res_12023": {
+      "message": "Internet Radio/TV"
+   },
+   "res_12024": {
+      "message": "Traženje posla"
+   },
+   "res_12025": {
+      "message": "Bezbednost informacija"
+   },
+   "res_12026": {
+      "message": "Upoznavanje/Društveno umrežavanje"
+   },
+   "res_12027": {
+      "message": "Mobilni telefon"
+   },
+   "res_12028": {
+      "message": "Preuzimanje medijuma"
+   },
+   "res_12029": {
+      "message": "Zlonamerne lokacije"
+   },
+   "res_12031": {
+      "message": "Nagost"
+   },
+   "res_12032": {
+      "message": "Neprofitno/Advokatura/NVO"
+   },
+   "res_12033": {
+      "message": "Opšte vesti"
+   },
+   "res_12034": {
+      "message": "Kupovina na mreži"
+   },
+   "res_12035": {
+      "message": "Provokativna odeća"
+   },
+   "res_12036": {
+      "message": "P2P/Deljenje datoteka"
+   },
+   "res_12037": {
+      "message": "Politika/Mišljenje"
+   },
+   "res_12038": {
+      "message": "Lične stranice"
+   },
+   "res_12039": {
+      "message": "Portali"
+   },
+   "res_12040": {
+      "message": "Daljinski pristup"
+   },
+   "res_12041": {
+      "message": "Religija/Ideologija"
+   },
+   "res_12042": {
+      "message": "Deljenje resursa"
+   },
+   "res_12043": {
+      "message": "Pretraživači"
+   },
+   "res_12044": {
+      "message": "Sport"
+   },
+   "res_12045": {
+      "message": "Strimovani medijum"
+   },
+   "res_12046": {
+      "message": "Deljeni softver/Besplatan softver"
+   },
+   "res_12047": {
+      "message": "Pornografija"
+   },
+   "res_12048": {
+      "message": "Špijunski softver/Adver/Keyloggers"
+   },
+   "res_12049": {
+      "message": "Duvan"
+   },
+   "res_12050": {
+      "message": "Putovanja"
+   },
+   "res_12051": {
+      "message": "Nasilje"
+   },
+   "res_12052": {
+      "message": "Veb oglasi"
+   },
+   "res_12053": {
+      "message": "Oružje"
+   },
+   "res_12054": {
+      "message": "Veb pošta"
+   },
+   "res_12055": {
+      "message": "Veb telefon"
+   },
+   "res_12056": {
+      "message": "Aukcije/Oglasnik"
+   },
+   "res_12057": {
+      "message": "Forum/Oglasne table"
+   },
+   "res_12058": {
+      "message": "Vulgarnost"
+   },
+   "res_12059": {
+      "message": "Informacije o varanju u školi"
+   },
+   "res_12060": {
+      "message": "Seksualni materijal"
+   },
+   "res_12061": {
+      "message": "Strašan sadržaj"
+   },
+   "res_12062": {
+      "message": "Vizuelni pretraživač"
+   },
+   "res_12063": {
+      "message": "Tehnika/Poslovni forumi"
+   },
+   "res_12064": {
+      "message": "Povezano sa kockanjem"
+   },
+   "res_12065": {
+      "message": "Razmena poruka"
+   },
+   "res_12066": {
+      "message": "Nasilje u Igricama/Crtanim filmovima"
+   },
+   "res_12067": {
+      "message": "Phishing"
+   },
+   "res_12068": {
+      "message": "Lično skladište na mreži"
+   },
+   "res_12069": {
+      "message": "Spam URL adrese"
+   },
+   "res_12070": {
+      "message": "Interaktivne veb aplikacije"
+   },
+   "res_12071": {
+      "message": "Moda/Lepota"
+   },
+   "res_12072": {
+      "message": "Softver/hardver"
+   },
+   "res_12073": {
+      "message": "Potencijalno nelegalan softver"
+   },
+   "res_12074": {
+      "message": "Server sa sadržajem"
+   },
+   "res_12075": {
+      "message": "Internet servisi"
+   },
+   "res_12076": {
+      "message": "Deljenje medijuma"
+   },
+   "res_12077": {
+      "message": "Slučajna nagost"
+   },
+   "res_12078": {
+      "message": "Marketing/Prodaja"
+   },
+   "res_12079": {
+      "message": "Parkirani domen"
+   },
+   "res_12080": {
+      "message": "Farmacija"
+   },
+   "res_12081": {
+      "message": "Restorani"
+   },
+   "res_12082": {
+      "message": "Nekretnine"
+   },
+   "res_12083": {
+      "message": "Rekreacija/Hobi"
+   },
+   "res_12084": {
+      "message": "Blogovi/Wiki"
+   },
+   "res_12085": {
+      "message": "Digitalne razglednice"
+   },
+   "res_12086": {
+      "message": "Revizija istorije"
+   },
+   "res_12087": {
+      "message": "Tehničke informacije"
+   },
+   "res_12088": {
+      "message": "Upoznavanje/Lične poruke"
+   },
+   "res_12089": {
+      "message": "Motorna vozila"
+   },
+   "res_12090": {
+      "message": "Profesionalno umrežavanje"
+   },
+   "res_12091": {
+      "message": "Društveno umrežavanje"
+   },
+   "res_12092": {
+      "message": "Prevodioci teksta"
+   },
+   "res_12093": {
+      "message": "Veb sastanci"
+   },
+   "res_12094": {
+      "message": "Za decu"
+   },
+   "res_12095": {
+      "message": "Istorija"
+   },
+   "res_12096": {
+      "message": "Kontrolisano"
+   },
+   "res_12097": {
+      "message": "Tekst/Samo govor"
+   },
+   "res_12098": {
+      "message": "Iskorišćenje pregledača"
+   },
+   "res_12099": {
+      "message": "Zaštita potrošača"
+   },
+   "res_121": {
+      "message": "Osnovni podaci"
+   },
+   "res_12100": {
+      "message": "Kontroverzna mišljenja"
+   },
+   "res_12101": {
+      "message": "Nelegalno u UK"
+   },
+   "res_12102": {
+      "message": "Glavni svetski regioni"
+   },
+   "res_12103": {
+      "message": "Štetna preuzimanja"
+   },
+   "res_12104": {
+      "message": "PUP-ovi"
+   },
+   "res_12105": {
+      "message": "Kućne IP adrese"
+   },
+   "res_122": {
+      "message": "Pokaži povraćaj novca za ovu lokaciju"
+   },
+   "res_123": {
+      "message": "Idi na bezbednu nagradnu kupovinu"
+   },
+   "res_125": {
+      "message": "Nadogradite na [%SITEADVISORPLUS%]"
+   },
+   "res_127": {
+      "message": "Registrujte se odmah"
+   },
+   "res_129": {
+      "message": "Odvoji se od Yahoo-a! Traka sa alatkama"
+   },
+   "res_133": {
+      "message": "Sinhronizuj pretplatu"
+   },
+   "res_140": {
+      "message": "Nadogradite na [%SITEADVISORPLUS%] sofver"
+   },
+   "res_141": {
+      "message": "Kupite odmah"
+   },
+   "res_14100": {
+      "message": "Posao, rad i finansijske usluge"
+   },
+   "res_14101": {
+      "message": "Alkohol, duvan i narkotici"
+   },
+   "res_14102": {
+      "message": "Zabava/Kultura"
+   },
+   "res_14103": {
+      "message": "Igranje"
+   },
+   "res_14104": {
+      "message": "Informaciona tehnologija"
+   },
+   "res_14105": {
+      "message": "Pretraga, uređivanje i komunikacija"
+   },
+   "res_14106": {
+      "message": "Način života"
+   },
+   "res_14107": {
+      "message": "Za odrasle"
+   },
+   "res_14108": {
+      "message": "Za odrasle"
+   },
+   "res_14109": {
+      "message": "Kupovina i E-trgovina"
+   },
+   "res_14110": {
+      "message": "Rizično"
+   },
+   "res_14111": {
+      "message": "Vesti i pogledi"
+   },
+   "res_166": {
+      "message": "Pročitajte izveštaj o lokaciji"
+   },
+   "res_170": {
+      "message": "Verzija"
+   },
+   "res_171": {
+      "message": "Jezik"
+   },
+   "res_172": {
+      "message": "Verzija"
+   },
+   "res_173": {
+      "message": "Poslednje ažuriranje"
+   },
+   "res_20017": {
+      "message": "Upozorenje ekstenzija [%COMPANY%] [%SITEADVISOR%]"
+   },
+   "res_20018": {
+      "message": "Ova e-pošta sadrži potencijalno nebezbedne veze do sledećih veb lokacija:"
+   },
+   "res_20022": {
+      "message": "više informacija..."
+   },
+   "res_20028": {
+      "message": "Ova veza je automatski blokirana od strane Podešavanja bezbedne pretrage unutar [%COMPANY%] [%SITEADVISOR%]"
+   },
+   "res_20029": {
+      "message": "Sadržaj lokacije:"
+   },
+   "res_20034": {
+      "message": "Na ovoj McAfee BEZBEDNOJ lokaciji možda je moguć povraćaj novca. Za detalje posetite lokaciju."
+   },
+   "res_20040": {
+      "message": "Testirali smo ovu lokaciju i utvrdili da je rizična za posetu."
+   },
+   "res_20043": {
+      "message": "Upozorenje: Opasna lokacija"
+   },
+   "res_207": {
+      "message": "McAfee"
+   },
+   "res_208": {
+      "message": "SiteAdvisor"
+   },
+   "res_209": {
+      "message": "LIVE"
+   },
+   "res_212": {
+      "message": "SiteAdvisor LIVE"
+   },
+   "res_213": {
+      "message": "SiteAdvisor\u003Csup style='font-size:90%'>&reg;\u003C/sup>&nbsp;LIVE"
+   },
+   "res_30006": {
+      "message": "McAfee WebAdvisor..."
+   },
+   "res_30007": {
+      "message": "Pogledati izveštaj o lokaciji..."
+   },
+   "res_30009": {
+      "message": "McAfee WebAdvisor Live..."
+   },
+   "res_30010": {
+      "message": "McAfee WebAdvisor"
+   },
+   "res_30011": {
+      "message": "McAfee WebAdvisor Live"
+   },
+   "res_3302": {
+      "message": "Preuzimate sa veb lokacije koja možda sadrži potencijalno nepoželjne programe. U prošlim testiranjima ekstenzija [%COMPANY%] je detektovala potencijalno opasna preuzimanja sa ove lokacije."
+   },
+   "res_3305": {
+      "message": "Ekstenzija [%COMPANY%] je pronašla da datoteka koju ćete preuzeti možda sadrži viruse, špijunski softver ili druge potencijalno nepoželjne programe. Ove gadne stvari mogu poremetitii vaš računar i ukrasti vaše lične informacije."
+   },
+   "res_3306": {
+      "message": "Ekstenzija [%COMPANY%] je detektovala da vaše preuzimanje možda sadrži viruse, špijunski softver i druge potencijalno nepoželjne programe. Ovi programi mogu oštetiti vaš čvrsti disk ili ukrasti vaše lične informacije."
+   },
+   "res_3320": {
+      "message": "To preuzimanje je opasno!"
+   },
+   "res_3321": {
+      "message": "Detektovano potencijalno iritantno preuzimanje!"
+   },
+   "res_3322": {
+      "message": "Upozorenje!"
+   },
+   "res_4000": {
+      "message": "Jeste li sigurni da želite odvojiti se od Yahoo-a! Traka sa alatkama? Nećete moći da poništite ovu promenu."
+   },
+   "res_4001": {
+      "message": "Potvrda: Izabrali ste da otkačite (odvojite) traku sa alatkama. Da bi ova promena imala efekat, ponovo pokrenite svoj pregledač."
+   },
+   "res_4100": {
+      "message": "Veb pretraga"
+   },
+   "res_4101": {
+      "message": "Veb pretraga"
+   },
+   "res_4102": {
+      "message": "Bezbedna pretraga"
+   },
+   "res_ABOUT": {
+      "message": "Osnovni podaci"
+   },
+   "res_ABOUT_DESCRIPTION": {
+      "message": "{0} vam pomaže da donosite bolje odluke o svojim aktivnostima na mreži."
+   },
+   "res_AVOID_DANGEROUS_LINKS": {
+      "message": "Izbegavajte opasne veze"
+   },
+   "res_CHROME": {
+      "message": "Chrome"
+   },
+   "res_COMPANY_NAME": {
+      "message": "McAfee"
+   },
+   "res_CREATE_SAFER_PASSWORDS": {
+      "message": "Kreirajte bezbednije lozinke"
+   },
+   "res_DONE": {
+      "message": "Gotovo"
+   },
+   "res_DONT_TRUST": {
+      "message": "Ne veruj"
+   },
+   "res_DOWNLOADS_BLOCKED": {
+      "message": "{1} nebezbednih preuzimanja je blokirano"
+   },
+   "res_DOWNLOADS_SCANNED": {
+      "message": "{1} preuzimanja je skenirano"
+   },
+   "res_DOWNLOAD_CONFIDENTLY": {
+      "message": "Preuzimajte bezbedno"
+   },
+   "res_FIREFOX": {
+      "message": "Firefox"
+   },
+   "res_GET_HELP_NOW": {
+      "message": "Odmah pronađite pomoć"
+   },
+   "res_GET_TECHNICAL_SUPPORT": {
+      "message": "Pronađite pomoć i tehničku podršku"
+   },
+   "res_HELP": {
+      "message": "Pomoć"
+   },
+   "res_HELP_EMAIL_US": {
+      "message": "Pošaljite nam e-poruku na"
+   },
+   "res_HELP_FAQ_SECTION_FOUR_CONTENT": {
+      "message": "Dešava se i najboljima od nas. Ovi momci su tu da vam pomognu. {0}"
+   },
+   "res_HELP_FAQ_SECTION_FOUR_HEADER": {
+      "message": "POMOĆ! Potrebna mi je tehnička podrška"
+   },
+   "res_HELP_FAQ_SECTION_ONE_CONTENT": {
+      "message": "{0} vam pomaže da donosite bolje odluke o svojim aktivnostima na mreži."
+   },
+   "res_HELP_FAQ_SECTION_ONE_HEADER": {
+      "message": "Šta je {0}?"
+   },
+   "res_HELP_FAQ_SECTION_THREE_HEADER": {
+      "message": "Kako da saznam koju verziju aplikacije {0} imam?"
+   },
+   "res_HELP_FAQ_SECTION_TWO_CONTENT": {
+      "message": "Ili podelite ovu vezu: {0}"
+   },
+   "res_HELP_FAQ_SECTION_TWO_HEADER": {
+      "message": "Kako {0} mogu da podelim sa drugima?"
+   },
+   "res_HELP_FAQ_TITLE": {
+      "message": "Najčešća pitanja"
+   },
+   "res_HELP_SUPPORT_TITLE": {
+      "message": "Podrška"
+   },
+   "res_IE": {
+      "message": "Internet Explorer"
+   },
+   "res_LICENSE_AGREEMENT_URL": {
+      "message": "https://home.mcafee.com/supportpages/eula.aspx?culture=sr-latn-cs"
+   },
+   "res_OK": {
+      "message": "U redu"
+   },
+   "res_PAGES_BLOCKED": {
+      "message": "{1} opasnih stranica je blokirano"
+   },
+   "res_PAGES_SCANNED": {
+      "message": "{1} stranica je skenirano"
+   },
+   "res_POPUP_BACK": {
+      "message": "Nazad"
+   },
+   "res_POPUP_CLEAR": {
+      "message": "Obrisati listu"
+   },
+   "res_POPUP_DONE_SO_FAR": {
+      "message": "Evo šta smo do sada uradili:"
+   },
+   "res_POPUP_DONT_WARN_DESCRIPTION": {
+      "message": "Ne želite da vas upozorimo na određenu lokaciju? Dodajte je ovde."
+   },
+   "res_POPUP_ENABLE_WEB_BOOST": {
+      "message": "Omogućiti Web Boost"
+   },
+   "res_POPUP_ENTER_WEB_ADDRESS": {
+      "message": "Upišite veb adresu..."
+   },
+   "res_POPUP_GET_HELP": {
+      "message": "Pronađite pomoć"
+   },
+   "res_POPUP_GET_HELP_URL": {
+      "message": "https://service.mcafee.com/webcenter/portal/cp/home"
+   },
+   "res_POPUP_GET_WEB_BOOST": {
+      "message": "Nabavite Web Boost"
+   },
+   "res_POPUP_ITEMS_BLOCKED": {
+      "message": "Blokirane nebezbedne stavke"
+   },
+   "res_POPUP_PAGES_BLOCKED": {
+      "message": "Blokirane opasne stranice"
+   },
+   "res_POPUP_PAGES_SCANNED": {
+      "message": "Skenirane stranice"
+   },
+   "res_POPUP_PURPOSE_DESCRIPTION": {
+      "message": "Ovde smo da vam pomognemo da budete bezbedni na mreži."
+   },
+   "res_POPUP_START_FRESH": {
+      "message": "Želite da počnete od početka?"
+   },
+   "res_POPUP_TERMS_AND_CONDITIONS": {
+      "message": "Odredbe i uslovi"
+   },
+   "res_POPUP_TERMS_AND_CONDITIONS_URL": {
+      "message": "https://home.mcafee.com/supportpages/eula.aspx"
+   },
+   "res_POPUP_VIEW_SITE_REPORT": {
+      "message": "Prikaži izveštaj o lokaciji"
+   },
+   "res_PRIVACY_NOTICE": {
+      "message": "Obaveštenje o privatnosti"
+   },
+   "res_PRIVACY_URL": {
+      "message": "http://www.mcafee.com/common/privacy/consumer/serbian/"
+   },
+   "res_PRODUCT_NAME": {
+      "message": "McAfee WebAdvisor"
+   },
+   "res_PRODUCT_NAME_LIVE": {
+      "message": "McAfee WebAdvisor Live"
+   },
+   "res_PRODUCT_NAME_TRADEMARKED": {
+      "message": "McAfee® WebAdvisor"
+   },
+   "res_PRODUCT_NAME_TRADEMARKED_PPS": {
+      "message": "McAfee® Security"
+   },
+   "res_READ_PRIVACY_NOTICE": {
+      "message": "Pročitajte obaveštenje o privatnosti"
+   },
+   "res_RESET": {
+      "message": "Resetuj"
+   },
+   "res_SETTINGS": {
+      "message": "Podešavanja"
+   },
+   "res_SETTINGS_DEFAULT_TRUSTED_TEXT": {
+      "message": "Nalepite ili unesite URL adresu"
+   },
+   "res_SETTINGS_MANAGE_TRUSTED": {
+      "message": "Upravljajte pouzdanim lokacijama"
+   },
+   "res_SETTINGS_RESET_CAPTION": {
+      "message": "Resetuj {0}"
+   },
+   "res_SETTINGS_RESET_DESCRIPTION": {
+      "message": "Da li ste zanemarili obaveštenje i želite ponovo da ga pogledate? Ne brinite – nakon resetovanja, sva obaveštenja će ponovo biti prikazana u pregledaču kao prvi put kada ste ih videli."
+   },
+   "res_SETTINGS_RESET_HEADER": {
+      "message": "Resetuj postavke"
+   },
+   "res_SETTINGS_SS_CAPTION": {
+      "message": "Bezbedno pregledajte Veb"
+   },
+   "res_SETTINGS_SS_HEADER": {
+      "message": "Rezultati pretrage"
+   },
+   "res_SETTINGS_SS_OPTION_ALL": {
+      "message": "Obavesti me u svakom pretraživaču da li je rezultat pretrage bezbedan"
+   },
+   "res_SETTINGS_SS_OPTION_NONE": {
+      "message": "Ne obaveštavaj me o rezultatima pretrage"
+   },
+   "res_SETTINGS_SS_OPTION_SS": {
+      "message": "Obavesti me samo u Bezbednoj pretrazi da li je rezultat pretrage bezbedan"
+   },
+   "res_SETTINGS_TRUSTED_SITES": {
+      "message": "Lokacije kojima verujete"
+   },
+   "res_STAT_HEADER": {
+      "message": "Evo samo nekoliko stvari koje smo do sada uradili:"
+   },
+   "res_TAKE_PRIVACY_SERIOUSLY": {
+      "message": "{0} ozbiljno shvata vašu privatnost. Pročitajte {1}."
+   },
+   "res_TRUST_SITE": {
+      "message": "Lokacija od poverenja"
+   },
+   "res_VERSION": {
+      "message": "Verzija"
+   },
+   "res_WEBADVISOR": {
+      "message": "WebAdvisor"
+   },
+   "res_YOUR_PROTECTED": {
+      "message": "Zaštitili smo vašu lozinku i vas od krađe identiteta"
+   },
+   "res_menuid1": {
+      "message": "Test"
+   },
+   "search_engine_bing": {
+      "message": "Bing"
+   },
+   "search_engine_yahoo": {
+      "message": "Yahoo"
+   },
+   "search_engine_yandex": {
+      "message": "Yandex"
+   },
+   "search_toast_body_text_compliant": {
+      "message": "Želite li dodati bezbedna pretraga i ostanite napred?"
+   },
+   "search_toast_body_text_test": {
+      "message": "Want to add Secure Search and know which sites are safe to visit?"
+   },
+   "search_toast_done": {
+      "message": "Gotovo"
+   },
+   "search_toast_heading_compliant": {
+      "message": "Nemate bezbedna pretraga - budite oprezni"
+   },
+   "search_toast_heading_test": {
+      "message": "Get safety advice in your search results"
+   },
+   "search_toast_no_thanks": {
+      "message": "Ne, hvala"
+   },
+   "search_toast_ok": {
+      "message": "U redu"
+   },
+   "search_toast_option_compliant": {
+      "message": "Da, dodajte bezbedna pretraga u moj pregledač i promenite podrazumevanu pretragu na $search_provider$.",
+      "placeholders": {
+         "search_provider": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_toast_option_test": {
+      "message": "Yes, add Secure Search and change my default search to $search_provider$.",
+      "placeholders": {
+         "search_provider": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_toast_sub_heading_compliant": {
+      "message": "Bezbedna pretraga vas štiti od rizičnih lokacija u rezultatima pretrage."
+   },
+   "search_toast_sub_heading_test": {
+      "message": "Secure Search flags risky sites in your search results."
+   },
+   "search_toast_yes": {
+      "message": "Da"
+   },
+   "settings_about_adblock": {
+      "message": "Block ads and pop-ups that could track you"
+   },
+   "settings_about_adblock_tracking": {
+      "message": "Block cookies that track you and collect your info"
+   },
+   "settings_about_block_download": {
+      "message": "Block risky downloads"
+   },
+   "settings_about_cryptojackers": {
+      "message": "Blocking $settings_about_cryptojackers_link$ from stealing your computer's resources",
+      "placeholders": {
+         "settings_about_cryptojackers_link": {
+            "content": "$1"
+         }
+      }
+   },
+   "settings_about_cryptojackers_link": {
+      "message": "cryptojackers"
+   },
+   "settings_about_firewall_antivirus": {
+      "message": "Make sure your firewall and anti-virus are on"
+   },
+   "settings_about_flag_website": {
+      "message": "Flag dangerous websites"
+   },
+   "settings_about_help_link_message": {
+      "message": "Get help now"
+   },
+   "settings_about_help_message": {
+      "message": "We all need a hand sometimes."
+   },
+   "settings_about_help_title": {
+      "message": "Get help and technical support"
+   },
+   "settings_about_privacy_link_message": {
+      "message": "Read the Privacy Notice"
+   },
+   "settings_about_privacy_message": {
+      "message": "McAfee takes your privacy seriously."
+   },
+   "settings_about_privacy_title": {
+      "message": "Privacy Notice"
+   },
+   "settings_about_share_title": {
+      "message": "Share %PRODUCTNAME% with friends"
+   },
+   "settings_about_subtitle": {
+      "message": "%PRODUCTNAME% helps you make better decisions about what you do online."
+   },
+   "settings_about_title": {
+      "message": "ABOUT"
+   },
+   "settings_preference_annotation_all": {
+      "message": "Tell me if a search result is safe in any search engine."
+   },
+   "settings_preference_annotation_none": {
+      "message": "Don't tell me about search results."
+   },
+   "settings_preference_annotation_ss": {
+      "message": "Tell me if a search result is safe only in Secure Search."
+   },
+   "settings_preference_annotation_subtitle": {
+      "message": "We'll color-code your search results to show you which sites are safe."
+   },
+   "settings_preference_annotation_title": {
+      "message": "Secure Search"
+   },
+   "settings_preference_ap_ab_protection_first_point": {
+      "message": "Stops intrusive ads and pop-ups froms lowing down your browser"
+   },
+   "settings_preference_ap_ab_protection_second_point": {
+      "message": "Keeps out cookies that track you and collect your info"
+   },
+   "settings_preference_ap_ab_title": {
+      "message": "Ad Blocker and Tracker Blocker"
+   },
+   "settings_preference_ap_alert_add": {
+      "message": "Add"
+   },
+   "settings_preference_ap_alert_allow": {
+      "message": "Allow"
+   },
+   "settings_preference_ap_alert_disabled": {
+      "message": "You don't have Added Protection because the McAfee® Secure Search extension that's part of it isn't enabled. Enable it now and choose $allow$ when asked for permission.",
+      "placeholders": {
+         "allow": {
+            "content": "$1"
+         }
+      }
+   },
+   "settings_preference_ap_alert_enable": {
+      "message": "Enable"
+   },
+   "settings_preference_ap_alert_not_installed": {
+      "message": "You don't have Added Protection because the McAfee® Secure Search extension that's part of it isn't installed. Add it now from the Chrome Web Store."
+   },
+   "settings_preference_ap_ss_protection_first_point": {
+      "message": "Uses our cloud-based threat intelligence service to identify threats"
+   },
+   "settings_preference_ap_ss_protection_second_point": {
+      "message": "Color-codes search results to show you which sites are safe to visit"
+   },
+   "settings_preference_ap_ss_protection_third_point": {
+      "message": "Flags websites in your search results that are unsafe to visit"
+   },
+   "settings_preference_ap_ss_title": {
+      "message": "McAfee Secure Search"
+   },
+   "settings_preference_ap_subtitle": {
+      "message": "Protect your privacy and data."
+   },
+   "settings_preference_ap_title": {
+      "message": "Added Protection"
+   },
+   "settings_preference_reset_button": {
+      "message": "Reset"
+   },
+   "settings_preference_reset_subtitle": {
+      "message": "Did you ignore a %PRODUCTNAME% notification and wish you didn't? Reset notifications to start getting every type of %PRODUCTNAME% message again."
+   },
+   "settings_preference_reset_title": {
+      "message": "Reset Settings"
+   },
+   "settings_preference_sma_facebook": {
+      "message": "Facebook"
+   },
+   "settings_preference_sma_instagram": {
+      "message": "Instagram"
+   },
+   "settings_preference_sma_linkedin": {
+      "message": "Linkedin"
+   },
+   "settings_preference_sma_message": {
+      "message": "These are the sites we'll annotate."
+   },
+   "settings_preference_sma_reddit": {
+      "message": "Reddit"
+   },
+   "settings_preference_sma_subtitle": {
+      "message": "We'll color-code links in your social media feeds to show you which ones are safe."
+   },
+   "settings_preference_sma_title": {
+      "message": "Social Media Protection"
+   },
+   "settings_preference_sma_twitter": {
+      "message": "Twitter"
+   },
+   "settings_preference_sma_youtube": {
+      "message": "Youtube"
+   },
+   "settings_preference_title": {
+      "message": "ADDITIONAL SERVICES"
+   },
+   "settings_statistics_ads_blocked": {
+      "message": "intrusive ads blocked"
+   },
+   "settings_statistics_crypto_blocked": {
+      "message": "cryptojacking attempts blocked"
+   },
+   "settings_statistics_downloads_blocked": {
+      "message": "unsafe downloads blocked"
+   },
+   "settings_statistics_downloads_scanned": {
+      "message": "downloads scanned"
+   },
+   "settings_statistics_links_scanned": {
+      "message": "links scanned"
+   },
+   "settings_statistics_message": {
+      "message": "Here's what we've done so far:"
+   },
+   "settings_statistics_pages_blocked": {
+      "message": "dangerous pages blocked"
+   },
+   "settings_statistics_pages_scanned": {
+      "message": "pages scanned"
+   },
+   "settings_statistics_subtitle": {
+      "message": "We're here to keep you safe online."
+   },
+   "settings_statistics_title": {
+      "message": "STATISTICS"
+   },
+   "settings_statistics_trackers_blocked": {
+      "message": "trackers blocked"
+   },
+   "settings_subtitle": {
+      "message": "Customize your web protection."
+   },
+   "settings_tab_about": {
+      "message": "About"
+   },
+   "settings_tab_preference": {
+      "message": "Preference"
+   },
+   "settings_tab_statistics": {
+      "message": "Statistics"
+   },
+   "settings_tab_whitelist": {
+      "message": "Whitelist"
+   },
+   "settings_title": {
+      "message": "Web Protection"
+   },
+   "settings_whitelist_input": {
+      "message": "Type in a web address..."
+   },
+   "settings_whitelist_title": {
+      "message": "SITE YOU TRUST"
+   },
+   "sidebar_action_panel_settings_link": {
+      "message": "Customize your $1."
+   },
+   "sidebar_action_panel_web_protection_preferences": {
+      "message": "Web Protection Preferences"
+   },
+   "sidebar_adblock_subtitle": {
+      "message": "Here's how we're protecting you now."
+   },
+   "sidebar_adblock_toggle": {
+      "message": "Show ads on this page this visit only"
+   },
+   "sidebar_ads_blocked": {
+      "message": "intrusive ads blocked on this page"
+   },
+   "sidebar_badge_collection_block_page_btn_accept": {
+      "message": "High-five!"
+   },
+   "sidebar_badge_collection_block_page_description": {
+      "message": "We don't know what's better - that we get to help protect you, or that $1 helping protect you...",
+      "placeholders": {
+         "you_are": {
+            "content": "$1"
+         }
+      }
+   },
+   "sidebar_badge_collection_block_page_description_italic": {
+      "message": "you're"
+   },
+   "sidebar_badge_collection_block_page_description_sub": {
+      "message": "Let's call it a win-win."
+   },
+   "sidebar_badge_collection_block_page_phishing_title": {
+      "message": "That site can't bait you"
+   },
+   "sidebar_badge_collection_block_page_red_title": {
+      "message": "Those threats don't stand a chance"
+   },
+   "sidebar_badge_collection_block_page_yellow_title": {
+      "message": "It's blocked - safe is better than sorry!"
+   },
+   "sidebar_badge_collection_iframe_block_btn_accept": {
+      "message": "Thanks for cleaning it up!"
+   },
+   "sidebar_badge_collection_iframe_block_description": {
+      "message": "Thanks for letting us block that content. Now let's get back to looking at stuff you care about."
+   },
+   "sidebar_badge_collection_iframe_block_title": {
+      "message": "We're keeping this site clear of clutter!"
+   },
+   "sidebar_block_page_actions_description": {
+      "message": "If you choose to visit anyway, we'll add this site to your list of trusted sites."
+   },
+   "sidebar_block_page_btn_accept_risk": {
+      "message": "Take me there anyway"
+   },
+   "sidebar_block_page_btn_block": {
+      "message": "Keep it blocked"
+   },
+   "sidebar_block_page_description_phishing": {
+      "message": "It looks like a 'phishing' site. That means it could send you emails pretending to be a trusted organization to trick you into sharing personal info like passwords and credit card details."
+   },
+   "sidebar_block_page_description_phishing_variant_2": {
+      "message": "It'll have to go 'phish' somewhere else to steal personal information because you're not taking the bait."
+   },
+   "sidebar_block_page_description_red": {
+      "message": "We're here to keep you safe, so we stopped you for good reasons."
+   },
+   "sidebar_block_page_description_red_variant_2": {
+      "message": "It looks too risky, so we wouldn't send our worst enemies there (if we had any)."
+   },
+   "sidebar_block_page_description_yellow": {
+      "message": "We aren't 100% sure, but we blocked it because it might catch you with these types of threats:"
+   },
+   "sidebar_block_page_description_yellow_variant_2": {
+      "message": "Like driving with no seat belt, why take the chance?"
+   },
+   "sidebar_block_page_threats_title_phishing": {
+      "message": "Learn more about this site's threats:"
+   },
+   "sidebar_block_page_threats_title_phishing_variant_2": {
+      "message": "Learn more about this site's threats:"
+   },
+   "sidebar_block_page_threats_title_red": {
+      "message": "This site's full of these threats:"
+   },
+   "sidebar_block_page_threats_title_red_variant_2": {
+      "message": "These types of threats are lying in wait:"
+   },
+   "sidebar_block_page_threats_title_yellow": {
+      "message": "This site's full of these threats:"
+   },
+   "sidebar_block_page_threats_title_yellow_variant_2": {
+      "message": "These types of threats are lying in wait:"
+   },
+   "sidebar_block_page_title_phishing": {
+      "message": "We blocked this site so it can't steal your personal info"
+   },
+   "sidebar_block_page_title_phishing_variant_2": {
+      "message": "This 'phishing' site's blocked"
+   },
+   "sidebar_block_page_title_red": {
+      "message": "We blocked this dangerous site"
+   },
+   "sidebar_block_page_title_red_variant_2": {
+      "message": "This dangerous site's blocked"
+   },
+   "sidebar_block_page_title_yellow": {
+      "message": "This site might be a trap"
+   },
+   "sidebar_block_page_title_yellow_variant_2": {
+      "message": "This risky site's blocked"
+   },
+   "sidebar_crypto_blocked": {
+      "message": "cryptojacking attempts blocked"
+   },
+   "sidebar_dangerous_blocked": {
+      "message": "dangerous pages blocked"
+   },
+   "sidebar_ds_file_deleted_description": {
+      "message": "Thanks for letting us trash that file before it could harm you. We're a pretty good security team!"
+   },
+   "sidebar_ds_file_deleted_high_five": {
+      "message": "High-five!"
+   },
+   "sidebar_ds_file_deleted_settings": {
+      "message": "Customize your"
+   },
+   "sidebar_ds_file_deleted_settings_link": {
+      "message": "Web Protection Preferences"
+   },
+   "sidebar_ds_file_deleted_title": {
+      "message": "We deleted that bad file"
+   },
+   "sidebar_ds_file_not_deleted_description": {
+      "message": "Maybe you'll have better luck deleting them manually. Navigate to where the file's saved, and try deleting it from there."
+   },
+   "sidebar_ds_file_not_deleted_filename": {
+      "message": "Name:"
+   },
+   "sidebar_ds_file_not_deleted_got_it": {
+      "message": "Got it"
+   },
+   "sidebar_ds_file_not_deleted_location": {
+      "message": "Location:"
+   },
+   "sidebar_ds_file_not_deleted_settings": {
+      "message": "Customize your"
+   },
+   "sidebar_ds_file_not_deleted_settings_link": {
+      "message": "Web Protection Preferences"
+   },
+   "sidebar_ds_file_not_deleted_title": {
+      "message": "Sorry, it's not working"
+   },
+   "sidebar_ds_malicious_delete_file": {
+      "message": "Delete it"
+   },
+   "sidebar_ds_malicious_file_location": {
+      "message": "Download source:"
+   },
+   "sidebar_ds_malicious_filename": {
+      "message": "Name:"
+   },
+   "sidebar_ds_malicious_first_description": {
+      "message": "It looks like it includes viruses, spyware, or other potentially unwanted programs."
+   },
+   "sidebar_ds_malicious_keep_file": {
+      "message": "I want to keep it anyway"
+   },
+   "sidebar_ds_malicious_second_description": {
+      "message": "If we delete it now before you open it, we can keep you out of harm's way."
+   },
+   "sidebar_ds_malicious_title": {
+      "message": "The file you downloaded is dangerous"
+   },
+   "sidebar_everything_looks_good": {
+      "message": "Everything looks good!"
+   },
+   "sidebar_everything_looks_good_desc": {
+      "message": "Your web protection is on and looking out for you. Want to review your settings or see your stats?"
+   },
+   "sidebar_get_help": {
+      "message": "Get help"
+   },
+   "sidebar_go_to_web_protection": {
+      "message": "Go to Web Protection preferences"
+   },
+   "sidebar_iframe_block_accept_risk": {
+      "message": "I want to see it anyway"
+   },
+   "sidebar_iframe_block_btn_block": {
+      "message": "Keep it blocked"
+   },
+   "sidebar_iframe_block_description": {
+      "message": "It looks suspicious and could cause you harm. If you're sure this content is safe and you want to see it, you can allow it."
+   },
+   "sidebar_iframe_block_title": {
+      "message": "We blocked this content to keep you safe"
+   },
+   "sidebar_pages_scanned": {
+      "message": "pages scanned"
+   },
+   "sidebar_privacy": {
+      "message": "Privacy Notice"
+   },
+   "sidebar_site_report_description_green": {
+      "message": "We scanned it and didn't find any threats."
+   },
+   "sidebar_site_report_description_red": {
+      "message": "We regularly scan sites for suspicious and dangerous activity. This one's not safe."
+   },
+   "sidebar_site_report_description_unknown": {
+      "message": "We'll dig deeper and let you know if this site looks safe or risky the next time we scan it."
+   },
+   "sidebar_site_report_description_yellow": {
+      "message": "We scanned this site and found that it's not as secure as it should be. Visit with caution."
+   },
+   "sidebar_site_report_threats_title_green": {
+      "message": "Looks like it's this type of website:"
+   },
+   "sidebar_site_report_threats_title_red": {
+      "message": "Website threats:"
+   },
+   "sidebar_site_report_threats_title_unknown": {
+      "message": "Possible website type or threats:"
+   },
+   "sidebar_site_report_threats_title_yellow": {
+      "message": "Website threats:"
+   },
+   "sidebar_site_report_title_green": {
+      "message": "This site looks safe"
+   },
+   "sidebar_site_report_title_red": {
+      "message": "This site's dangerous"
+   },
+   "sidebar_site_report_title_unknown": {
+      "message": "This site's safety status is unknown"
+   },
+   "sidebar_site_report_title_yellow": {
+      "message": "This site looks risky"
+   },
+   "sidebar_ss_accepted_btn_got_it": {
+      "message": "Got it"
+   },
+   "sidebar_ss_accepted_description": {
+      "message": "You turned on Secure Search, so now we can show you which sites look safe or dangerous before you visit."
+   },
+   "sidebar_ss_accepted_sub_description": {
+      "message": "In your search results, you'll see color-coded icons next to each website. Feel free to visit green ones, and stay away from risky yellow and dangerous red ones."
+   },
+   "sidebar_ss_accepted_title": {
+      "message": "Now you'll know which sites to avoid"
+   },
+   "sidebar_subtitle": {
+      "message": "Here's what we've done so far:"
+   },
+   "sidebar_terms": {
+      "message": "Terms & Conditions"
+   },
+   "sidebar_title": {
+      "message": "We're here to help keep you safe online."
+   },
+   "sidebar_tracker_blocked": {
+      "message": "trackers blocked on this page"
+   },
+   "sidebar_unsafe_blocked": {
+      "message": "unsafe items blocked"
+   },
+   "sidebar_version": {
+      "message": "Version"
+   },
+   "sidebar_view_site_report": {
+      "message": "View site report"
+   },
+   "sidebar_view_stats": {
+      "message": "See all the ways we've protected you"
+   },
+   "sma_personalize_button": {
+      "message": "Personalize my protection"
+   },
+   "sma_subtitle": {
+      "message": "We'll color-code links on these social media feeds to show you which ones are safe."
+   },
+   "sma_title": {
+      "message": "Want added safety?"
+   },
+   "sma_turn_on": {
+      "message": "Turn on Social Media Protection"
+   }
+}

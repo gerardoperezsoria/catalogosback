@@ -1,0 +1,2180 @@
+{
+   "annotation_balloon_color_green": {
+      "message": "Tämä linkki on turvallinen"
+   },
+   "annotation_balloon_color_hackersafe": {
+      "message": "Testattu päivittäin"
+   },
+   "annotation_balloon_color_red": {
+      "message": "Tämä linkki on vaarallinen"
+   },
+   "annotation_balloon_color_unknown": {
+      "message": "Tätä linkkiä ei ole luokiteltu"
+   },
+   "annotation_balloon_color_yellow": {
+      "message": "Tämä linkki on epäilyttävä"
+   },
+   "annotation_balloon_view_site_report": {
+      "message": "Näytä sivustoraportti"
+   },
+   "balloon_adblock_notification": {
+      "message": "$ads_blocked_counter$ ads blocked",
+      "placeholders": {
+         "ads_blocked_counter": {
+            "content": "$1"
+         }
+      }
+   },
+   "balloon_download_scanning_notification_plural": {
+      "message": "Scanning $download_scanning_counter$ downloads",
+      "placeholders": {
+         "download_scanning_counter": {
+            "content": "$1"
+         }
+      }
+   },
+   "balloon_download_scanning_notification_singular": {
+      "message": "Scanning $download_scanning_counter$ download",
+      "placeholders": {
+         "download_scanning_counter": {
+            "content": "$1"
+         }
+      }
+   },
+   "block_page_accept_risk": {
+      "message": "Hyväksy riski"
+   },
+   "block_page_go_back": {
+      "message": "Takaisin"
+   },
+   "block_page_message": {
+      "message": "Oho! Haluatko varmasti siirtyä osoitteeseen?"
+   },
+   "block_page_popover_message": {
+      "message": "Kun kävimme sivustolla, havaitsimme siinä yhden tai useamman riskitekijän."
+   },
+   "block_page_popover_title": {
+      "message": "Miksi näet tämän?"
+   },
+   "block_page_risky_url": {
+      "message": "voi olla riskialtista."
+   },
+   "block_page_search_input": {
+      "message": "Hae McAfee WebAdvisorin avulla"
+   },
+   "block_page_state_danger": {
+      "message": "Hyvin riskialtis"
+   },
+   "block_page_state_warning": {
+      "message": "Hieman riskialtis"
+   },
+   "block_page_status_text": {
+      "message": "Verkkosivuston tila:"
+   },
+   "block_page_title": {
+      "message": "McAfee SiteAdvisor -ohjelmisto – verkkosivustojen turvallisuusluokitukset ja suojattu haku"
+   },
+   "block_page_view_site_report": {
+      "message": "Näytä sivustoraportti"
+   },
+   "category_id_100_description": {
+      "message": "Virtuaalisia taidegallerioita, taiteilijoiden sivustoja (veistokset ja valokuvaus mukaan lukien), museoita sekä etnisiä ja eri maiden tapoja sisältävät verkkosivut."
+   },
+   "category_id_100_name": {
+      "message": "Taide/Kulttuuri/Perintö"
+   },
+   "category_id_101_description": {
+      "message": "Lähinnä alkoholia, kuten olutta, viiniä ja viinaa, myyvät ja alkoholin käyttöä edistävät verkkosivut. Luokkaan kuuluvat myös cocktail-reseptit ja kotipanimo-ohjeet."
+   },
+   "category_id_101_name": {
+      "message": "Alkoholi"
+   },
+   "category_id_102_description": {
+      "message": "Verkkosivut, jotka tarkoituksella sallivat käyttäjien IP-osoitteen tai muiden henkilökohtaisten tunnistetietojen salaamisen verkkoa selatessa, jotta käyttäjä voi ohittaa paikalliset suodatuskäytännöt ja käyttää mitä tahansa verkkosivustoa. Anonyymin käytön verkkosivut estävät myös mahdolliset seurantatekniikat, kuten evästeet tai selaimen historian. Osa anonymiteetin luomistavoista estää myös käyttöjärjestelmän version ja sivuhistorian lähettämisen verkkosivulle. Luokkaan kuuluvat maksuttomia välityspalvelinten IP-osoitteita ja suodattamisen ohittamisohjeita tarjoavat sivustot."
+   },
+   "category_id_102_name": {
+      "message": "Anonyymi käyttö"
+   },
+   "category_id_104_description": {
+      "message": "Verkkosivut, jotka johtavat verkon anonyymiin selaamiseen ilman aikomusta tarjota kyseistä palvelua. Luokkaan kuuluvat URL-kääntäjät, verkkosivun välimuistiin tallennus ja muut anonyymiin käyttöön mahdollisesti johtavat apuohjelmat, joilla ei ole nimenomaista tarkoitusta ohittaa suodatinohjelmaa."
+   },
+   "category_id_104_name": {
+      "message": "Anonyymin käytön apuohjelmat"
+   },
+   "category_id_105_description": {
+      "message": "Liiketoimintaan liittyviä tietoja, kuten yritysten yleiskatsauksia tai liiketoimintasuunnitelmia ja -strategioita, tarjoavat verkkosivut. Luokkaan kuuluvat lisäksi kaikki sellaiset tiedot, palvelut ja tuotteet, jotka auttavat muita yrityksiä liiketoiminnan suunnittelussa, hallitsemisessa ja markkinoinnissa. Luokkaan kuuluvat monitasomarkkinointihankkeet, joiden painopisteenä on liiketoiminnan pyörittäminen. Luokka ei sisällä henkilökohtaisia tai webhotellien verkkosivuja."
+   },
+   "category_id_105_name": {
+      "message": "Yritys"
+   },
+   "category_id_106_description": {
+      "message": "Verkkopohjaista ja reaaliaikaista sosiaalista viestintää julkisissa ja yksityisissä verkkokeskusteluhuoneissa tarjoavat verkkosivut. Tämä luokka sisältää IRC:n. Luokka ei sisällä pikaviestintää. Riskejä ovat muun muassa loukkaava sisältö, haitallinen vaikutus tuottavuuteen ja arkaluonteisten tietojen vuotaminen."
+   },
+   "category_id_106_name": {
+      "message": "Juttelu"
+   },
+   "category_id_108_description": {
+      "message": "Verkkosivut, jotka tarjoavat yleisiä tietoja, kuten julkisia palveluntarjoajia, alueellisia tietoja, julkisen liikenteen aikatauluja, karttoja tai säätiedotuksia."
+   },
+   "category_id_108_name": {
+      "message": "Julkiset tiedot"
+   },
+   "category_id_109_description": {
+      "message": "Verkkosivut, joiden McAfee uskoo tarjoavan ohjeita laittomiin tai rikollisiin toimiin. Tällaisia ovat muun muassa murhan tai itsemurhan, sabotaasin, pommin valmistamisen, tiirikoinnin, palveluvarkauden, lain toimeenpanon välttelyn ja huumetestien väärentämisen ohjeet. Tämä luokka saattaa myös sisältää laittoman sisällön jakamisen, petoksen tekemisen tai kuluttajien huijaamisen ohjeita."
+   },
+   "category_id_109_name": {
+      "message": "Mahdollinen rikollinen toiminta"
+   },
+   "category_id_110_description": {
+      "message": "Laittomien tai viihteellisesti käytettyjen huumausaineiden ostamiseen, valmistamiseen tai käyttöön liittyvää tietoa tarjoavat verkkosivustot. Luokkaan sisältyvät muun muassa huumausainetarvikkeiden esittely, myynti ja kuvailu, liiman haistelun kaltaisten laillisten päihteiden vinkit sekä reseptilääkkeiden ja muiden laillisten huumausaineiden väärinkäyttö."
+   },
+   "category_id_110_name": {
+      "message": "Huumeet"
+   },
+   "category_id_111_description": {
+      "message": "Akateemiseen sisältöön keskittyvät verkkosivut, kuten akateemiset aiheet (esim. matematiikka ja historia), koulujen ja yliopistojen verkkosivut ja koulutusalan hallintosivut (esim. koululautakunnat ja opetussuunnitelmat)."
+   },
+   "category_id_111_name": {
+      "message": "Koulutus/Hakuteokset"
+   },
+   "category_id_112_description": {
+      "message": "Verkkosivut, jotka tarjoavat tietoa elokuvista, teatterista, musiikista, televisiosta, tietoviihteestä, viihdealan uutisista sekä näyttelijöiden ja muusikkojen kaltaisista julkkiksista. Luokkaan kuuluvat myös sivustot, joiden sisältö keskittyy tarjoamaan viihdettä verkossa (esim. horoskoopit ja faniklubit)."
+   },
+   "category_id_112_name": {
+      "message": "Viihde"
+   },
+   "category_id_113_description": {
+      "message": "Tätä luokkaa käytetään yhdessä luokkien Kammottava sisältö, Syrjintä, Pornografia, Väkivalta ja Peliväkivalta / Sarjakuva-aiheinen väkivalta kanssa, jotta näiden luokkien äärimmäisyyksiä edustavat URL-osoitteet voidaan tunnistaa. Esimerkkinä laiton pornografia, joka kuuluu luokkiin Pornografia, Mahdollinen rikollinen toiminta ja Rajoja koetteleva sisältö."
+   },
+   "category_id_113_name": {
+      "message": "Rajoja koetteleva sisältö"
+   },
+   "category_id_114_description": {
+      "message": "Taloudellista tietoa tai verkkorahoitustilien käyttömahdollisuuden tarjoavat verkkosivut. Luokka sisältää taloudellista tietoa ja palvelua tarjoavat verkkosivut, jotka käsittelevät rahan hallintaa, mutta eivät tarjoa käyttöön taloudellisten tilastojen kaltaisia arkaluonteisia rahoitustilitietoja tai esimerkiksi veroja, asuntolainaa, vakuutuksia, valtuutuksia tai sijoituksia koskevaa konsultointia. Verkkorahoitustilien käyttöoikeuteen luetaan mukaan henkilökohtaiset ja liiketoimintaan liittyvät pankkiasiat, rahanhallinta, veroneuvonta, sijoitusrahastot, luottokortit, luottolaitokset, vakuutukset ja muut rahoitusalan julkaisut ja palvelut. Luokkaan kuuluvat osaketiedot (mutta ei osakekauppa), kotitalouden raha-asiat ja viranomaisten taloudelliset tiedot."
+   },
+   "category_id_114_name": {
+      "message": "Talous/Pankkiasiat"
+   },
+   "category_id_115_description": {
+      "message": "Verkkosivut, joilla on mahdollista lyödä vetoa tai asettaa panoksia tai jotka tarjoavat nettivedonlyönnin (esim. kasinopelit, vedonlyöntipoolit, urheiluvedonlyönti ja lotot) mahdollistavan vedonlyöntiohjelmiston. Luokkaan kuuluvat lotot, joiden lippuja voi ostaa verkossa tai joita voi pelata verkossa."
+   },
+   "category_id_115_name": {
+      "message": "Uhkapelit"
+   },
+   "category_id_116_description": {
+      "message": "Verkkopelejä ja niihin liittyvää tietoa tarjoavat verkkosivut, jotka sisältävät muun muassa huijaustapoja, koodeja, demoja, emulaattoreita, nettikilpailuja, roolipelejä, peliklaaneja, pelinvalmistajien sivustoja, fantasia- tai virtuaaliurheiluliigoja ja muita voittoa tuottamattomia pelisivustoja. Luokkaan kuuluvat pelikonsolit, kuten Microsoft Xbox® ja Sony PlayStation®."
+   },
+   "category_id_116_name": {
+      "message": "Pelit"
+   },
+   "category_id_117_description": {
+      "message": "Hallintoelinten tai sotilasjärjestöjen, kuten hallituksen osastot tai virastot, poliisiosastot, palokunnat, siviilipuolustus, terrorisminvastaiset järjestöt tai ylikansalliset järjestöt (esim. Yhdistyneet kansakunnat tai Euroopan unioni), ylläpitämää sisältöä sisältävät verkkosivut. Luokkaan kuuluvat myös armeijan ja veteraanien terveydenhuoltopalvelut."
+   },
+   "category_id_117_name": {
+      "message": "Julkinen hallinto / Asevoimat"
+   },
+   "category_id_118_description": {
+      "message": "Verkkosivut, joiden McAfee uskoo tarjoavan ohjeita tai muuta apua petoksiin, rikoksiin tai tietokoneisiin liittyvään haitalliseen toimintaan. Luokkaan kuuluvat tietokonerikoksiin liittyvät verkkosivut, jotka sisältävät muun muassa hakkerointitietoja tai tietokoneiden ja verkkojen tietomurrossa auttavia työkaluja (esim. piilohallintaohjelmat ja harrastelijahakkereille tarkoitetut komentosarjat). Luokkaan kuuluvat myös muut elektronisten petosten osa-alueet, kuten piilosoittajahuijaukset ja elektronisten laitteiden laiton manipulointi."
+   },
+   "category_id_118_name": {
+      "message": "Mahdollinen hakkerointi / Tietokonerikokset"
+   },
+   "category_id_119_description": {
+      "message": "Kaikenlaisia terveyteen liittyviä tietoja ja terveydenhuoltopalveluja käsittelevät verkkosivut. Terveyteen liittyvät tiedot käsittävät yksilön fyysisen ja henkisen hyvinvoinnin parantamiseen liittyvät aiheet (esim. ruokavalio, ravintoaineet, kuntoilu ja vanhemmuus). Terveydenhuoltopalveluja ovat muun muassa terveysvakuutusten tarjoajat, sairaalat, klinikat ja yksityiset lääkärit."
+   },
+   "category_id_119_name": {
+      "message": "Terveys"
+   },
+   "category_id_120_description": {
+      "message": "Koomista tai hauskaa sisältöä tarjoavat verkkosivut. Luokkaan kuuluu vitsejä, sketsejä, sarjakuvia ja satiirisivuja sisältäviä sivustoja. Tämä luokka voi lisäksi sisältää graafisten romaanien sisältöä, joka liitetään usein sarjakuviin."
+   },
+   "category_id_120_name": {
+      "message": "Huumori/Komiikka"
+   },
+   "category_id_121_description": {
+      "message": "Verkkosivut, joiden McAfee uskoo tarjoavan tietyn ihmisryhmän sortamiseen tai syrjintään rohkaisevaa tietoa. Luokkaan kuuluu tietyn ryhmän vastaisen ohjelman edistäminen etniseen taustaan, kansallisuuteen, sukupuoleen, ikään, vammaan tai seksuaaliseen suuntautumiseen perustuen. Luokka voi sisältää myös tiettyä vihaan perustuvaa ohjelmaa ajavia poliittisia puolueita ja organisaatioita sekä äärimmäisen vakavaa nettikiusaamista."
+   },
+   "category_id_121_name": {
+      "message": "Syrjintä"
+   },
+   "category_id_122_description": {
+      "message": "Verkkosivut, jotka tarjoavat reaaliaikaisen viestinnän ohjelmiston vain jäsenten yhteystietolistaan tai pikaviestintäistuntoon liittyneille käyttäjille tarkoitetussa verkossa. Suurin osa pikaviestintäohjelmista sisältää tiedostonsiirron ja tietokoneiden välisten puhelujen kaltaisia toimintoja ja voivat seurata, milloin muut henkilöt kirjautuvat sisään ja ulos. Nämä sivustot saattavat myös herättää huolta arkaluonteisten tietojen vuotamisesta, epämiellyttävästä sisällöstä tai tiedostojen jakamisesta."
+   },
+   "category_id_122_name": {
+      "message": "Pikaviestintä"
+   },
+   "category_id_123_description": {
+      "message": "Verkkosivut, jotka tarjoavat mahdollisuuden ostaa, myydä tai vaihtaa osakkeita verkossa. Tähän luokkaan kuuluvat myös uutisnauhat, jotka mahdollistavat osakekurssien seuraamisen reaaliajassa ja hintaeroihin perustuvan vedonlyönnin osakemarkkinoilla. Muut vedonlyöntisivut kuuluvat Uhkapelit-luokkaan. Tämä luokka ei sisällä sivustoja, jotka tarjoavat tietoja osakkeista mutta eivät tarjoa mahdollisuutta ostaa, myydä tai vaihtaa osakkeita."
+   },
+   "category_id_123_name": {
+      "message": "Osakekauppa"
+   },
+   "category_id_124_description": {
+      "message": "Jatkuvan ääni- tai videolähetyksen ohjelmiston tai käyttömahdollisuuden tarjoavat verkkosivut, kuten nettiradiot, televisio-ohjelmistot ja podcast-lähetykset."
+   },
+   "category_id_124_name": {
+      "message": "Internet-radio ja -televisio"
+   },
+   "category_id_125_description": {
+      "message": "Työnhakuun liittyvät verkkosivut, kuten ansioluettelon kirjoittamista, työhaastatteluja ja uran vaihtamista käsittelevät sekä työilmoituksia ja suuria työpaikkatietokantoja sisältävät sivustot. Luokkaan kuuluvat lisäksi yrityksen avoimet työpaikat esittelevät verkkosivut, palkkavertailusivustot ja tilapäiset työpaikat."
+   },
+   "category_id_125_name": {
+      "message": "Työnhaku"
+   },
+   "category_id_126_description": {
+      "message": "Tietosuojaan liittyvää laillista tietoa tarjoavat verkkosivut. Luokka sisältää yksityiskohtaista tietoa liiketoimintaan liittyvien tai henkilökohtaisten tietojen, immateriaalioikeuksien, yksityisyyden ja infrastruktuurin suojaamisesta internetissä, yksityisissä verkoissa ja muissa televiestinnän kaltaisissa kaistanleveyspalveluissa. Mahdollisia riskejä ovat muun muassa Mahdollinen hakkerointi / Tietokonerikokset. Suuren riskin sisältöä sisältävät sivustot, joilla ei ole selkeää musta- ja valkohattuisten erottelua, voivat kuulua sekä tähän luokkaan että Mahdollinen hakkerointi / Tietokonerikokset -luokkaan. Osaa sisällöstä voidaan hyödyntää tietoturvarikkomuksiin tai laittomiin toimiin."
+   },
+   "category_id_126_name": {
+      "message": "Tietoturva"
+   },
+   "category_id_127_description": {
+      "message": "Sosiaaliseen vuorovaikutukseen, kuten nettideittailuun, ystävyyksiin, luokkakokouksiin, kirjekavereihin, seuralaispalveluihin tai potentiaalisten avioparien esittelyyn, keskittyvät verkkosivut. Luokka sisältää monia sivustoja, jotka mahdollistavat jäsenten välisen sosiaalisen vuorovaikutuksen reaaliaikaisilla viesteillä. Tämän luokan sivustot saattavat myös mahdollistaa epätoivottujen tahojen yhteydenotot ja epämiellyttävää tietoa sisältäville jäsenprofiileille altistumisen."
+   },
+   "category_id_127_name": {
+      "message": "Seurustelu / Yhteisöpalvelujen käyttäminen"
+   },
+   "category_id_128_description": {
+      "message": "Verkkosivut, jotka myyvät matkapuhelimiin ladattavia ja toimitettavia mediatiedostoja, ohjelmistoja tai apuohjelmia. Esimerkkejä ovat soittoäänet, logot/skinit, pelit, näytönsäästäjät, tekstipohjaiset sävelmät sekä ohjelmistot SMS-, MMS- ja WAP-protokollia ja muita matkapuhelinprotokollia varten."
+   },
+   "category_id_128_name": {
+      "message": "Matkapuhelin"
+   },
+   "category_id_129_description": {
+      "message": "Verkkosivut, joilla tarjotaan ladattavaksi esimerkiksi MP3-, WAV-, AVI- tai MPEG-muotoisia ääni- tai videotiedostoja. Tiedostot tallennetaan käyttäjän tietokoneelle ja toistetaan sillä."
+   },
+   "category_id_129_name": {
+      "message": "Medialataukset"
+   },
+   "category_id_130_description": {
+      "message": "Verkkosivut, jotka sisältävät koodia, joka on suunniteltu erityisesti kaappaamaan tietokoneen asetukset tai toiminnot. Tähän luokkaan kuuluvat itsestään asentuvat sovellukset (suoritettavien tiedostojen niin kutsutut drive-by-lataukset), troijalaiset ja virukset, jotka hyödyntävät selainten tai muiden sovellusten tietoturvahaavoittuvuuksia. Verkkosivun haitallinen-luokitus voidaan myöhemmin poistaa ja sivu voidaan siirtää toiseen luokkaan. Haitallisten sivustojen tarkoitus on suorittaa toimia toisella tietokoneella vahinkojen aiheuttamiseksi."
+   },
+   "category_id_130_name": {
+      "message": "Haitalliset sivustot"
+   },
+   "category_id_131_description": {
+      "message": "Verkkosivut, jotka tarjoavat pääsyn (http://) Usenetin uutisryhmiin ja niihin ladattujen tiedostojen arkistoihin. Tähän luokkaan kuuluvat myös verkkoryhmät, jotka tarjoavat mahdollisuuden julkaista samantyyppistä yhteisölähtöistä sisältöä. Tämän luokan URL-osoitteet voivat sisältää loukkaavaa sisältöä."
+   },
+   "category_id_131_name": {
+      "message": "Usenet-uutiset"
+   },
+   "category_id_132_description": {
+      "message": "Verkkosivut, joilla on ei-pornografisia kuvia alastomista ihmiskehoista. Tähän luokkaan kuuluvat klassiset veistokset ja maalaukset, taiteelliset alastonkuvat, osa nudismia käsittelevistä kuvista ja yksityiskohtaiset lääketieteelliset kuvituskuvat."
+   },
+   "category_id_132_name": {
+      "message": "Alastomuus"
+   },
+   "category_id_133_description": {
+      "message": "Sellaisten hyväntekeväisyys- tai koulutusryhmittymien verkkosivut, joilla on määritelty tehtävä ja jotka hyödyttävät laajempaa yhteisöä, kuten yhdistykset, etujärjestöt, seurat, voittoa tavoittelemattomat järjestöt, ammattiliitot ja kansalaisjärjestöt. Esimerkkejä ovat vapaamuurarit ja partiolaiset."
+   },
+   "category_id_133_name": {
+      "message": "Yleishyödylliset järjestöt / Kannatusjärjestöt / Kansalaisjärjestöt"
+   },
+   "category_id_134_description": {
+      "message": "Verkkouutisia tarjoavat verkkosivut, kuten kansainväliset tai alueelliset uutislähetykset ja -julkaisut. Luokkaan kuuluvat myös uutissisältöä tarjoavat portaalisivustot."
+   },
+   "category_id_134_name": {
+      "message": "Yleiset uutiset"
+   },
+   "category_id_136_description": {
+      "message": "Verkkosivut, jotka myyvät tuotteita tai palveluita verkossa. Laajaa tuotevalikoimaa myyvät verkkosivut saattavat aiheuttaa käyttäjälle riskin tarjoamalla pääsyn kohteisiin, jotka kuuluvat normaalisti muihin luokkiin, kuten Pornografia, Aseet, Alastomuus tai Väkivalta. Jotkin sivustot saattavat tarjota pääsyn kohteisiin, jotka kuuluvat muihin luokkiin, kuten Pornografia tai Aseet."
+   },
+   "category_id_136_name": {
+      "message": "Online-ostokset"
+   },
+   "category_id_137_description": {
+      "message": "Verkkosivut, jotka sisältävät kuvia houkuttelevista tai paljastavista asuista, alusvaatteista tai uimapuvuista tai valokuvia supermalleista tai julkisuuden henkilöistä, mutta eivät sisällä alastomuutta."
+   },
+   "category_id_137_name": {
+      "message": "Provosoiva pukeutuminen"
+   },
+   "category_id_138_description": {
+      "message": "Verkkosivut, jotka sallivat tiedostojen, kuten ladattavien musiikkitiedostojen, vaihtamisen tietokoneiden ja käyttäjien välillä liiketoiminta- tai yksityistarkoituksessa. P2P-asiakasohjelmien avulla käyttäjät voivat etsiä tiedostoja vertaisverkosta ja vaihtaa niitä. Ne sisältävät usein vakoiluohjelmia tai reaaliaikaisia keskusteluominaisuuksia. Tämä luokka sisältää BitTorrent-verkkosivut."
+   },
+   "category_id_138_name": {
+      "message": "P2P / Tiedostojen jakaminen"
+   },
+   "category_id_139_description": {
+      "message": "Verkkosivut, jotka käsittelevät poliittisia puolueita, poliittisen elämän henkilöitä ja mielipiteitä eri aiheista. Tämä luokka voi kattaa myös huumausaineita koskevat lait ja poliittiset mielipiteet. Tämän luokan URL-osoitteet kattavat poliittiset puolueet, poliittiset kampanjat ja eri aiheita koskevat mielipiteet, mukaan lukien poliittiset keskustelut."
+   },
+   "category_id_139_name": {
+      "message": "Politiikka/Mielipide"
+   },
+   "category_id_140_description": {
+      "message": "Henkilökohtaiset kotisivut, joilla on yhteinen verkkotunnus. Tällaisia tarjoavat esimerkiksi palveluntarjoajat, yliopistot/oppilaitokset tai verkkosivustoja isännöivät ilmaispalvelut. Tämä luokka sisältää myös yksilöllisiä verkkotunnuksia, jotka sisältävät henkilökohtaisia tietoja, kuten henkilökohtaisia kotisivuja. Henkilökohtaiset kotisivut saattavat sisältää loukkaavaa sisältöä."
+   },
+   "category_id_140_name": {
+      "message": "Henkilökohtaiset sivut"
+   },
+   "category_id_141_description": {
+      "message": "Verkkosivut, jotka toimivat tärkeinä portaaleina tai hakemistoina verkkosisällölle. Monet portaalisivustot tarjoavat myös sisäisiä ominaisuuksia tai -palveluja, kuten hakukoneita, sähköpostipalvelun, uutisia ja viihdettä. Laajasti sisältöä tarjoavat postituslistasivustot kuuluvat tähän luokkaan."
+   },
+   "category_id_141_name": {
+      "message": "Portaalisivustot"
+   },
+   "category_id_142_description": {
+      "message": "Verkkosivut, jotka tarjoavat etäyhteyden ohjelmaan, verkkopalveluun tai kokonaiseen tietokonejärjestelmään. Vaikka etäyhteys muodostetaan usein luvalla esimerkiksi tietokoneen etäkäyttöä varten, se saa aikaan tietoturvariskin mahdollistamalla esimerkiksi takaoven käytön. Alkuperäisen ohjelmoijan ohjelmoima takaovi antaa ulkopuoliselle taholle mahdollisuuden hallita järjestelmää käyttäjän huomaamatta."
+   },
+   "category_id_142_name": {
+      "message": "Etäkäyttö"
+   },
+   "category_id_143_description": {
+      "message": "Verkkosivustot, jotka sisältävät uskonnollisuuteen ja hengellisyyteen liittyviä aiheita, jotka eivät kuulu suurten maailmanuskontojen piiriin. Tämä luokka sisältää uskonnolliset keskustelut, uskomukset, artikkelit ja tiedot paikallisille seurakunnille tai ryhmille, kuten kirkon kotisivulle, paitsi jos sivusto kuuluu jo Suurimmat maailmanuskonnot -luokkaan. Tämä luokka sisältää myös uskontojen vertailun tai sivustot, jotka käsittelevät uskontoja ja ideologioita."
+   },
+   "category_id_143_name": {
+      "message": "Uskonto/Ideologia"
+   },
+   "category_id_144_description": {
+      "message": "Verkkosivut, jotka hyödyntävät joutilaita tai käyttämättömiä tietokoneresursseja yhteisen tehtävän suorittamiseen. Tehtävä voidaan suorittaa yrityksen tasolla tai kansainvälisellä tasolla. Tunnettuja esimerkkejä ovat SETI-ohjelma ja Human Genome Project, jotka käyttävät tuhansien vapaaehtoisten tietokoneiden joutoaikaa tietojen analysoimiseen."
+   },
+   "category_id_144_name": {
+      "message": "Resurssien jakaminen"
+   },
+   "category_id_145_description": {
+      "message": "Verkkosivut, joilla tarjotaan hakutuloksia, joiden avulla käyttäjät voivat löytää internetistä tietoja avainsanojen perusteella."
+   },
+   "category_id_145_name": {
+      "message": "Hakukoneet"
+   },
+   "category_id_146_description": {
+      "message": "Ammattimaiseen tai vapaa-ajan urheiluun liittyvät verkkosivut. Tähän luokkaan kuuluvat urheilu-uutiset, tapahtumat ja tiedot, kuten pelivinkit, strategiat, pelitulokset tai pelaajakaupat."
+   },
+   "category_id_146_name": {
+      "message": "Urheilu"
+   },
+   "category_id_147_description": {
+      "message": "Verkkosivut, jotka tarjoavat suoratoistomateriaalia tai sisältävät ohjelmistolaajennuksia AV-aineiston näyttämiseksi ennen kuin koko tiedosto on siirretty."
+   },
+   "category_id_147_name": {
+      "message": "Suoratoistomedia"
+   },
+   "category_id_148_description": {
+      "message": "Verkkosivut, jotka ovat maksullisten julkisohjelmien tai ilmaisohjelmien ladattavien kopioiden arkistoja. Maksullisten julkisohjelmien jakelu perustuu järjestelmään, jossa ohjelma toimitetaan maksutta, mutta sen tekijä pyytää käyttäjältä pienen maksun, jos ohjelma sopii ja on säännöllisessä käytössä. Ilmaisohjelmat ovat ohjelmistoja, jotka ovat saatavilla maksutta."
+   },
+   "category_id_148_name": {
+      "message": "Maksulliset julkisohjelmat / Ilmaisohjelmat"
+   },
+   "category_id_149_description": {
+      "message": "Verkkosivut, joiden McAfee uskoo sisältävän seksuaalisesti kiihottavaa tai eroottista sisältöä. Tämä luokka sisältää fetissisivut, animaatiot, sarjakuvat, tarinat ja laittoman pornografian."
+   },
+   "category_id_149_name": {
+      "message": "Pornografia"
+   },
+   "category_id_150_description": {
+      "message": "Verkkosivut, jotka loukkaavat henkilökohtaista tai yritystoiminnan tietosuojaa ja tietoturvaa. Tämä luokka sisältää seuraavat:\u003Cbr/>\u003Cbr/>\u003Cul>\u003Cli>URL-osoitteet, jotka lataavat ohjelmistoja tai suorittavat ohjelmia, jotka keräävät käyttäjän tietoja ja lähettävät ne ulkopuoliselle taholle ilman käyttäjän tietoa tai suostumusta\u003C/li>\u003Cli>ohjelmistot, jotka valvovat tai seuraavat toimintaa toisten tietokoneella tallentamalla näppäinpainalluksia (näppäinpainalluksia tallentavat ohjelmat)\u003C/li>\u003Cli>sivustot, joilla jaellaan tunnetusti vakoiluohjelmia tai mainosohjelmia sisältäviä ohjelmistoja.\u003C/li>\u003C/ul>Tämä luokan sivustot poikkeavat aikomukseltaan Haitalliset sivustot -luokan sivustoista. Vakoiluohjelmat ja näppäinpainalluksia tallentavat ohjelmat keräävät tietoja salaa ja lähettävät ne ulkopuoliselle taholle. Haitallinen sivusto aikoo asentaa ohjelmiston tai suorittaa toimen ilman käyttäjän hyväksyntää tai tietoa."
+   },
+   "category_id_150_name": {
+      "message": "Vakoiluohjelmat / Mainosohjelmat / Näppäinpainalluksia tallentavat ohjelmat"
+   },
+   "category_id_151_description": {
+      "message": "Verkkosivut, joilla myydään tai mainostetaan tupakkatuotteita tai tupakkatarvikkeita, mukaan luettuina savukkeet, sikarit, piiput, nuuska ja purutupakka, tai edistetään niiden käyttöä."
+   },
+   "category_id_151_name": {
+      "message": "Tupakka"
+   },
+   "category_id_152_description": {
+      "message": "Verkkosivut, joilla mainostetaan yksityis- tai liikematkailua, kuten hotellit, lomakohteet, lentoyhtiöt, maaliikenne, autovuokraamot, matkatoimistot ja yleiset turisti- ja matkatietoja sisältävät sivustot. Tähän luokkaan kuuluvat myös lipunmyynti- ja majoitusvaraussivustot."
+   },
+   "category_id_152_name": {
+      "message": "Matkailu"
+   },
+   "category_id_153_description": {
+      "message": "Verkkosivut, jotka sisältävät todellisia tai realistisia kuvia tai tekstejä, jotka kuvaavat tai ihannoivat fyysistä väkivaltaa ihmisiä, eläimiä tai instituutioita vastaan. Esimerkkejä sotaa, itsemurhaa, silpomista tai jäsenten katkaisemista käsittelevät kuvaukset."
+   },
+   "category_id_153_name": {
+      "message": "Väkivalta"
+   },
+   "category_id_154_description": {
+      "message": "Verkkosivut, jotka tarjoavat mainosten isännöintipalveluja tai mainoksia tuottavia ohjelmia. Esimerkkejä ovat linkit, lähdekoodi tai sovelmat ilmoituspalkeille, ponnahdusikkunoille ja muille staattisille tai dynaamisesti tuotetuille mainoksille, joita näytetään verkkosivuilla. Tämän luokan tarkoituksena on estää verkkosivuilla näytetyt mainokset, ei mainoksia tai mainospalveluita tarjoavia yrityksiä."
+   },
+   "category_id_154_name": {
+      "message": "Verkkomainokset"
+   },
+   "category_id_155_description": {
+      "message": "Verkkosivut, jotka sisältävät tietoa aseiden, kuten ampuma-aseiden, veitsien, miekkojen tai värikuulapyssyjen ja ammusten, räjähteiden ja aseiden lisävarusteiden, hankkimisesta, valmistamisesta, muokkaamisesta tai käytöstä."
+   },
+   "category_id_155_name": {
+      "message": "Aseet"
+   },
+   "category_id_156_description": {
+      "message": "Verkkosivut, joiden kautta käyttäjät voivat lähettää tai vastaanottaa sähköpostia internetin välityksellä. Nämä sivustot voivat altistaa käyttäjät haitalliselle sisällölle, joka on toimitettu sähköpostitiedostojen liitetiedostoina, tai ne voivat aiheuttaa tietoturvariskin, kuten omistusoikeudellisten tietojen paljastumisen tai menettämisen."
+   },
+   "category_id_156_name": {
+      "message": "Verkkosähköposti"
+   },
+   "category_id_157_description": {
+      "message": "Verkkosivut, joiden avulla käyttäjät voivat soittaa puheluja internetin välityksellä tai hankkia tietoja tai ohjelmistoja tähän tarkoitukseen. Verkkopuhelupalvelua kutsutaan myös IP-puheeksi tai VoIP:ksi. Verkkopuhelupalveluihin sisältyvät TCP/IP-yhteyden kautta muodostetut tietokoneiden väliset, tietokoneiden ja puhelinten väliset sekä puhelinten väliset yhteydet."
+   },
+   "category_id_157_name": {
+      "message": "Verkkopuhelin"
+   },
+   "category_id_158_description": {
+      "message": "Verkkohuutokauppaa sekä tuotteiden ja palvelujen myyntiä tarjoavat verkkosivut. Luokkaan kuuluvat huutokauppaan ja myyntiin keskittyvät verkkosivut. Verkkohuutokauppoja valvotaan harvoin. Käyttäjät saattavat näillä sivustoilla kohdata materiaalia, jotka kuuluvat myös esimerkiksi luokkiin Pornografia, Aseet, Alastomuus tai Väkivalta."
+   },
+   "category_id_158_name": {
+      "message": "Huutokaupat/Ilmoitukset"
+   },
+   "category_id_159_description": {
+      "message": "Verkkosivut, jotka tarjoavat pääsyn (http://) Usenet-uutisryhmiin tai järjestävät keskusteluja ja julkaisevat käyttäjien luomaa sisältöä, kuten tietylle ryhmälle tarkoitettuja reaaliaikaisia viestejä. Luokka sisältää myös uutisryhmiin ladattujen tiedostojen arkistot."
+   },
+   "category_id_159_name": {
+      "message": "Foorumit/Ilmoitustaulut"
+   },
+   "category_id_160_description": {
+      "message": "Verkkosivut, jotka sisältävät karkeaa, alatyylistä tai rivoa kieltä tai eleitä."
+   },
+   "category_id_160_name": {
+      "message": "Kiroilu"
+   },
+   "category_id_161_description": {
+      "message": "Verkkosivut, jotka edistävät plagiointia tai huijaamista tarjoamalla ilmaisia tai maksullisia tutkielmia, esseitä tai tenttivastauksia."
+   },
+   "category_id_161_name": {
+      "message": "Koulujen vilppitiedot"
+   },
+   "category_id_162_description": {
+      "message": "Verkkosivut, joilla kuvaillaan seksuaalisia tekoja muutoin kuin kiihottavalla tai eroottisella tavalla. Esimerkkejä seksuaalisista aineistosta ovat seksuaalikasvatus, seksuaalinen kaksimielisyys ja huumori tai seksiin liittyvä kauppatavara."
+   },
+   "category_id_162_name": {
+      "message": "Seksuaaliset aineistot"
+   },
+   "category_id_163_description": {
+      "message": "Verkkosivut, joiden sisällön voidaan katsoa olevan mautonta, vastenmielistä, järkyttävää tai karmeaa. Luokkaan kuuluvat mauton huumori, kehon eritteisiin liittyvät toiminnot, verta tai vammoja sisältävät lääketieteelliset tai onnettomuuspaikoilta otetut valokuvat, äärimmäiset kehon muokkausmuodot (esim. viiltely, polttomerkintä tai sukupuolielinten lävistykset) ja järkyttävät kuvaukset eläinten epäinhimillisestä kohtelusta."
+   },
+   "category_id_163_name": {
+      "message": "Kammottava sisältö"
+   },
+   "category_id_164_description": {
+      "message": "Verkkosivut, jotka sisältävät kuvahakutuloksia, kuten pienoiskuvia."
+   },
+   "category_id_164_name": {
+      "message": "Visuaalinen hakukone"
+   },
+   "category_id_165_description": {
+      "message": "Tekniseen sisältöön ja yrityssisältöön painottuneet verkkosivut, jotka tarjoavat mahdollisuuden viestien lähettämiseen tai reaaliaikaiseen keskusteluun, kuten tekniseen tukeen tai vuorovaikutteiseen yritysviestintään. Vaikka käyttäjät voivat julkaista kaikenlaista sisältöä, loukkaavan sisällön näkeminen tällaisilla foorumeilla on muita foorumityyppejä epätodennäköisempää. Sivustot, jotka tarjoavat erilaisia teemoja käsitteleviä foorumeita, mukaan luettuina tekninen sisältö ja yrityssisältö, kuuluvat vain luokkiin Foorumit/Ilmoitustaulut tai Keskustelu. Ensisijaisesti tekniseen sisältöön ja yrityssisältöön painottuneet foorumit kuuluvat vain luokkaan Tekniset foorumit / Liiketoimintafoorumit."
+   },
+   "category_id_165_name": {
+      "message": "Tekniset foorumit / Liiketoimintafoorumit"
+   },
+   "category_id_166_description": {
+      "message": "Vedonlyöntitietoa tarjoavat verkkosivut, jotka eivät kuitenkaan tarjoa mahdollisuutta vedonlyöntiin. Luokka sisältää kasinoaiheiset verkkosivut, jotka eivät tarjoa nettivedonlyöntiä, vedonlyöntilinkkejä, vinkkejä, urheiluvalintoja, lottotuloksia tai hevos-, auto- tai venekilpailuja."
+   },
+   "category_id_166_name": {
+      "message": "Uhkapeleihin liittyvä sisältö"
+   },
+   "category_id_167_description": {
+      "message": "Verkkosivut, jotka tarjoavat tekstiviestipalveluja. Esimerkkejä ovat tekstiviestit matkapuhelimiin, PDA-laitteisiin tai faksilaitteisiin tai sisäisten verkkosivustojen käyttäjien välinen viestintä tai sivustojen välinen viestintä."
+   },
+   "category_id_167_name": {
+      "message": "Viestintä"
+   },
+   "category_id_168_description": {
+      "message": "Verkkosivut, jotka sisältävät fantasiamaailmaan liittyvää tai muuten fiktiivistä väkivaltaa pelien, sarjakuvien, animaatioiden tai graafisten romaanien yhteydessä. Luokka sisältää kuvia ja tekstikuvauksia fyysisistä pahoinpitelyistä tai lähitaisteluista sekä vakavista vammoista ja aseiden tai räjähteiden aiheuttamasta tuhosta."
+   },
+   "category_id_168_name": {
+      "message": "Peliväkivalta / Sarjakuva-aiheinen väkivalta"
+   },
+   "category_id_169_description": {
+      "message": "Tavallisesti huijausviesteissä saapuvat linkit verkkosivuille, jotka on luotu käyttäjien tilitietojen varastamista varten. Nämä sivustot muistuttavat luotettavien yritysten verkkosivuja, ja niiden tarkoituksena on huijata käyttäjiä luovuttamaan tilitietonsa, jotta niitä voidaan hyödyntää petoksen tai varkauden suorittamiseen."
+   },
+   "category_id_169_name": {
+      "message": "Tietojen kalastelu"
+   },
+   "category_id_170_description": {
+      "message": "Verkkosivut, joiden avulla käyttäjät voivat ladata kansioita ja tiedostoja verkkopalvelimelle voidakseen varmuuskopioida, jakaa, muokata tai noutaa tiedostoja tai kansioita miltä tahansa verkkoselaimelta."
+   },
+   "category_id_170_name": {
+      "message": "Henkilökohtainen verkkotallennustila"
+   },
+   "category_id_171_description": {
+      "message": "Ei-toivotuissa roskapostiviesteissä saapuvat verkkosivustolinkit. Roskapostin sisältämät URL-osoitteet vaihtelevat tuotemarkkinoinnista mahdollisesti loukkaaviin tai vilpillisiin sivustoihin. Tähän luokkaan kuuluvat sivustot, jotka on rakennettu vain roskapostitarkoituksiin, kuten roskapostiblogeihin tai kommenttiroskapostiin."
+   },
+   "category_id_171_name": {
+      "message": "Roskapostia lähettävät URL-osoitteet"
+   },
+   "category_id_172_description": {
+      "message": "Suorien tai interaktiivisten verkkosovellusten, kuten selainpohjaisten ohjelmistopakettien tai ryhmätyöohjelmistojen, käyttömahdollisuuden tarjoavat verkkosivut. Luokkaan kuuluvat niin liiketoiminnalliseen, akateemiseen kuin henkilökohtaiseen toimintaan keskittyvät sivustot."
+   },
+   "category_id_172_name": {
+      "message": "Vuorovaikutteiset verkkosovellukset"
+   },
+   "category_id_174_description": {
+      "message": "Vaatteita, kosmetiikkaa, koruja ja muita muotiin liittyviä tuotteita, asusteita ja palveluja markkinoivat verkkosivut. Luokkaan kuuluvat myös tuotearviot, vertailut ja yleiset kuluttajatiedot sekä erilaiset palvelut, kuten kampaamot, rusketussalongit ja tatuointi- ja lävistysstudiot."
+   },
+   "category_id_174_name": {
+      "message": "Muoti/Kauneus"
+   },
+   "category_id_175_description": {
+      "message": "Verkkosivut, jotka liittyvät tietokoneohjelmistoihin ja -laitteistoihin, mukaan luettuina valmistajat, tuotemarkkinointi ja -arvostelut, ohjelmistojen ja laitteiden käyttöönotto ja ylläpito sekä ohjelmistopäivitykset ja lisäosat, kuten komentosarjat, laajennukset tai ohjaimet. Laitteisto kattaa tietokoneiden osat, lisävarusteet ja tietokoneissa ja verkoissa käytettävät elektroniset laitteet. Tähän luokkaan kuuluvat ohjelmistojen ja laitteiden markkinointi sekä aikakauslehdet, jotka sisältävät ohjelmisto- tai laitteistoarvosteluja tai alan kehityssuuntauksia käsitteleviä artikkeleita."
+   },
+   "category_id_175_name": {
+      "message": "Ohjelmistot/Laitteistot"
+   },
+   "category_id_176_description": {
+      "message": "Verkkosivut, joiden McAfee uskoo tarjoavan tietoa mahdollisesti laittomasti kopioiduista tai jaetusta ohjelmistoista tai elektronisesta mediasta, kuten tekijänoikeuksien alaisesta musiikista tai elokuvista, tai laittomista käyttöoikeusavainten valmistajista, ohjelmistojen tietoturva-aukoista ja sarjanumeroista."
+   },
+   "category_id_176_name": {
+      "message": "Mahdolliset laittomat ohjelmistot"
+   },
+   "category_id_177_description": {
+      "message": "URL-osoitteet palvelimille, jotka isännöivät kuvia, mediatiedostoja tai JavaScriptiä vähintään yhdelle sivustolle ja joiden tarkoituksena on nopeuttaa Apachen kaltaisten olemassa olevien verkkopalvelinten sisällönhakua. Sisältöpalvelimilla ei yleensä ole verkon selaajille tarkoitettua julkaistua sisältöä tai selattavaa sivustoa. Kuvia isännöivät sisältöpalvelimet eivät salli käyttäjien selata valokuvia."
+   },
+   "category_id_177_name": {
+      "message": "Sisältöpalvelin"
+   },
+   "category_id_178_description": {
+      "message": "Internet-sivustojen julkaisun ja ylläpidon palveluja tarjoavat verkkosivut, kuten verkkosivujen suunnittelu, verkkotunnuksen rekisteröinti, internet-palveluntarjoajat sekä verkkopalveluja tarjoavat laajakaista- ja televiestintäyritykset."
+   },
+   "category_id_178_name": {
+      "message": "Internet-palvelut"
+   },
+   "category_id_179_description": {
+      "message": "Verkkosivut, joiden avulla käyttäjät voivat ladata, etsiä ja jakaa mediatiedostoja ja valokuvia, kuten verkkovalokuva-albumeita. Tämä luokka kattaa mediatiedostojen jakamisen yleiset riskit mutta ei tiettyä sisältöä. Joissakin URL-osoitteissa saattaa olla myös loukkaavaa sisältöä."
+   },
+   "category_id_179_name": {
+      "message": "Median jakaminen"
+   },
+   "category_id_180_description": {
+      "message": "Verkkosivut, jotka sisältävät ei-pornografisia kuvia alastomista ihmiskehoista, kuten klassisia veistoksia ja maalauksia tai lääketieteellisiä kuvia."
+   },
+   "category_id_180_name": {
+      "message": "Satunnainen alastomuus"
+   },
+   "category_id_181_description": {
+      "message": "Verkkosivut, joilla markkinoidaan henkilöiden tai yritysten tarjoamia tuotteita tai palveluita verkossa, mutta joilla ei myydä näitä tuotteita tai palveluita. Tähän luokkaan kuuluvat verkkosivustot, jotka sisältävät yleensä yrityksen yleiskatsauksen ja joilla kuvataan palveluja tai tuotteita, joita ei voi ostaa suoraan näiltä sivustoilta. Esimerkkejä ovat autovalmistajien sivustot, hääkuvauspalvelut tai graafisen suunnittelun palvelut."
+   },
+   "category_id_181_name": {
+      "message": "Markkinointi/Myynninedistäminen"
+   },
+   "category_id_183_description": {
+      "message": "Verkkosivut, jotka ennen tarjosivat sisältöä mutta joiden verkkotunnukset on myyty tai hylätty eikä niitä ole enää rekisteröity. Pysäköidyt verkkotunnukset eivät isännöi omaa sisältöä, vaan ohjaavat käyttäjät yleensä yleiselle sivulle, jolla ilmoitetaan, että verkkotunnus on myytävänä, tai yleisiin haku- tai portaalisivustoihin, joista osa antaa aitoja hakukonetuloksia."
+   },
+   "category_id_183_name": {
+      "message": "Rinnakkaistoimialue"
+   },
+   "category_id_184_description": {
+      "message": "Verkkosivut, jotka sisältävät reseptilääkkeitä, itsehoitolääkkeitä, ehkäisyvälineitä tai ravintolisiä koskevia arvosteluja ja kuvauksia ja joilla markkinoidaan tai myydään niitä."
+   },
+   "category_id_184_name": {
+      "message": "Apteekki"
+   },
+   "category_id_185_description": {
+      "message": "Verkkosivut, joilla on tietoa ravintoloista, baareista, pitopalveluista, noutoruoasta ja kotiinkuljetuspalveluista, mukaan luettuina verkkotilauspalvelut. Tähän luokkaan kuuluvat sivustot, joilla annetaan tietoja sijainnista, aukioloajoista, hinnoista, ruokalistoista ja niihin liittyvistä ruoka-aineista. Tähän luokkaan kuuluvat myös ravintolaoppaat ja arvostelut sekä kahvilat."
+   },
+   "category_id_185_name": {
+      "message": "Ravintolat"
+   },
+   "category_id_186_description": {
+      "message": "Verkkosivut, jotka tarjoavat liike- tai asuinhuoneistoja koskevia palveluja ja tietoja. Palveluihin ja tietoihin kuuluvat asuin- ja liikehuoneistojen myynti ja vuokraus sekä asuntoja ja kiinteistöjä koskevat oppaat ja arviointia ja välittämistä koskevat tiedot. Tämä luokka sisältää sivustot, joilla voi selailla mallikoteja."
+   },
+   "category_id_186_name": {
+      "message": "Kiinteistöala"
+   },
+   "category_id_187_description": {
+      "message": "Vapaa-ajan organisaatioiden ja tilojen verkkosivut, jotka sisältävät virkistystoimintaan ja harrastuksiin liittyvää sisältöä. Tähän luokkaan kuuluvat tiedot yleisistä uima-altaista, eläintarhoista, messuista, festivaaleista, huvipuistoista, virkistysoppaista, retkeilystä, kalastuksesta, lintujen tarkkailusta tai postimerkkien keräämisestä."
+   },
+   "category_id_187_name": {
+      "message": "Virkistys/Harrastukset"
+   },
+   "category_id_188_description": {
+      "message": "Dynaamista sisältöä sisältävät verkkosivut. Sisältö vaihtuu usein, koska käyttäjät voivat julkaista ja muokata sitä milloin tahansa. Luokka kattaa dynaamiseen sisältöön liittyvät riskit huomioiden, että sisältö voi vaihdella harmittomasta loukkaavaan. Monet blogit ja wikit keskittyvät tiettyyn teemaan tai aiheeseen. Luokkaa käytetään sivuston painopisteestä tai aiheesta riippuen usein yhdessä jonkin muun luokan, kuten Ristiriitaiset mielipiteet, Koulutus/Hakuteokset, Urheilu, Politiikka/Mielipide tai Alastomuus, kanssa. Osa sisällöstä saattaa olla loukkaavaa."
+   },
+   "category_id_188_name": {
+      "message": "Blogit/Wiki"
+   },
+   "category_id_189_description": {
+      "message": "Digitaalisten posti- ja onnittelukorttien internetissä lähettämisen ja vastaanottamisen mahdollistavat verkkosivut. Digitaaliset postikortit sisältävät tervehdys- tai onnitteluviestejä, joita lähetetään yleensä syntymäpäivinä tai muina yleisinä juhlapäivinä. Osa digitaalisten postikorttien sivustoista sisältää erillisen aikuishuumorihakemiston. Nämä sivustot voivat myös herättää huolta arkaluonteisten tai omistusoikeudellisten tietojen vuotamisesta, epämiellyttävästä sisällöstä, haittaohjelmista tai haitallisista liitetiedostoista."
+   },
+   "category_id_189_name": {
+      "message": "Digitaaliset postikortit"
+   },
+   "category_id_190_description": {
+      "message": "Merkittävät historialliset tosiasiat, kuten holokaustin, kieltävät tai toisin selittävät verkkosivut. Luokkaan kuuluu sivustoja, joilla saattaa olla aitoa akateemista arvoa, mutta monet näistä sivuista sisältävät historiallisten tietojen valheellista manipulointia poliittisiin tarkoituksiin. Osa tämän luokan URL-osoitteista saattaa sisältää joissain maissa laittomaksi tai loukkaavaksi todettua sisältöä."
+   },
+   "category_id_190_name": {
+      "message": "Historiallinen revisionismi"
+   },
+   "category_id_191_description": {
+      "message": "Verkkosivut, jotka sisältävät tietokoneita koskevia tietoja. Painopiste on sellaisissa aiheissa kuin tietotekniikka, tietokoneohjelmointi ja sertifiointi. Esimerkkejä ovat Linux-käyttäjäryhmät, UNIX-komennot, ohjelmistoihin liittyvät opetusohjelmat tai tekniset termisanastot. Useimmat tämän luokan sivustot ovat laajempien verkkotunnusten alahakemistoja."
+   },
+   "category_id_191_name": {
+      "message": "Tekniset tiedot"
+   },
+   "category_id_192_description": {
+      "message": "Nettideittailulle, parinmuodostukselle, seuralaispalveluille ja potentiaalisten avioparien esittelylle alustan tarjoavat verkkosivut. Tämä luokka sisältää sivustot, jotka tarjoavat henkilö- tai ryhmäkohtaisia profiileja ja antavat jäsenilleen mahdollisuuden vuorovaikutukseen reaaliaikaisen viestinnän, viestien lähettämisen, julkisten tiedotteiden ja median jakamisen kautta. Tämän luokan sivustot saattavat myös mahdollistaa epätoivottujen tahojen yhteydenotot ja epämiellyttävää tietoa sisältäville jäsenprofiileille altistumisen."
+   },
+   "category_id_192_name": {
+      "message": "Seurustelu / Henkilökohtaiset ilmoitukset"
+   },
+   "category_id_193_description": {
+      "message": "Verkkosivustot, jotka kuuluvat kuluttaja-ajoneuvojen (erilaiset autot, moottoripyörät, skootterit jne.) valmistajille ja niitä myyville liikkeille. Tähän luokkaan kuuluvat myös sivustot, jotka sisältävät tuotemarkkinointia, katsauksia, vertailuja, hinnoittelua koskevia tietoja, tietoja automessuista ja autonäyttelyistä sekä yleisiä kuluttajatietoja moottoriajoneuvoista."
+   },
+   "category_id_193_name": {
+      "message": "Moottoriajoneuvot"
+   },
+   "category_id_194_description": {
+      "message": "Verkkosivut, jotka tarjoavat sosiaalisen verkoston yksinomaan ammattikäyttöön tai yritystarkoituksiin. Tämä luokka sisältää sivustot, jotka tarjoavat henkilö- tai ryhmäkohtaisia profiileja ja antavat jäsenilleen mahdollisuuden vuorovaikutukseen reaaliaikaisen viestinnän, viestien lähettämisen, julkisten tiedotteiden ja median jakamisen kautta. Tämä luokka sisältää myös alumnisivustot, joilla on verkostoitumistarkoitus."
+   },
+   "category_id_194_name": {
+      "message": "Verkostoituminen"
+   },
+   "category_id_195_description": {
+      "message": "Verkkosivut, jotka mahdollistavat sosiaalisen verkostoitumisen eri tarkoituksissa (esimerkiksi ystävyys, seurustelu, työelämä tai yhteiset kiinnostuksen kohteet). Nämä sivustot tarjoavat henkilö- tai ryhmäkohtaisia profiileja ja antavat jäsenilleen mahdollisuuden vuorovaikutukseen reaaliaikaisen viestinnän, viestien lähettämisen, julkisten tiedotteiden ja median jakamisen kautta. Tämän luokan sivustot saattavat myös mahdollistaa epätoivottujen tahojen yhteydenotot ja epämiellyttävää tietoa sisältäville jäsenprofiileille altistumisen."
+   },
+   "category_id_195_name": {
+      "message": "Yhteisöpalvelujen käyttäminen"
+   },
+   "category_id_196_description": {
+      "message": "Verkkosivut, joiden avulla käyttäjät voivat kääntää lauseita tai tekstin osia kielestä toiseen. Tämä luokka sisältää myös kielentunnistusverkkosivut."
+   },
+   "category_id_196_name": {
+      "message": "Tekstinkääntäjät"
+   },
+   "category_id_197_description": {
+      "message": "Verkkosivut, joilla järjestetään reaaliaikaisia kokouksia, videokonferensseja ja vuorovaikutteisia esityksiä lähinnä yrityksille. Verkkokokouksiin sisältyy yleensä suoratoistettua ääntä ja videota, ja ne mahdollistavat tiedonsiirron tai toimistosovellusten jakamisen, kuten verkkoesitykset. Tämän luokan URL-osoitteisiin voi liittyä kaistanleveysriskejä ja tietoturvariskejä, kuten omistusoikeudellisten tietojen menettäminen tai paljastuminen."
+   },
+   "category_id_197_name": {
+      "message": "Verkkokokoukset"
+   },
+   "category_id_198_description": {
+      "message": "Poliittisesti tai sosiaalisesti todennäköisesti loukkaavia tai kiistanalaisia mielipiteitä sisältävät verkkosivut. Suurin osa sisällöstä edustaa julkisen mielipiteen äärilaitoja. Esimerkkejä ovat itsemurhasopimukset, anoreksian ihannointi, muukalaisvastaisuus, etnosentrisyys, fundamentalistiset näkemykset, harhaanjohtavat tiedot tai yhteen ihmisryhmään kohdistuva kriittisyys."
+   },
+   "category_id_198_name": {
+      "message": "Kiistanalaiset mielipiteet"
+   },
+   "category_id_199_description": {
+      "message": "IP-osoitteet (ja niihin liittyvät verkkotunnukset), jotka muodostavat internet-yhteyden DSL- tai kaapelimodeemin kautta. Koska tätä sisältöä ei yleensä ole tarkoitettu internet-yhteyden muodostamiseen HTTP:n kautta, internet-yhteydet näistä IP-osoitteista voivat olla merkki epäilyttävästä toiminnasta. Tämä toiminta saattaa liittyä haittaohjelmaan kotitietokoneella tai yhdyskäytäviin, jotka on määritetty sallimaan anonyymien internet-yhteyksien muodostaminen."
+   },
+   "category_id_199_name": {
+      "message": "Asukkaiden IP-osoitteet"
+   },
+   "category_id_200_description": {
+      "message": "Selaimen heikkoutta hyödyntävä ohjelma on selainohjelmiston vikoja hyödyntävä koodinpätkä, joka saa selaimen toimimaan odottamattomalla tavalla. Selain saattaa sen seurauksena lakata toimimasta, lukea tai kirjoittaa paikallisia tiedostoja, levittää virusta tai asentaa vakoiluohjelman. Haitallinen koodi saattaa hyödyntää HTML:ää, JavaScriptia, kuvia, ActiveX:ää, Javaa ja muita verkkotekniikoita. Myös drive-by-latauksiksi kutsutut selaimen heikkoutta hyödyntävät ohjelmat asentavat itsensä suojaamattomiin tietokoneisiin käyttäjän tietämättä. Tietokoneessa koodi voi asentaa salasanojen varastamisen mahdollistavia näppäinpainalluksen tallentavia ohjelmia ja tietokoneen botiksi muuttavia troijalaisia. Luokkaan kuuluvat selaimen heikkoutta hyödyntäviä ohjelmia jakavat tai suorittavat URL-osoitteet."
+   },
+   "category_id_200_name": {
+      "message": "Selaimen heikkoutta hyödyntävä ohjelma"
+   },
+   "category_id_201_description": {
+      "message": "Kuluttajien ryöstämistä tai huijaamista yrittävät verkkosivustot. Ne saattavat esimerkiksi yrittää myydä väärennettyjä tai alun perin ilmaisia tuotteita tai väärinkäyttää toisen yrityksen tuotemerkkiä. Luokkaan kuuluvat ystävällisyyttä tai tietämättömyyttä hyödyntävät verkkosivustot, jotka esimerkiksi valehtelevat keräävänsä rahaa hyväntekeväisyyteen tai pyörittävät vilpillisiä sijoitushankkeita. Luokka sisältää myös sivustot, joissa kuluttajia on raporttien mukaan petetty tai joista he eivät ole saaneet palvelujaan."
+   },
+   "category_id_201_name": {
+      "message": "Kuluttajansuoja"
+   },
+   "category_id_202_description": {
+      "message": "Missä tahansa päin maailmaa isännöidyt lasten seksuaalista hyväksikäyttöä sisältävät verkkosivut ja Yhdistyneessä kuningaskunnassa isännöidyt rasistista vihapuhetta sisältävät verkkosivut."
+   },
+   "category_id_202_name": {
+      "message": "Laiton toiminta – Iso-Britannia"
+   },
+   "category_id_203_description": {
+      "message": "Uskonnollisia aiheita ja merkittäviin uskontoihin liittyvää tietoa sisältävät verkkosivut. Tämän luokan sivustoilla on uskonnollista sisältöä, kuten keskusteluja, uskomuksia, ei-kiistanalaisia mielipidekirjoituksia, artikkeleita ja paikallisille seurakunnille tarkoitettua tietoa (esim. kirkon tai synagogan kotisivu). Tähän luokkaan kuuluvat seuraavat uskonnot: bahai-usko, buddhalaisuus, perinteinen kiinalainen, kristinusko, hindulaisuus, islam, jainalaisuus, juutalaisuus, šintolaisuus, sikhiläisyys, tenrikyō ja zarathustralaisuus."
+   },
+   "category_id_203_name": {
+      "message": "Suurimmat maailmanuskonnot"
+   },
+   "category_id_204_description": {
+      "message": "Verkkosivut, joilta käyttäjä voi epähuomiossa ladata haitallista tai häiritsevää koodia. Tämä luokka sisältää ladattavat tiedostot, kuten näytönsäästäjät, työkalupalkit ja tiedostojen jako-ohjelmat, jotka sisältävät mainosohjelmia, vakoiluohjelmia, viruksia ja muuta haitallista tietokonekoodia. Joskus haittaohjelma lisätään lataukseen käyttäjän tietämättä, jos he esimerkiksi valitsevat ”Kyllä” tai ”Hyväksyn” lukematta käyttöehtoja kokonaisuudessaan. Seurauksena voi olla tietokoneen hidastuminen, salasanavarkaus tai arvokkaiden henkilökohtaisten tiedostojen vahingoittuminen tai menettäminen."
+   },
+   "category_id_204_name": {
+      "message": "Haitalliset lataukset"
+   },
+   "category_id_205_description": {
+      "message": "Verkkosivut, jotka sisältävät mahdollisesti ei-toivottuja ohjelmia. Mahdollisesti ei-toivotut ohjelmat on usein tehty hyödylliseen tarkoitukseen, mutta niillä on vaikutuksia tietokoneen tietoturvaan tai tietokoneen käyttäjän tietosuojaan. Käyttäjät, jotka ovat huolissaan turvallisuudesta tai tietosuojasta, saattavat haluta saada tietoa näistä ohjelmista, ja joissakin tapauksissa he saattavat haluta poistaa ne tietokoneiltaan."
+   },
+   "category_id_205_name": {
+      "message": "PUP"
+   },
+   "category_id_600_description": {
+      "message": "Koko perheelle ja erityisesti alle 11-vuotiaille soveltuvat verkkosivut."
+   },
+   "category_id_600_name": {
+      "message": "Lapsille"
+   },
+   "category_id_601_description": {
+      "message": "Historiallisiin tosiasioihin liittyvää sisältöä tarjoavat verkkosivut. Tämä luokka sisältää korkeakoulutukseen soveltuvaa sisältöä, mutta Koulutus-luokassa on peruskoulutukseen sopivaa sisältöä. Esimerkiksi holokaustiin liittyviä valokuvia sisältävä sivusto voi olla loukkaava, mutta akateemisesti arvokas."
+   },
+   "category_id_601_name": {
+      "message": "Historia"
+   },
+   "category_id_602_description": {
+      "message": "Ilmoitustaulut, chat-huoneet, hakukoneet tai verkkopostisivustot, joita valvoo yksi tai useampi henkilö, jolla on oikeus estää sopimattomaksi katsomiaan viestejä tai sisältöjä."
+   },
+   "category_id_602_name": {
+      "message": "Valvottu sisältö"
+   },
+   "category_id_603_description": {
+      "message": "Sisältö, joka on vain tekstiä tai ääntä eikä sisällä kuvia. Tätä luokkaa voidaan käyttää poikkeuksena, jonka kautta sopimatonta tekstiä ja nauhoitettua materiaalia voidaan käyttää, kun kuvat halutaan estää Pornografia-, Väkivalta- tai Seksuaaliset aineistot -luokkien avulla. Kirjastot ja yliopistot voivat estää tämän luokan avulla loukkaavien kuvien näyttämisen julkisissa tiloissa."
+   },
+   "category_id_603_name": {
+      "message": "Vain teksti/puhe"
+   },
+   "crypto_allow_desc": {
+      "message": "Kun kryptokaappaus estetään, voit halutessasi myös sallia sen. Sitä ei suositella, mutta se on mahdollista, jos haluat tukea verkkosivustoja, jotka ansaitsevat rahaa kryptokaappauksen avulla."
+   },
+   "crypto_allow_title": {
+      "message": "Haluatko sallia kryptokaappauksen?"
+   },
+   "crypto_footer_message1": {
+      "message": "McAfee ja McAfee-logo ovat McAfee, LLC:n tai sen tytäryhtiöiden tavaramerkkejä tai rekisteröityjä tavaramerkkejä Yhdysvalloissa ja muissa maissa."
+   },
+   "crypto_footer_message2": {
+      "message": "Muut nimet ja tuotemerkit saattavat olla muiden yhtiöiden omaisuutta. Copyright ©2020 McAfee, LLC"
+   },
+   "crypto_header_subtitle": {
+      "message": "Estämme kryptokaappaajia varastamasta tietokoneesi tehoa ja resursseja."
+   },
+   "crypto_header_title": {
+      "message": "Kryptokaappauksen esto on käytössä"
+   },
+   "crypto_own_desc": {
+      "message": "Ei, voit joutua kryptokaappauksen kohteeksi, vaikka et omistaisikaan kryptovaluuttaa. Kryptokaappaajia kiinnostaa tietokoneen suorituskyky, ei kryptovaluutta."
+   },
+   "crypto_own_title": {
+      "message": "Edellyttääkö kryptokaappauksen uhriksi joutuminen, että omistan kryptovaluuttaa?"
+   },
+   "crypto_protect_desc": {
+      "message": "Pidä McAfee WebAdvisor -laajennus käytössä, jotta kryptokaappauksen esto-ominaisuus auttaa sinua suojautumaan kryptokaappareilta. Saat ilmoituksen havaituista kryptokaappausyrityksistä."
+   },
+   "crypto_protect_title": {
+      "message": "Miten kryptokaappaukselta voi suojautua?"
+   },
+   "crypto_signs_desc1": {
+      "message": "Selailu on hidasta."
+   },
+   "crypto_signs_desc2": {
+      "message": "Akku kuluu liian nopeasti."
+   },
+   "crypto_signs_desc3": {
+      "message": "Tuuletin pitää kovaa ääntä."
+   },
+   "crypto_signs_desc4": {
+      "message": "Sähkönkulutus kasvaa."
+   },
+   "crypto_signs_title": {
+      "message": "Mistä voi päätellä, onko tietokone kryptokaapattu?"
+   },
+   "crypto_title": {
+      "message": "McAfeen kryptokaappauksen esto"
+   },
+   "crypto_whatis_point1": {
+      "message": "Kryptokaappaajat (hakkerit) tunkeutuvat tietokoneeseen verkkosivustojen kautta selaillessasi verkkoa."
+   },
+   "crypto_whatis_point2": {
+      "message": "He käyttävät tietokoneen tehoa (suoritinta ja muistia) monimutkaisten laskutoimitusten suorittamiseen."
+   },
+   "crypto_whatis_point3": {
+      "message": "Näin he ansaitsevat kryptovaluuttaa, joka on verkkorahaa."
+   },
+   "crypto_whatis_title": {
+      "message": "Mitä kryptokaappaus tarkoittaa?"
+   },
+   "cryptojacking_banner_allow_btn": {
+      "message": "Salli kryptovaluutan louhinta tällä sivustolla"
+   },
+   "cryptojacking_banner_learn_more": {
+      "message": "Tiedä enemmän."
+   },
+   "cryptojacking_banner_message": {
+      "message": "Kryptokaappaus estettiin tällä sivustolla. Tietokoneesi resurssit ovat turvassa, ja voit jatkaa selailua. $cryptojacking_banner_learn_more$",
+      "placeholders": {
+         "cryptojacking_banner_learn_more": {
+            "content": "$1"
+         }
+      }
+   },
+   "iframe_banner_message": {
+      "message": "Tämä sivusto testattiin ja mahdollisesti vaarallisilta tai epäilyttäviltä sivustoilta peräisin oleva sisältö estettiin. Salli tämä sisältö vain, jos olet varma, että se on peräisin turvallisilta sivustoilta."
+   },
+   "iframe_banner_view_all_btn": {
+      "message": "Näytä kaikki estetty sisältö"
+   },
+   "overlay_accept_ss": {
+      "message": "Now agree to change your search engine to McAfee® Secure Search"
+   },
+   "overlay_add_ss": {
+      "message": "Add McAfee® Secure Search to your browser"
+   },
+   "overlay_ss_description": {
+      "message": "We flag risky sites in your search results, so you know which sites are safe to visit, and which aren't."
+   },
+   "overlay_step_1": {
+      "message": "STEP 1"
+   },
+   "overlay_step_2": {
+      "message": "STEP 2"
+   },
+   "res_100": {
+      "message": "fi_fi"
+   },
+   "res_1000": {
+      "message": "http://www.siteadvisor.com/restricted.html?domain=%s&originalURL=%s"
+   },
+   "res_1001": {
+      "message": "http://www.siteadvisor.com/phishing.html?domain=%s&originalURL=%s"
+   },
+   "res_101": {
+      "message": "fi-fi"
+   },
+   "res_102": {
+      "message": "fi-fi"
+   },
+   "res_11010": {
+      "message": "Suojattu haku"
+   },
+   "res_1102": {
+      "message": "http://www.siteadvisor.com/support/index.html"
+   },
+   "res_1107": {
+      "message": "https://home.mcafee.com/Store/PackageDetail.aspx?pkgid=284&culture=%s"
+   },
+   "res_1110": {
+      "message": "http://home.mcafee.com/Store/PackageDetail.aspx?pkgid=284&culture=%s"
+   },
+   "res_1116": {
+      "message": "http://www.ebates.com/mcafee/index.htm"
+   },
+   "res_114": {
+      "message": "Asetukset..."
+   },
+   "res_120": {
+      "message": "Ohje"
+   },
+   "res_12001": {
+      "message": "Taide/Kulttuuri/Perintö"
+   },
+   "res_12002": {
+      "message": "Alkoholi"
+   },
+   "res_12003": {
+      "message": "Anonyymi käyttö"
+   },
+   "res_12004": {
+      "message": "Anonyymin käytön apuohjelmat"
+   },
+   "res_12005": {
+      "message": "Yritys"
+   },
+   "res_12006": {
+      "message": "Juttelu"
+   },
+   "res_12007": {
+      "message": "Julkiset tiedot"
+   },
+   "res_12008": {
+      "message": "Mahdollinen rikollinen toiminta"
+   },
+   "res_12009": {
+      "message": "Huumeet"
+   },
+   "res_12010": {
+      "message": "Koulutus/Hakuteokset"
+   },
+   "res_12011": {
+      "message": "Viihde"
+   },
+   "res_12012": {
+      "message": "Rajoja koetteleva sisältö"
+   },
+   "res_12013": {
+      "message": "Talous/Pankkiasiat"
+   },
+   "res_12014": {
+      "message": "Uhkapelit"
+   },
+   "res_12015": {
+      "message": "Pelit"
+   },
+   "res_12016": {
+      "message": "Julkinen hallinto / Asevoimat"
+   },
+   "res_12017": {
+      "message": "Mahdollinen hakkerointi / Tietokonerikokset"
+   },
+   "res_12018": {
+      "message": "Terveys"
+   },
+   "res_12019": {
+      "message": "Huumori/Komiikka"
+   },
+   "res_12020": {
+      "message": "Syrjintä"
+   },
+   "res_12021": {
+      "message": "Pikaviestintä"
+   },
+   "res_12022": {
+      "message": "Osakekauppa"
+   },
+   "res_12023": {
+      "message": "Internet-radio ja -televisio"
+   },
+   "res_12024": {
+      "message": "Työnhaku"
+   },
+   "res_12025": {
+      "message": "Tietoturva"
+   },
+   "res_12026": {
+      "message": "Seurustelu / Yhteisöpalvelujen käyttäminen"
+   },
+   "res_12027": {
+      "message": "Matkapuhelin"
+   },
+   "res_12028": {
+      "message": "Medialataukset"
+   },
+   "res_12029": {
+      "message": "Haitalliset sivustot"
+   },
+   "res_12031": {
+      "message": "Alastomuus"
+   },
+   "res_12032": {
+      "message": "Yleishyödylliset järjestöt / Kannatusjärjestöt / Kansalaisjärjestöt"
+   },
+   "res_12033": {
+      "message": "Yleiset uutiset"
+   },
+   "res_12034": {
+      "message": "Online-ostokset"
+   },
+   "res_12035": {
+      "message": "Provosoiva pukeutuminen"
+   },
+   "res_12036": {
+      "message": "P2P / Tiedostojen jakaminen"
+   },
+   "res_12037": {
+      "message": "Politiikka/Mielipide"
+   },
+   "res_12038": {
+      "message": "Henkilökohtaiset sivut"
+   },
+   "res_12039": {
+      "message": "Portaalisivustot"
+   },
+   "res_12040": {
+      "message": "Etäkäyttö"
+   },
+   "res_12041": {
+      "message": "Uskonto/Ideologia"
+   },
+   "res_12042": {
+      "message": "Resurssien jakaminen"
+   },
+   "res_12043": {
+      "message": "Hakukoneet"
+   },
+   "res_12044": {
+      "message": "Urheilu"
+   },
+   "res_12045": {
+      "message": "Suoratoistomedia"
+   },
+   "res_12046": {
+      "message": "Maksulliset julkisohjelmat / Ilmaisohjelmat"
+   },
+   "res_12047": {
+      "message": "Pornografia"
+   },
+   "res_12048": {
+      "message": "Vakoiluohjelmat / Mainosohjelmat / Näppäinpainalluksia tallentavat ohjelmat"
+   },
+   "res_12049": {
+      "message": "Tupakka"
+   },
+   "res_12050": {
+      "message": "Matkailu"
+   },
+   "res_12051": {
+      "message": "Väkivalta"
+   },
+   "res_12052": {
+      "message": "Verkkomainokset"
+   },
+   "res_12053": {
+      "message": "Aseet"
+   },
+   "res_12054": {
+      "message": "Verkkosähköposti"
+   },
+   "res_12055": {
+      "message": "Verkkopuhelin"
+   },
+   "res_12056": {
+      "message": "Huutokaupat/Ilmoitukset"
+   },
+   "res_12057": {
+      "message": "Foorumit/Ilmoitustaulut"
+   },
+   "res_12058": {
+      "message": "Kiroilu"
+   },
+   "res_12059": {
+      "message": "Koulujen vilppitiedot"
+   },
+   "res_12060": {
+      "message": "Seksuaaliset aineistot"
+   },
+   "res_12061": {
+      "message": "Kammottava sisältö"
+   },
+   "res_12062": {
+      "message": "Visuaalinen hakukone"
+   },
+   "res_12063": {
+      "message": "Tekniset foorumit / Liiketoimintafoorumit"
+   },
+   "res_12064": {
+      "message": "Uhkapeleihin liittyvä sisältö"
+   },
+   "res_12065": {
+      "message": "Viestintä"
+   },
+   "res_12066": {
+      "message": "Peliväkivalta / Sarjakuva-aiheinen väkivalta"
+   },
+   "res_12067": {
+      "message": "Tietojen kalastelu"
+   },
+   "res_12068": {
+      "message": "Henkilökohtainen verkkotallennustila"
+   },
+   "res_12069": {
+      "message": "Roskapostia lähettävät URL-osoitteet"
+   },
+   "res_12070": {
+      "message": "Vuorovaikutteiset verkkosovellukset"
+   },
+   "res_12071": {
+      "message": "Muoti/Kauneus"
+   },
+   "res_12072": {
+      "message": "Ohjelmistot/Laitteistot"
+   },
+   "res_12073": {
+      "message": "Mahdolliset laittomat ohjelmistot"
+   },
+   "res_12074": {
+      "message": "Sisältöpalvelin"
+   },
+   "res_12075": {
+      "message": "Internet-palvelut"
+   },
+   "res_12076": {
+      "message": "Median jakaminen"
+   },
+   "res_12077": {
+      "message": "Satunnainen alastomuus"
+   },
+   "res_12078": {
+      "message": "Markkinointi/Myynninedistäminen"
+   },
+   "res_12079": {
+      "message": "Rinnakkaistoimialue"
+   },
+   "res_12080": {
+      "message": "Apteekki"
+   },
+   "res_12081": {
+      "message": "Ravintolat"
+   },
+   "res_12082": {
+      "message": "Kiinteistöala"
+   },
+   "res_12083": {
+      "message": "Virkistys/Harrastukset"
+   },
+   "res_12084": {
+      "message": "Blogit/Wiki"
+   },
+   "res_12085": {
+      "message": "Digitaaliset postikortit"
+   },
+   "res_12086": {
+      "message": "Historiallinen revisionismi"
+   },
+   "res_12087": {
+      "message": "Tekniset tiedot"
+   },
+   "res_12088": {
+      "message": "Seurustelu / Henkilökohtaiset ilmoitukset"
+   },
+   "res_12089": {
+      "message": "Moottoriajoneuvot"
+   },
+   "res_12090": {
+      "message": "Verkostoituminen"
+   },
+   "res_12091": {
+      "message": "Yhteisöpalvelujen käyttäminen"
+   },
+   "res_12092": {
+      "message": "Tekstinkääntäjät"
+   },
+   "res_12093": {
+      "message": "Verkkokokoukset"
+   },
+   "res_12094": {
+      "message": "Lapsille"
+   },
+   "res_12095": {
+      "message": "Historia"
+   },
+   "res_12096": {
+      "message": "Valvottu sisältö"
+   },
+   "res_12097": {
+      "message": "Vain teksti/puhe"
+   },
+   "res_12098": {
+      "message": "Selaimen heikkoutta hyödyntävä ohjelma"
+   },
+   "res_12099": {
+      "message": "Kuluttajansuoja"
+   },
+   "res_121": {
+      "message": "Tietoja"
+   },
+   "res_12100": {
+      "message": "Kiistanalaiset mielipiteet"
+   },
+   "res_12101": {
+      "message": "Laiton toiminta – Iso-Britannia"
+   },
+   "res_12102": {
+      "message": "Maailman tärkeät alueet"
+   },
+   "res_12103": {
+      "message": "Haitalliset lataukset"
+   },
+   "res_12104": {
+      "message": "PUP"
+   },
+   "res_12105": {
+      "message": "Asukkaiden IP-osoitteet"
+   },
+   "res_122": {
+      "message": "Näytä sivuston ostohyvitys"
+   },
+   "res_123": {
+      "message": "Siirry turvallisten ostosten palkintoihin"
+   },
+   "res_125": {
+      "message": "Päivitä [%SITEADVISORPLUS%] -sovellukseen"
+   },
+   "res_127": {
+      "message": "Rekisteröidy nyt"
+   },
+   "res_129": {
+      "message": "Irrota Yahoon! työkalupalkki"
+   },
+   "res_133": {
+      "message": "Synkronoi tilaus"
+   },
+   "res_140": {
+      "message": "Päivitä [%SITEADVISORPLUS%] -ohjelmistoon"
+   },
+   "res_141": {
+      "message": "Osta nyt"
+   },
+   "res_14100": {
+      "message": "Liiketoiminta, työ ja talous"
+   },
+   "res_14101": {
+      "message": "Alkoholi, tupakka ja huumeet"
+   },
+   "res_14102": {
+      "message": "Viihde/Kulttuuri"
+   },
+   "res_14103": {
+      "message": "Pelaaminen"
+   },
+   "res_14104": {
+      "message": "Informaatiotekniikka"
+   },
+   "res_14105": {
+      "message": "Haut, toimitusteksti ja viestintä"
+   },
+   "res_14106": {
+      "message": "Elämäntyyli"
+   },
+   "res_14107": {
+      "message": "AIkuisille suunnattu sisältö"
+   },
+   "res_14108": {
+      "message": "AIkuisille suunnattu sisältö"
+   },
+   "res_14109": {
+      "message": "Ostokset ja verkkokauppa"
+   },
+   "res_14110": {
+      "message": "Vaarallinen"
+   },
+   "res_14111": {
+      "message": "Uutiset ja mielipiteet"
+   },
+   "res_166": {
+      "message": "Lue sivustoraportti"
+   },
+   "res_170": {
+      "message": "Versio"
+   },
+   "res_171": {
+      "message": "Kieli"
+   },
+   "res_172": {
+      "message": "Koontiversio"
+   },
+   "res_173": {
+      "message": "Edellinen päivitys"
+   },
+   "res_20017": {
+      "message": "[%COMPANY%] [%SITEADVISOR%] -varoitus"
+   },
+   "res_20018": {
+      "message": "Tämä sähköpostiviesti sisältää mahdollisesti vaarallisia linkkejä seuraaville sivustoille:"
+   },
+   "res_20022": {
+      "message": "lisätietoja…"
+   },
+   "res_20028": {
+      "message": "[%COMPANY%] [%SITEADVISOR%] -sovelluksen suojatun haun asetukset estivät tämän linkin automaattisesti."
+   },
+   "res_20029": {
+      "message": "Sivuston sisältö:"
+   },
+   "res_20034": {
+      "message": "Tämä McAfee SECURE -sivusto voi tarjota ostohyvitystä. Lisätietoja saat vierailemalla sivustolla."
+   },
+   "res_20040": {
+      "message": "Tämä sivusto testattiin, ja sen käyttö osoittautui vaaralliseksi."
+   },
+   "res_20043": {
+      "message": "Varoitus: vaarallinen sivusto"
+   },
+   "res_207": {
+      "message": "McAfee"
+   },
+   "res_208": {
+      "message": "SiteAdvisor"
+   },
+   "res_209": {
+      "message": "LIVE"
+   },
+   "res_212": {
+      "message": "SiteAdvisor LIVE"
+   },
+   "res_213": {
+      "message": "SiteAdvisor\u003Csup style='font-size:90%'>&reg;\u003C/sup>&nbsp;LIVE"
+   },
+   "res_30006": {
+      "message": "McAfee WebAdvisor..."
+   },
+   "res_30007": {
+      "message": "Näytä sivustoraportti..."
+   },
+   "res_30009": {
+      "message": "McAfee WebAdvisor Live..."
+   },
+   "res_30010": {
+      "message": "McAfee WebAdvisor"
+   },
+   "res_30011": {
+      "message": "McAfee WebAdvisor Live"
+   },
+   "res_3302": {
+      "message": "Lataat tietoja sivustolta, joka voi sisältää mahdollisia haittaohjelmia. [%COMPANY%] on aikaisemmissa testeissä havainnut mahdollisesti vaarallisia latauksia tältä sivustolta."
+   },
+   "res_3305": {
+      "message": "[%COMPANY%] havaitsi, että tiedosto, jota olet lataamassa, saattaa sisältää viruksia, vakoiluohjelmia tai muita mahdollisia haittaohjelmia. Ne voivat haitata tietokoneen toimintaa ja varastaa henkilökohtaisia tietojasi."
+   },
+   "res_3306": {
+      "message": "[%COMPANY%] havaitsi, että lataus saattaa sisältää viruksia, vakoiluohjelmia tai muita mahdollisia haittaohjelmia. Nämä ohjelmat voivat vahingoittaa kiintolevyä tai varastaa henkilökohtaisia tietoja."
+   },
+   "res_3320": {
+      "message": "Vaarallinen lataus!"
+   },
+   "res_3321": {
+      "message": "Havaittu mahdollisesti häiritsevä lataus!"
+   },
+   "res_3322": {
+      "message": "Varoitus!"
+   },
+   "res_4000": {
+      "message": "Haluatko varmasti irrottaa Yahoo! työkalupalkin? Tätä muutosta ei voi kumota."
+   },
+   "res_4001": {
+      "message": "Vahvistus: Olet päättänyt irrottaa työkalupalkin. Käynnistä selain uudelleen,. jotta muutos tulee voimaan."
+   },
+   "res_4100": {
+      "message": "Verkkohaut"
+   },
+   "res_4101": {
+      "message": "Verkkohaut"
+   },
+   "res_4102": {
+      "message": "Suojattu haku"
+   },
+   "res_ABOUT": {
+      "message": "Tietoja"
+   },
+   "res_ABOUT_DESCRIPTION": {
+      "message": "{0} auttaa sinua toimimaan verkossa turvallisesti."
+   },
+   "res_AVOID_DANGEROUS_LINKS": {
+      "message": "Vältä vaaralliset linkit"
+   },
+   "res_CHROME": {
+      "message": "Chrome"
+   },
+   "res_COMPANY_NAME": {
+      "message": "McAfee"
+   },
+   "res_CREATE_SAFER_PASSWORDS": {
+      "message": "Entistä turvallisempien salasanojen luominen"
+   },
+   "res_DONE": {
+      "message": "Valmis"
+   },
+   "res_DONT_TRUST": {
+      "message": "Älä luota"
+   },
+   "res_DOWNLOADS_BLOCKED": {
+      "message": "{1} haitallista latausta estetty"
+   },
+   "res_DOWNLOADS_SCANNED": {
+      "message": "{1} latausta tarkistettu"
+   },
+   "res_DOWNLOAD_CONFIDENTLY": {
+      "message": "Luotettava lataaminen"
+   },
+   "res_FIREFOX": {
+      "message": "Firefox"
+   },
+   "res_GET_HELP_NOW": {
+      "message": "Pyydä tukea nyt"
+   },
+   "res_GET_TECHNICAL_SUPPORT": {
+      "message": "Pyydä apua ja teknistä tukea"
+   },
+   "res_HELP": {
+      "message": "Ohje"
+   },
+   "res_HELP_EMAIL_US": {
+      "message": "Lähetä meille sähköpostia osoitteeseen"
+   },
+   "res_HELP_FAQ_SECTION_FOUR_CONTENT": {
+      "message": "Sattuuhan sitä. Tuki on apunasi. {0}"
+   },
+   "res_HELP_FAQ_SECTION_FOUR_HEADER": {
+      "message": "APUA! Tarvitsen teknistä tukea"
+   },
+   "res_HELP_FAQ_SECTION_ONE_CONTENT": {
+      "message": "{0} auttaa sinua toimimaan verkossa turvallisesti."
+   },
+   "res_HELP_FAQ_SECTION_ONE_HEADER": {
+      "message": "Mikä on {0}?"
+   },
+   "res_HELP_FAQ_SECTION_THREE_HEADER": {
+      "message": "Mistä tiedän, mikä {0} -versio käytössäni on?"
+   },
+   "res_HELP_FAQ_SECTION_TWO_CONTENT": {
+      "message": "Voit myös jakaa tämän linkin: {0}"
+   },
+   "res_HELP_FAQ_SECTION_TWO_HEADER": {
+      "message": "Miten voin jakaa tietoa {0} -sovelluksesta?"
+   },
+   "res_HELP_FAQ_TITLE": {
+      "message": "Usein kysytyt kysymykset (UKK)"
+   },
+   "res_HELP_SUPPORT_TITLE": {
+      "message": "Tuki"
+   },
+   "res_IE": {
+      "message": "Internet Explorer"
+   },
+   "res_LICENSE_AGREEMENT_URL": {
+      "message": "https://home.mcafee.com/supportpages/eula.aspx?culture=fi"
+   },
+   "res_OK": {
+      "message": "OK"
+   },
+   "res_PAGES_BLOCKED": {
+      "message": "{1} vaarallista sivua estetty"
+   },
+   "res_PAGES_SCANNED": {
+      "message": "{1} sivua tarkistettu"
+   },
+   "res_POPUP_BACK": {
+      "message": "Takaisin"
+   },
+   "res_POPUP_CLEAR": {
+      "message": "Tyhjennä luettelo"
+   },
+   "res_POPUP_DONE_SO_FAR": {
+      "message": "Tähänastiset toimemme:"
+   },
+   "res_POPUP_DONT_WARN_DESCRIPTION": {
+      "message": "Etkö halua saada tiettyä sivustoa koskevia varoituksia? Lisää se tähän."
+   },
+   "res_POPUP_ENABLE_WEB_BOOST": {
+      "message": "Ota Web Boost käyttöön"
+   },
+   "res_POPUP_ENTER_WEB_ADDRESS": {
+      "message": "Kirjoita verkko-osoite…"
+   },
+   "res_POPUP_GET_HELP": {
+      "message": "Pyydä apua"
+   },
+   "res_POPUP_GET_HELP_URL": {
+      "message": "https://service.mcafee.com/webcenter/portal/cp/home"
+   },
+   "res_POPUP_GET_WEB_BOOST": {
+      "message": "Hanki Web Boost"
+   },
+   "res_POPUP_ITEMS_BLOCKED": {
+      "message": "haitallista kohdetta estetty"
+   },
+   "res_POPUP_PAGES_BLOCKED": {
+      "message": "vaarallista sivua estetty"
+   },
+   "res_POPUP_PAGES_SCANNED": {
+      "message": "sivua tarkistettu"
+   },
+   "res_POPUP_PURPOSE_DESCRIPTION": {
+      "message": "Me suojaamme sinua verkossa."
+   },
+   "res_POPUP_START_FRESH": {
+      "message": "Aloitetaanko alusta?"
+   },
+   "res_POPUP_TERMS_AND_CONDITIONS": {
+      "message": "Käyttöehdot"
+   },
+   "res_POPUP_TERMS_AND_CONDITIONS_URL": {
+      "message": "https://home.mcafee.com/supportpages/eula.aspx"
+   },
+   "res_POPUP_VIEW_SITE_REPORT": {
+      "message": "Näytä sivustoraportti"
+   },
+   "res_PRIVACY_NOTICE": {
+      "message": "Tietosuojaseloste"
+   },
+   "res_PRIVACY_URL": {
+      "message": "http://www.mcafee.com/common/privacy/consumer/finnish/"
+   },
+   "res_PRODUCT_NAME": {
+      "message": "McAfee WebAdvisor"
+   },
+   "res_PRODUCT_NAME_LIVE": {
+      "message": "McAfee WebAdvisor Live"
+   },
+   "res_PRODUCT_NAME_TRADEMARKED": {
+      "message": "McAfee® WebAdvisor"
+   },
+   "res_PRODUCT_NAME_TRADEMARKED_PPS": {
+      "message": "McAfee® Security"
+   },
+   "res_READ_PRIVACY_NOTICE": {
+      "message": "Lue tietosuojaseloste"
+   },
+   "res_RESET": {
+      "message": "Palauta"
+   },
+   "res_SETTINGS": {
+      "message": "Asetukset"
+   },
+   "res_SETTINGS_DEFAULT_TRUSTED_TEXT": {
+      "message": "Liitä tai kirjoita URL-osoite"
+   },
+   "res_SETTINGS_MANAGE_TRUSTED": {
+      "message": "Luotettujen sivustojen hallinta"
+   },
+   "res_SETTINGS_RESET_CAPTION": {
+      "message": "Palauta {0}"
+   },
+   "res_SETTINGS_RESET_DESCRIPTION": {
+      "message": "Jätitkö jonkin ilmoituksen huomiotta ja haluaisit nyt palata siihen uudelleen? Voit palauttaa asetukset, niin kaikki ilmoitukset näkyvät taas selaimessasi kuin ensimmäistä kertaa."
+   },
+   "res_SETTINGS_RESET_HEADER": {
+      "message": "Asetusten palauttaminen"
+   },
+   "res_SETTINGS_SS_CAPTION": {
+      "message": "Selaa verkkoa turvallisesti"
+   },
+   "res_SETTINGS_SS_HEADER": {
+      "message": "Hakutulokset"
+   },
+   "res_SETTINGS_SS_OPTION_ALL": {
+      "message": "Ilmoita, onko hakutulos turvallinen, missä tahansa hakukoneessa"
+   },
+   "res_SETTINGS_SS_OPTION_NONE": {
+      "message": "Älä näytä ilmoituksia hakutulosten turvallisuudesta"
+   },
+   "res_SETTINGS_SS_OPTION_SS": {
+      "message": "Ilmoita, onko hakutulos turvallinen, kun käytän Suojattua hakua"
+   },
+   "res_SETTINGS_TRUSTED_SITES": {
+      "message": "Luotetut sivustot"
+   },
+   "res_STAT_HEADER": {
+      "message": "Tässä joitakin asioita, joita olet tähän mennessä tehnyt sovelluksella:"
+   },
+   "res_TAKE_PRIVACY_SERIOUSLY": {
+      "message": "{0} suhtautuu tietosuojaasi vakavasti. Lue {1}."
+   },
+   "res_TRUST_SITE": {
+      "message": "Luota sivustoon"
+   },
+   "res_VERSION": {
+      "message": "Versio"
+   },
+   "res_WEBADVISOR": {
+      "message": "WebAdvisor"
+   },
+   "res_YOUR_PROTECTED": {
+      "message": "Sovellus suojasi salasanaasi ja esti sinua joutumasta identiteettivarkauden uhriksi."
+   },
+   "res_menuid1": {
+      "message": "Testi"
+   },
+   "search_engine_bing": {
+      "message": "Bing"
+   },
+   "search_engine_yahoo": {
+      "message": "Yahoo"
+   },
+   "search_engine_yandex": {
+      "message": "Yandex"
+   },
+   "search_toast_body_text_compliant": {
+      "message": "Haluatko lisätä suojatun haun, jotta pysyt jatkuvasti muutaman askeleen rikollisten edellä?"
+   },
+   "search_toast_body_text_test": {
+      "message": "Want to add Secure Search and know which sites are safe to visit?"
+   },
+   "search_toast_done": {
+      "message": "Valmis"
+   },
+   "search_toast_heading_compliant": {
+      "message": "Sinulla ei ole suojattua hakua – ole varovainen"
+   },
+   "search_toast_heading_test": {
+      "message": "Get safety advice in your search results"
+   },
+   "search_toast_no_thanks": {
+      "message": "Ei kiitos"
+   },
+   "search_toast_ok": {
+      "message": "OK"
+   },
+   "search_toast_option_compliant": {
+      "message": "Kyllä, haluan lisätä suojatun haun selaimeeni ja muuttaa oletushakukoneeksi $search_provider$.",
+      "placeholders": {
+         "search_provider": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_toast_option_test": {
+      "message": "Yes, add Secure Search and change my default search to $search_provider$.",
+      "placeholders": {
+         "search_provider": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_toast_sub_heading_compliant": {
+      "message": "Suojattu haku suojaa sinua vaarallisilta verkkosivustoilta, kun suoritat hakuja."
+   },
+   "search_toast_sub_heading_test": {
+      "message": "Secure Search flags risky sites in your search results."
+   },
+   "search_toast_yes": {
+      "message": "Kyllä"
+   },
+   "settings_about_adblock": {
+      "message": "Block ads and pop-ups that could track you"
+   },
+   "settings_about_adblock_tracking": {
+      "message": "Block cookies that track you and collect your info"
+   },
+   "settings_about_block_download": {
+      "message": "Block risky downloads"
+   },
+   "settings_about_cryptojackers": {
+      "message": "Blocking $settings_about_cryptojackers_link$ from stealing your computer's resources",
+      "placeholders": {
+         "settings_about_cryptojackers_link": {
+            "content": "$1"
+         }
+      }
+   },
+   "settings_about_cryptojackers_link": {
+      "message": "cryptojackers"
+   },
+   "settings_about_firewall_antivirus": {
+      "message": "Make sure your firewall and anti-virus are on"
+   },
+   "settings_about_flag_website": {
+      "message": "Flag dangerous websites"
+   },
+   "settings_about_help_link_message": {
+      "message": "Get help now"
+   },
+   "settings_about_help_message": {
+      "message": "We all need a hand sometimes."
+   },
+   "settings_about_help_title": {
+      "message": "Get help and technical support"
+   },
+   "settings_about_privacy_link_message": {
+      "message": "Read the Privacy Notice"
+   },
+   "settings_about_privacy_message": {
+      "message": "McAfee takes your privacy seriously."
+   },
+   "settings_about_privacy_title": {
+      "message": "Privacy Notice"
+   },
+   "settings_about_share_title": {
+      "message": "Share %PRODUCTNAME% with friends"
+   },
+   "settings_about_subtitle": {
+      "message": "%PRODUCTNAME% helps you make better decisions about what you do online."
+   },
+   "settings_about_title": {
+      "message": "ABOUT"
+   },
+   "settings_preference_annotation_all": {
+      "message": "Tell me if a search result is safe in any search engine."
+   },
+   "settings_preference_annotation_none": {
+      "message": "Don't tell me about search results."
+   },
+   "settings_preference_annotation_ss": {
+      "message": "Tell me if a search result is safe only in Secure Search."
+   },
+   "settings_preference_annotation_subtitle": {
+      "message": "We'll color-code your search results to show you which sites are safe."
+   },
+   "settings_preference_annotation_title": {
+      "message": "Secure Search"
+   },
+   "settings_preference_ap_ab_protection_first_point": {
+      "message": "Stops intrusive ads and pop-ups froms lowing down your browser"
+   },
+   "settings_preference_ap_ab_protection_second_point": {
+      "message": "Keeps out cookies that track you and collect your info"
+   },
+   "settings_preference_ap_ab_title": {
+      "message": "Ad Blocker and Tracker Blocker"
+   },
+   "settings_preference_ap_alert_add": {
+      "message": "Add"
+   },
+   "settings_preference_ap_alert_allow": {
+      "message": "Allow"
+   },
+   "settings_preference_ap_alert_disabled": {
+      "message": "You don't have Added Protection because the McAfee® Secure Search extension that's part of it isn't enabled. Enable it now and choose $allow$ when asked for permission.",
+      "placeholders": {
+         "allow": {
+            "content": "$1"
+         }
+      }
+   },
+   "settings_preference_ap_alert_enable": {
+      "message": "Enable"
+   },
+   "settings_preference_ap_alert_not_installed": {
+      "message": "You don't have Added Protection because the McAfee® Secure Search extension that's part of it isn't installed. Add it now from the Chrome Web Store."
+   },
+   "settings_preference_ap_ss_protection_first_point": {
+      "message": "Uses our cloud-based threat intelligence service to identify threats"
+   },
+   "settings_preference_ap_ss_protection_second_point": {
+      "message": "Color-codes search results to show you which sites are safe to visit"
+   },
+   "settings_preference_ap_ss_protection_third_point": {
+      "message": "Flags websites in your search results that are unsafe to visit"
+   },
+   "settings_preference_ap_ss_title": {
+      "message": "McAfee Secure Search"
+   },
+   "settings_preference_ap_subtitle": {
+      "message": "Protect your privacy and data."
+   },
+   "settings_preference_ap_title": {
+      "message": "Added Protection"
+   },
+   "settings_preference_reset_button": {
+      "message": "Reset"
+   },
+   "settings_preference_reset_subtitle": {
+      "message": "Did you ignore a %PRODUCTNAME% notification and wish you didn't? Reset notifications to start getting every type of %PRODUCTNAME% message again."
+   },
+   "settings_preference_reset_title": {
+      "message": "Reset Settings"
+   },
+   "settings_preference_sma_facebook": {
+      "message": "Facebook"
+   },
+   "settings_preference_sma_instagram": {
+      "message": "Instagram"
+   },
+   "settings_preference_sma_linkedin": {
+      "message": "Linkedin"
+   },
+   "settings_preference_sma_message": {
+      "message": "These are the sites we'll annotate."
+   },
+   "settings_preference_sma_reddit": {
+      "message": "Reddit"
+   },
+   "settings_preference_sma_subtitle": {
+      "message": "We'll color-code links in your social media feeds to show you which ones are safe."
+   },
+   "settings_preference_sma_title": {
+      "message": "Social Media Protection"
+   },
+   "settings_preference_sma_twitter": {
+      "message": "Twitter"
+   },
+   "settings_preference_sma_youtube": {
+      "message": "Youtube"
+   },
+   "settings_preference_title": {
+      "message": "ADDITIONAL SERVICES"
+   },
+   "settings_statistics_ads_blocked": {
+      "message": "intrusive ads blocked"
+   },
+   "settings_statistics_crypto_blocked": {
+      "message": "cryptojacking attempts blocked"
+   },
+   "settings_statistics_downloads_blocked": {
+      "message": "unsafe downloads blocked"
+   },
+   "settings_statistics_downloads_scanned": {
+      "message": "downloads scanned"
+   },
+   "settings_statistics_links_scanned": {
+      "message": "links scanned"
+   },
+   "settings_statistics_message": {
+      "message": "Here's what we've done so far:"
+   },
+   "settings_statistics_pages_blocked": {
+      "message": "dangerous pages blocked"
+   },
+   "settings_statistics_pages_scanned": {
+      "message": "pages scanned"
+   },
+   "settings_statistics_subtitle": {
+      "message": "We're here to keep you safe online."
+   },
+   "settings_statistics_title": {
+      "message": "STATISTICS"
+   },
+   "settings_statistics_trackers_blocked": {
+      "message": "trackers blocked"
+   },
+   "settings_subtitle": {
+      "message": "Customize your web protection."
+   },
+   "settings_tab_about": {
+      "message": "About"
+   },
+   "settings_tab_preference": {
+      "message": "Preference"
+   },
+   "settings_tab_statistics": {
+      "message": "Statistics"
+   },
+   "settings_tab_whitelist": {
+      "message": "Whitelist"
+   },
+   "settings_title": {
+      "message": "Web Protection"
+   },
+   "settings_whitelist_input": {
+      "message": "Type in a web address..."
+   },
+   "settings_whitelist_title": {
+      "message": "SITE YOU TRUST"
+   },
+   "sidebar_action_panel_settings_link": {
+      "message": "Customize your $1."
+   },
+   "sidebar_action_panel_web_protection_preferences": {
+      "message": "Web Protection Preferences"
+   },
+   "sidebar_adblock_subtitle": {
+      "message": "Here's how we're protecting you now."
+   },
+   "sidebar_adblock_toggle": {
+      "message": "Show ads on this page this visit only"
+   },
+   "sidebar_ads_blocked": {
+      "message": "intrusive ads blocked on this page"
+   },
+   "sidebar_badge_collection_block_page_btn_accept": {
+      "message": "High-five!"
+   },
+   "sidebar_badge_collection_block_page_description": {
+      "message": "We don't know what's better - that we get to help protect you, or that $1 helping protect you...",
+      "placeholders": {
+         "you_are": {
+            "content": "$1"
+         }
+      }
+   },
+   "sidebar_badge_collection_block_page_description_italic": {
+      "message": "you're"
+   },
+   "sidebar_badge_collection_block_page_description_sub": {
+      "message": "Let's call it a win-win."
+   },
+   "sidebar_badge_collection_block_page_phishing_title": {
+      "message": "That site can't bait you"
+   },
+   "sidebar_badge_collection_block_page_red_title": {
+      "message": "Those threats don't stand a chance"
+   },
+   "sidebar_badge_collection_block_page_yellow_title": {
+      "message": "It's blocked - safe is better than sorry!"
+   },
+   "sidebar_badge_collection_iframe_block_btn_accept": {
+      "message": "Thanks for cleaning it up!"
+   },
+   "sidebar_badge_collection_iframe_block_description": {
+      "message": "Thanks for letting us block that content. Now let's get back to looking at stuff you care about."
+   },
+   "sidebar_badge_collection_iframe_block_title": {
+      "message": "We're keeping this site clear of clutter!"
+   },
+   "sidebar_block_page_actions_description": {
+      "message": "If you choose to visit anyway, we'll add this site to your list of trusted sites."
+   },
+   "sidebar_block_page_btn_accept_risk": {
+      "message": "Take me there anyway"
+   },
+   "sidebar_block_page_btn_block": {
+      "message": "Keep it blocked"
+   },
+   "sidebar_block_page_description_phishing": {
+      "message": "It looks like a 'phishing' site. That means it could send you emails pretending to be a trusted organization to trick you into sharing personal info like passwords and credit card details."
+   },
+   "sidebar_block_page_description_phishing_variant_2": {
+      "message": "It'll have to go 'phish' somewhere else to steal personal information because you're not taking the bait."
+   },
+   "sidebar_block_page_description_red": {
+      "message": "We're here to keep you safe, so we stopped you for good reasons."
+   },
+   "sidebar_block_page_description_red_variant_2": {
+      "message": "It looks too risky, so we wouldn't send our worst enemies there (if we had any)."
+   },
+   "sidebar_block_page_description_yellow": {
+      "message": "We aren't 100% sure, but we blocked it because it might catch you with these types of threats:"
+   },
+   "sidebar_block_page_description_yellow_variant_2": {
+      "message": "Like driving with no seat belt, why take the chance?"
+   },
+   "sidebar_block_page_threats_title_phishing": {
+      "message": "Learn more about this site's threats:"
+   },
+   "sidebar_block_page_threats_title_phishing_variant_2": {
+      "message": "Learn more about this site's threats:"
+   },
+   "sidebar_block_page_threats_title_red": {
+      "message": "This site's full of these threats:"
+   },
+   "sidebar_block_page_threats_title_red_variant_2": {
+      "message": "These types of threats are lying in wait:"
+   },
+   "sidebar_block_page_threats_title_yellow": {
+      "message": "This site's full of these threats:"
+   },
+   "sidebar_block_page_threats_title_yellow_variant_2": {
+      "message": "These types of threats are lying in wait:"
+   },
+   "sidebar_block_page_title_phishing": {
+      "message": "We blocked this site so it can't steal your personal info"
+   },
+   "sidebar_block_page_title_phishing_variant_2": {
+      "message": "This 'phishing' site's blocked"
+   },
+   "sidebar_block_page_title_red": {
+      "message": "We blocked this dangerous site"
+   },
+   "sidebar_block_page_title_red_variant_2": {
+      "message": "This dangerous site's blocked"
+   },
+   "sidebar_block_page_title_yellow": {
+      "message": "This site might be a trap"
+   },
+   "sidebar_block_page_title_yellow_variant_2": {
+      "message": "This risky site's blocked"
+   },
+   "sidebar_crypto_blocked": {
+      "message": "cryptojacking attempts blocked"
+   },
+   "sidebar_dangerous_blocked": {
+      "message": "dangerous pages blocked"
+   },
+   "sidebar_ds_file_deleted_description": {
+      "message": "Thanks for letting us trash that file before it could harm you. We're a pretty good security team!"
+   },
+   "sidebar_ds_file_deleted_high_five": {
+      "message": "High-five!"
+   },
+   "sidebar_ds_file_deleted_settings": {
+      "message": "Customize your"
+   },
+   "sidebar_ds_file_deleted_settings_link": {
+      "message": "Web Protection Preferences"
+   },
+   "sidebar_ds_file_deleted_title": {
+      "message": "We deleted that bad file"
+   },
+   "sidebar_ds_file_not_deleted_description": {
+      "message": "Maybe you'll have better luck deleting them manually. Navigate to where the file's saved, and try deleting it from there."
+   },
+   "sidebar_ds_file_not_deleted_filename": {
+      "message": "Name:"
+   },
+   "sidebar_ds_file_not_deleted_got_it": {
+      "message": "Got it"
+   },
+   "sidebar_ds_file_not_deleted_location": {
+      "message": "Location:"
+   },
+   "sidebar_ds_file_not_deleted_settings": {
+      "message": "Customize your"
+   },
+   "sidebar_ds_file_not_deleted_settings_link": {
+      "message": "Web Protection Preferences"
+   },
+   "sidebar_ds_file_not_deleted_title": {
+      "message": "Sorry, it's not working"
+   },
+   "sidebar_ds_malicious_delete_file": {
+      "message": "Delete it"
+   },
+   "sidebar_ds_malicious_file_location": {
+      "message": "Download source:"
+   },
+   "sidebar_ds_malicious_filename": {
+      "message": "Name:"
+   },
+   "sidebar_ds_malicious_first_description": {
+      "message": "It looks like it includes viruses, spyware, or other potentially unwanted programs."
+   },
+   "sidebar_ds_malicious_keep_file": {
+      "message": "I want to keep it anyway"
+   },
+   "sidebar_ds_malicious_second_description": {
+      "message": "If we delete it now before you open it, we can keep you out of harm's way."
+   },
+   "sidebar_ds_malicious_title": {
+      "message": "The file you downloaded is dangerous"
+   },
+   "sidebar_everything_looks_good": {
+      "message": "Everything looks good!"
+   },
+   "sidebar_everything_looks_good_desc": {
+      "message": "Your web protection is on and looking out for you. Want to review your settings or see your stats?"
+   },
+   "sidebar_get_help": {
+      "message": "Get help"
+   },
+   "sidebar_go_to_web_protection": {
+      "message": "Go to Web Protection preferences"
+   },
+   "sidebar_iframe_block_accept_risk": {
+      "message": "I want to see it anyway"
+   },
+   "sidebar_iframe_block_btn_block": {
+      "message": "Keep it blocked"
+   },
+   "sidebar_iframe_block_description": {
+      "message": "It looks suspicious and could cause you harm. If you're sure this content is safe and you want to see it, you can allow it."
+   },
+   "sidebar_iframe_block_title": {
+      "message": "We blocked this content to keep you safe"
+   },
+   "sidebar_pages_scanned": {
+      "message": "pages scanned"
+   },
+   "sidebar_privacy": {
+      "message": "Privacy Notice"
+   },
+   "sidebar_site_report_description_green": {
+      "message": "We scanned it and didn't find any threats."
+   },
+   "sidebar_site_report_description_red": {
+      "message": "We regularly scan sites for suspicious and dangerous activity. This one's not safe."
+   },
+   "sidebar_site_report_description_unknown": {
+      "message": "We'll dig deeper and let you know if this site looks safe or risky the next time we scan it."
+   },
+   "sidebar_site_report_description_yellow": {
+      "message": "We scanned this site and found that it's not as secure as it should be. Visit with caution."
+   },
+   "sidebar_site_report_threats_title_green": {
+      "message": "Looks like it's this type of website:"
+   },
+   "sidebar_site_report_threats_title_red": {
+      "message": "Website threats:"
+   },
+   "sidebar_site_report_threats_title_unknown": {
+      "message": "Possible website type or threats:"
+   },
+   "sidebar_site_report_threats_title_yellow": {
+      "message": "Website threats:"
+   },
+   "sidebar_site_report_title_green": {
+      "message": "This site looks safe"
+   },
+   "sidebar_site_report_title_red": {
+      "message": "This site's dangerous"
+   },
+   "sidebar_site_report_title_unknown": {
+      "message": "This site's safety status is unknown"
+   },
+   "sidebar_site_report_title_yellow": {
+      "message": "This site looks risky"
+   },
+   "sidebar_ss_accepted_btn_got_it": {
+      "message": "Got it"
+   },
+   "sidebar_ss_accepted_description": {
+      "message": "You turned on Secure Search, so now we can show you which sites look safe or dangerous before you visit."
+   },
+   "sidebar_ss_accepted_sub_description": {
+      "message": "In your search results, you'll see color-coded icons next to each website. Feel free to visit green ones, and stay away from risky yellow and dangerous red ones."
+   },
+   "sidebar_ss_accepted_title": {
+      "message": "Now you'll know which sites to avoid"
+   },
+   "sidebar_subtitle": {
+      "message": "Here's what we've done so far:"
+   },
+   "sidebar_terms": {
+      "message": "Terms & Conditions"
+   },
+   "sidebar_title": {
+      "message": "We're here to help keep you safe online."
+   },
+   "sidebar_tracker_blocked": {
+      "message": "trackers blocked on this page"
+   },
+   "sidebar_unsafe_blocked": {
+      "message": "unsafe items blocked"
+   },
+   "sidebar_version": {
+      "message": "Version"
+   },
+   "sidebar_view_site_report": {
+      "message": "View site report"
+   },
+   "sidebar_view_stats": {
+      "message": "See all the ways we've protected you"
+   },
+   "site_report_category_subtitle": {
+      "message": "Sivuston luokka:"
+   },
+   "site_report_category_title": {
+      "message": "Tietoja tästä sivustosta"
+   },
+   "site_report_main_message_danger": {
+      "message": "Tarkistamme jatkuvasti sivustoja epäilyttävän ja haitallisen toiminnan varalta – ja tämä sivusto ei ole turvallinen. Alla on lisätietoja."
+   },
+   "site_report_main_message_safe": {
+      "message": "Tarkistimme sivuston huolellisesti, ja kaikki on kunnossa. Hyvää päivänjatkoa."
+   },
+   "site_report_main_message_unknown": {
+      "message": "Meillä ei ole juuri nyt mitään kerrottavaa. Päivitämme uhkatason seuraavalla kerralla, kun tarkistamme sivuston."
+   },
+   "site_report_main_message_warning": {
+      "message": "Tarkistimme sivuston ja totesimme, että sen turvallisuudessa on toivomisen varaa. Napsauta varoen."
+   },
+   "site_report_main_title": {
+      "message": "Sivustoraportti"
+   },
+   "site_report_main_url_danger": {
+      "message": "$1 on vaarallinen sivusto"
+   },
+   "site_report_main_url_safe": {
+      "message": "$1 näyttää olevan turvallinen"
+   },
+   "site_report_main_url_unknown": {
+      "message": "Liian aikaista sanoa"
+   },
+   "site_report_main_url_warning": {
+      "message": "$1 voi olla riskialtis sivusto"
+   },
+   "site_report_status_rating_danger": {
+      "message": "Hyvin riskialtis"
+   },
+   "site_report_status_rating_safe": {
+      "message": "Turvallinen"
+   },
+   "site_report_status_rating_unknown": {
+      "message": "Tuntematon"
+   },
+   "site_report_status_rating_warning": {
+      "message": "Hieman riskialtis"
+   },
+   "site_report_status_text": {
+      "message": "Verkkosivuston tila:"
+   },
+   "site_report_title": {
+      "message": "McAfee SiteAdvisor -ohjelmisto – verkkosivustojen turvallisuusluokitukset ja suojattu haku"
+   },
+   "sma_personalize_button": {
+      "message": "Personalize my protection"
+   },
+   "sma_subtitle": {
+      "message": "We'll color-code links on these social media feeds to show you which ones are safe."
+   },
+   "sma_title": {
+      "message": "Want added safety?"
+   },
+   "sma_turn_on": {
+      "message": "Turn on Social Media Protection"
+   },
+   "typosquatting_action_accept": {
+      "message": "Hyväksy riski ja jatka"
+   },
+   "typosquatting_action_back": {
+      "message": "Takaisin"
+   },
+   "typosquatting_footer_description": {
+      "message": "Jos näppäilet verkkosivuston osoitteen väärin, voit joutua tahtomattasi väärälle sivustolle. Nämä sivustot voivat pommittaa käyttäjää pelottelu- tai haittaohjelmilla, pyytää henkilökohtaisia tietoja, kalastella salasanoja tai tehdä muuta haittaa. Autamme sinua välttämään tällaiset sivustot."
+   },
+   "typosquatting_footer_link": {
+      "message": "Lue lisää typosquatting-ilmiöstä"
+   },
+   "typosquatting_footer_title": {
+      "message": "Miten päädyin tänne?"
+   },
+   "typosquatting_message_button_direct": {
+      "message": "Siirry sivustolle"
+   },
+   "typosquatting_message_button_search": {
+      "message": "Haku"
+   },
+   "typosquatting_message_description_direct": {
+      "message": "McAfee WebAdvisor vie sinut oikealle sivustolle."
+   },
+   "typosquatting_message_description_search": {
+      "message": "Näyttää siltä, että kirjoitit osoitteen väärin. McAfee WebAdvisor ohjaa sinut oikealle sivustolle."
+   },
+   "typosquatting_message_title": {
+      "message": "Tarkoititko"
+   },
+   "typosquatting_title": {
+      "message": "McAfee WebAdvisor – Typosquatting"
+   }
+}

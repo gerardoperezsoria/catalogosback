@@ -1,0 +1,41 @@
+<head><link href=".././css/sidebar_ds_malicious.css" rel="stylesheet"></head><body>
+  <div id='download-scanning-malicious-container'>
+    <div class="action-panel-container">
+      <div class="action-panel-container__jumbo border-btm">
+        <img id="jumbo__image__malicious" class="action-panel-container__jumbo__image" x-mcsrc src="../images/action_panel/ap_download_scanning_malicious.svg" alt="Malicious file(s) flagged photo" />
+        <!-- Content -->
+        <div class="action-panel-container__jumbo__description-container">
+          <p id="sidebar_ds_malicious_title" class="title" x-mclocalizedtext="true"></p>
+          <p id="sidebar_ds_malicious_first_description" class="description" x-mclocalizedtext="true"></p>
+          <p id="sidebar_ds_malicious_second_description" class="description" x-mclocalizedtext="true"></p>
+          <!-- Alert banner detailing the specific file (name, location) in question -->
+          <div class="jumbo__danger-alert">
+            <div class="jumbo__danger-alert__filename">
+              <p>
+                <span id="sidebar_ds_malicious_filename" class="text text--bold" x-mclocalizedtext="true"></span>
+                <span id="ap_download_scanning_filename" class="text"></span>
+              </p>
+              <img x-mcsrc class="danger-icon" src="../images/action_panel/caution-icon.svg" alt="Danger, malicious file found icon">
+            </div>
+            <div class="jumbo__danger-alert__source">
+              <p>
+                <span id="sidebar_ds_malicious_file_location" class="text text--bold" x-mclocalizedtext="true"></span>
+                <span id="ap_download_scanning_source_name" class="text"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Action items -->
+      <div class="action-panel-container__actions">
+        <div class="action-panel-container__actions__btns">
+          <button id="ap_download_scanning_delete_file_btn" class="primary">
+            <img x-mcsrc src="../images/action_panel/ap_trash-icon.svg" alt="Empty trash can icon">
+            <span id="sidebar_ds_malicious_delete_file" x-mclocalizedtext="true"></span>
+          </button>
+          <button id="sidebar_ds_malicious_keep_file" class="secondary" x-mclocalizedtext="true"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="../sidebar_ds_malicious.js"></script></body>

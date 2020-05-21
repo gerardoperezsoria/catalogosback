@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style type="text/css">
+      @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: url("../fonts/OpenSans-Regular.ttf");
+      }
+      body {
+      margin: 0px;
+      }
+      body * {
+      display: flex;
+      font-family: "Open Sans", sans-serif;
+      color: #53565A;
+      /*For debugging*/
+      /*border: dotted;
+      border-width: 0.5px;*/
+      }
+      #popup-container {
+      width: 500px;
+      height: 360px;
+      background-color: #FFFFFF;
+      flex-direction: column;
+      }
+      .align-left-right {
+      margin-left: 15px;
+      margin-right: 15px;
+      }
+      a:link,
+      a:visited {
+      color: #00AEEF;
+      text-decoration: none;
+      }
+      a:hover {
+      color: #39C9FF;
+      }
+      div.feature-column {
+      flex-direction: column;
+      flex-basis: 120px;
+      flex-grow: 0;
+      flex-shrink: 1;
+      align-items: center;
+      text-align: center;
+      }
+      img.feature-icon {
+      height: 50px;
+      }
+      div.feature-counter {
+      font-weight: bold;
+      font-size: 24px;
+      margin-top: 10px;
+      }
+      div.feature-description {
+      font-size: 12px;
+      color: #768f99;
+      margin-top: 5px;
+      }
+      img.social-media-icon {
+      width: 30px;
+      height: 30px;
+      }
+      a.social-media-icon {
+      margin: 2px;
+      }
+      #clear-btn {
+      background-color: #D3D7DC;
+      }
+      #clear-btn:hover {
+      background-color: #E6E7E8;
+      }
+      #settings-btn {
+      width: 15px;
+      height: 15px;
+      background: url(../images/popup/settings-btn.png);
+      background-size: 15px 15px;
+      }
+      #settings-btn:hover {
+      cursor: pointer;
+      background: url(../images/popup/settings-btn-active.png);
+      background-size: 15px 15px;
+      }
+      .clickable-div {
+      color: #00AEEF;
+      }
+      .clickable-div:hover {
+      cursor: pointer;
+      color: #39C9FF;
+      }
+      li {
+      height: 25px;
+      display: flex;
+      align-items: center;
+      padding: 0px 5px 0px 5px;
+      cursor: pointer;
+      }
+      .selected {
+      cursor: pointer;
+      background: #ddd;
+      }
+      .whitelist-list {
+      display: block;
+      border: 1px solid #B1BABF;
+      margin-top: 5px;
+      height: 150px;
+      overflow-y: auto;
+      border-bottom: none;
+      font-size: 14px;
+      padding: 0px;
+      margin: 0px;
+      }
+    </style>
+    <script type="text/javascript" src="../popup.js"></script>
+  </head>
+  <body>
+    <div id="popup-container">
+      <div id="popup-header" style="height:42px; background-color:#D3D7DC;">
+        <div class="align-left-right" style="align-items: center; margin-right: 6px;">
+          <img style="height: 25px;" src="../images/popup/mcafee-icon.png" />
+        </div>
+        <div style="align-items: center; flex: 1; font-size:16px;">__MSG_res_PRODUCT_NAME__</div>
+        <div style="margin-right: 10px; align-items: center;">
+          <div id="settings-btn"></div>
+        </div>
+      </div>
+      <div id="popup-content" style="flex-direction:column;">
+        <div id="main" class="align-left-right" style="flex-direction:column; display:flex;">
+          <div style="margin-top:10px; font-size:16px;">
+            __MSG_res_POPUP_PURPOSE_DESCRIPTION__
+          </div>
+          <div style="font-size:14px;">
+            __MSG_res_POPUP_DONE_SO_FAR__
+          </div>
+          <div style="justify-content:space-around; margin-top:20px; margin-left:-15px; margin-right:-15px;">
+            <div class="feature-column">
+              <img class="feature-icon" src="../images/popup/page-scan-icon.png" />
+              <div id="annotation-stats" class="feature-counter"></div>
+              <div class="feature-description">
+                __MSG_res_POPUP_PAGES_SCANNED__
+              </div>
+            </div>
+            <div class="feature-column">
+              <img class="feature-icon" src="../images/popup/danger-pages-icon.png" />
+              <div id="block-page-stats" class="feature-counter"></div>
+              <div class="feature-description">
+                __MSG_res_POPUP_PAGES_BLOCKED__
+              </div>
+            </div>
+            <div class="feature-column">
+              <img class="feature-icon" src="../images/popup/block-content-icon.png" />
+              <div id="iframe-stats" class="feature-counter"></div>
+              <div class="feature-description">
+                __MSG_res_POPUP_ITEMS_BLOCKED__
+              </div>
+            </div>
+          </div>
+          <div style="height:1px; background-color:#B1BABF; margin-top:20px;"></div>
+          <div style="margin-top:10px; font-size:14px; align-items:flex-start;">
+            <div style="max-width:140px;">
+              <div id="view-site-report-btn" class="clickable-div" style="text-align:right;">__MSG_res_POPUP_VIEW_SITE_REPORT__</div>
+            </div>
+            <div style="margin-left:20px; max-width:140px;">
+              <a href="__MSG_res_POPUP_GET_HELP_URL__">__MSG_res_POPUP_GET_HELP__</a>
+            </div>
+            <div style="flex:1; justify-content:flex-end;">
+              <a class="social-media-icon" href="https://www.facebook.com/mcafee">
+              <img class="social-media-icon" src="../images/popup/facebook.svg" />
+              </a>
+              <a class="social-media-icon" href="https://twitter.com/mcafee">
+              <img class="social-media-icon" src="../images/popup/twitter.svg" />
+              </a>
+              <a class="social-media-icon" href="https://www.linkedin.com/company/2336?trk=prof-exp-company-name">
+              <img class="social-media-icon" src="../images/popup/linkedin.svg" />
+              </a>
+            </div>
+          </div>
+          <div style="margin-top:25px; font-size:12px;">
+            <div style="color: #B1BABF; flex:1;">
+              __MSG_res_VERSION__&nbsp;<span style="color: #B1BABF;" id="version"></span>
+            </div>
+            <div style="max-width:130px;">
+              <a style="text-align:right;" href="__MSG_res_POPUP_TERMS_AND_CONDITIONS_URL__">__MSG_res_POPUP_TERMS_AND_CONDITIONS__</a>
+            </div>
+            <div style="margin-left:20px; max-width:130px;">
+              <a href="__MSG_res_PRIVACY_URL__">__MSG_res_PRIVACY_NOTICE__</a>
+            </div>
+          </div>
+        </div>
+        <div id="settings" class="align-left-right" style="flex-direction:column; display:none;">
+          <div style="margin-top:10px; font-size:16px;">
+            __MSG_res_POPUP_DONT_WARN_DESCRIPTION__
+          </div>
+          <div style="margin-top:15px; font-size:16px;">
+            __MSG_res_SETTINGS_TRUSTED_SITES__
+          </div>
+          <ul id="whitelist-list" class="whitelist-list"></ul>
+          <div style="height:35px; justify-content:flex-end">
+            <input id="whitelist-input" style="flex:15; border:1px solid #B1BABF; font-size:16px; padding-left: 5px;" type="text" placeholder="__MSG_res_POPUP_ENTER_WEB_ADDRESS__" />
+            <input id="remove-btn" style="flex:1; background:url('../images/popup/remove-gray.png') center no-repeat #F5F6FA; border: 0.5px solid #CDD2D5; padding: 0 5px 0 5px;" type="button" disabled />
+            <input id="add-btn" style="flex:1; background:url('../images/popup/add-gray.png') center no-repeat #F5F6FA; border: 0.5px solid #CDD2D5; padding: 0 5px 0 5px;" type="button" disabled />
+          </div>
+          <div style="margin-top:15px; align-items:center;">
+            <div style="flex:1; font-size:16px;">
+              <div id="back-btn" class="clickable-div">__MSG_res_POPUP_BACK__</div>
+            </div>
+            <div style="flex:2; font-size:16px; justify-content:flex-end; margin-right:15px;">
+              __MSG_res_POPUP_START_FRESH__
+            </div>
+            <button id="clear-btn" style="flex:1; color:#53565A; width:118px; height:36px; border-radius:2px; border:none; font-size:16px; font-weight:bold; align-items:center; justify-content:center; cursor: pointer;">__MSG_res_POPUP_CLEAR__</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

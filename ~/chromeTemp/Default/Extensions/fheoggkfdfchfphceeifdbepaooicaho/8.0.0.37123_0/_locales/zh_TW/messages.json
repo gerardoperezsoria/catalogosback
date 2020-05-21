@@ -1,0 +1,2180 @@
+{
+   "annotation_balloon_color_green": {
+      "message": "此連結安全"
+   },
+   "annotation_balloon_color_hackersafe": {
+      "message": "每日測試"
+   },
+   "annotation_balloon_color_red": {
+      "message": "此連結危險"
+   },
+   "annotation_balloon_color_unknown": {
+      "message": "此連結未分級"
+   },
+   "annotation_balloon_color_yellow": {
+      "message": "此連結可疑"
+   },
+   "annotation_balloon_view_site_report": {
+      "message": "檢視網站報告"
+   },
+   "balloon_adblock_notification": {
+      "message": "$ads_blocked_counter$ ads blocked",
+      "placeholders": {
+         "ads_blocked_counter": {
+            "content": "$1"
+         }
+      }
+   },
+   "balloon_download_scanning_notification_plural": {
+      "message": "Scanning $download_scanning_counter$ downloads",
+      "placeholders": {
+         "download_scanning_counter": {
+            "content": "$1"
+         }
+      }
+   },
+   "balloon_download_scanning_notification_singular": {
+      "message": "Scanning $download_scanning_counter$ download",
+      "placeholders": {
+         "download_scanning_counter": {
+            "content": "$1"
+         }
+      }
+   },
+   "block_page_accept_risk": {
+      "message": "接受風險"
+   },
+   "block_page_go_back": {
+      "message": "上一步"
+   },
+   "block_page_message": {
+      "message": "小心！ 確定要造訪嗎？"
+   },
+   "block_page_popover_message": {
+      "message": "造訪此網站時，我們發現它出現一個以上有風險的行為。"
+   },
+   "block_page_popover_title": {
+      "message": "為什麼會看到這個？"
+   },
+   "block_page_risky_url": {
+      "message": "可能有風險。"
+   },
+   "block_page_search_input": {
+      "message": "以 McAfee WebAdvisor 搜尋"
+   },
+   "block_page_state_danger": {
+      "message": "非常危險"
+   },
+   "block_page_state_warning": {
+      "message": "有些風險"
+   },
+   "block_page_status_text": {
+      "message": "網站狀態："
+   },
+   "block_page_title": {
+      "message": "McAfee SiteAdvisor 軟體 - 網站安全評等及安全搜尋"
+   },
+   "block_page_view_site_report": {
+      "message": "檢視網站報告"
+   },
+   "category_id_100_description": {
+      "message": "包含虛擬藝廊、藝術家網站 (包括雕刻和攝影)、博物館、民族習俗和國家習俗的網頁。"
+   },
+   "category_id_100_name": {
+      "message": "藝術/文化/傳承"
+   },
+   "category_id_101_description": {
+      "message": "主要銷售、推廣或倡導酒精飲料的網頁，例如啤酒、葡萄酒及烈酒。 此類別也包含雞尾酒酒譜及自家釀造的指示。"
+   },
+   "category_id_101_name": {
+      "message": "酒"
+   },
+   "category_id_102_description": {
+      "message": "刻意允許隱藏使用者 IP 位址或其他個人身分資訊，進而躲避本機篩選原則以存取所有網頁瀏覽網際網路的網頁。 匿名網頁也會封鎖所有追蹤技術，例如 cookie 或瀏覽器記錄。 有些方法會防止作業系統版本及網頁記錄被傳送至網頁上。 此類別包括提供免費 proxy IP 位址或描述如何避篩選的頁面。"
+   },
+   "category_id_102_name": {
+      "message": "匿名者"
+   },
+   "category_id_104_description": {
+      "message": "非明確意圖提供此類匿名網頁瀏覽服務的網頁。 此類別包括 URL 轉譯器、網頁快取以及其他可用來匿名但未明確意圖避開篩選軟體的公用程式。"
+   },
+   "category_id_104_name": {
+      "message": "匿名化公用程式"
+   },
+   "category_id_105_description": {
+      "message": "提供業務相關資訊，例如企業概觀或業務規劃及策略的網頁。 此類別也包括資訊、服務或有助其他業務規劃、管理及行銷企業的產品。 此類別包括重點放在經營企業時的多層級行銷投資。 此類別不包含個人網頁及網路託管的網頁。"
+   },
+   "category_id_105_name": {
+      "message": "企業"
+   },
+   "category_id_106_description": {
+      "message": "提供利用瀏覽器，有公開與私人聊天室即時社交傳訊功能的網頁。 此類別包括 IRC。 此類別並不包括即時傳訊。 風險包括不雅內容、破壞生產力以及洩漏敏感資訊。"
+   },
+   "category_id_106_name": {
+      "message": "聊天"
+   },
+   "category_id_108_description": {
+      "message": "提供一般參考資訊的網頁，例如公共服務供應商、區域性資訊、交通行刻表、地圖或氣象報告的網頁。"
+   },
+   "category_id_108_name": {
+      "message": "公開資訊"
+   },
+   "category_id_109_description": {
+      "message": "McAfee 認為提供非法或犯罪活動指導的網頁。 指導包括犯罪或自殺、破壞、製造炸彈、開鎖、盜用服務、躲避執法單位或毒品測試造假。 此類別可能也包括如何散佈非法內容、進行偽冒或詐騙消費者的資訊。"
+   },
+   "category_id_109_name": {
+      "message": "可能的犯罪活動"
+   },
+   "category_id_110_description": {
+      "message": "提供非法或消遣性毒品購買、製造和使用等資訊的網站。 此類別包括顯示、銷售或描述毒品吸食裝置使用以及合法毒品的指示，例如吸膠、處方藥品的誤用或其他合法物質的濫用。"
+   },
+   "category_id_110_name": {
+      "message": "禁藥/毒品"
+   },
+   "category_id_111_description": {
+      "message": "專門提供學術相關內容的網頁，例如(數學、歷史) 的學術主題、學校或大學網頁以及教育行政管理網頁 (學校教育委員會、教師課程)。"
+   },
+   "category_id_111_name": {
+      "message": "教育/參考資料和工具書"
+   },
+   "category_id_112_description": {
+      "message": "提供關於戲院、劇場、音樂、電視、資訊娛樂、娛樂業八卦新聞的網頁，以及關於名人的網站，例如演員和歌手。 此類別也包含專門提供網路娛樂內容的網站，例如占星或粉絲團。"
+   },
+   "category_id_112_name": {
+      "message": "娛樂"
+   },
+   "category_id_113_description": {
+      "message": "此類別用來收集恐怖內容、歧視、色情、暴力或遊戲/卡通暴力，目的是找出這些類別極端表現的 URL。 舉個非法色情的例子，它就置於色情、可能的犯罪活動與極端的類別裡。"
+   },
+   "category_id_113_name": {
+      "message": "極端"
+   },
+   "category_id_114_description": {
+      "message": "提供金融資訊或存取線上金融帳號的網頁。 此類別包括提供金融資訊的網頁，包括新聞或與金錢管理相關的服務，但不提供對敏感金融帳號資訊的存取，例如金融統計，或對稅賦、貸款、授信或投資領域的諮詢。 對線上金融帳戶的存取，包括個人或企業相關的金融服務、資金管理、稅務諮詢、共同資金投資、信用卡、信用合作社、保險、其他金融文章及服務。 此類別包括股票資訊 (但不是股票交易)、家庭金融和政府相關的金融資訊。"
+   },
+   "category_id_114_name": {
+      "message": "理財/金融服務"
+   },
+   "category_id_115_description": {
+      "message": "允許使用者在線上賭博或下注的網頁，或提供賭博軟體實現線上下注，例如賭場遊戲、下注池、運動比賽下注與樂透。 此類別包括您能在線上買彩票玩的樂透。"
+   },
+   "category_id_115_name": {
+      "message": "賭博"
+   },
+   "category_id_116_description": {
+      "message": "提供線上遊戲及相關資訊的網站，例如作弊、代碼、示範、模擬器、線上競賽或角色扮演遊戲、遊戲族、遊戲製造商網站、奇幻或虛擬運動聯盟以及其他非盈利的遊戲網站。 此類別包含遊戲主機，例如 Microsoft Xbox® 與 Sony PlayStation®。"
+   },
+   "category_id_116_name": {
+      "message": "遊戲"
+   },
+   "category_id_117_description": {
+      "message": "包括由政府或軍方單位維護的網頁，例如政府分支或機構、警察局、消防隊、民兵防衛隊、反恐組織或跨國組織，例如聯合國或歐盟。 此類別包括軍事和榮民醫療設施。"
+   },
+   "category_id_117_name": {
+      "message": "政府/軍事"
+   },
+   "category_id_118_description": {
+      "message": "McAfee 認為提供指示或是促成電腦相關、欺騙、犯罪或惡意行為的網頁。 此類別包含與電腦犯罪相關的網頁，包括惡意盜取資訊或協助個人獲得對電腦或網路未授權取存的工具 (刷機工具、駭客程式腳本)。 此類別也包括其他領域的電子詐騙，例如撥號詐騙及非法操縱電子裝置。"
+   },
+   "category_id_118_name": {
+      "message": "潛在的駭客攻擊/電腦犯罪"
+   },
+   "category_id_119_description": {
+      "message": "涵蓋所有健康相關的資訊與保健服務。 健康資訊包括改善個人幸福的主題，無論是身體或心理的健康 (飲食、營養、健身或育兒)。 保健服務包括如健康保險、醫院、診所及獨立醫師的供應單位。"
+   },
+   "category_id_119_name": {
+      "message": "健康狀態"
+   },
+   "category_id_120_description": {
+      "message": "提供幽默好笑內容的網頁。 此類別包括內含笑話、短劇、漫畫和諷刺作品的網站。 此類別也可能包含繪畫小說內容，通常被視為漫畫。"
+   },
+   "category_id_120_name": {
+      "message": "幽默/漫畫"
+   },
+   "category_id_121_description": {
+      "message": "McAfee 認為明顯提供鼓勵壓迫特定族群或歧視資訊的網頁。 此類別包括針對基於種族、信仰、國籍、性別、年齡、殘疾或性傾向的族群，倡導對抗的行動。 此類別可能包括具有特定仇恨行動的政黨和組織以及極端的網路霸凌。"
+   },
+   "category_id_121_name": {
+      "message": "歧視"
+   },
+   "category_id_122_description": {
+      "message": "專門針對加入成員連絡清單或即時傳訊工作階段的使用者提供透過網路之軟體以進行即時通訊的網頁。 大多數即時傳訊軟體包含的功能電檔案傳輸、電腦對電腦的電話通訊，並且能追蹤其他人的登入與登出。 這些網站可能會引發敏感資訊的洩露、不當內容或檔案分享的顧慮。"
+   },
+   "category_id_122_name": {
+      "message": "即時訊息"
+   },
+   "category_id_123_description": {
+      "message": "提供線上購買、銷售、或股票交易的網頁。 此類別也包括即時股價資訊，能夠即時了解股市股價與成交分佈。 另一類下注屬於賭博類別。 此類別不包括提供有關股票資訊但不提供股票購買、銷售及交易的網站。"
+   },
+   "category_id_123_name": {
+      "message": "股票交易"
+   },
+   "category_id_124_description": {
+      "message": "提供持續性影音廣播軟體或存取的網頁，例如網際網路廣播、電視節目或播客。"
+   },
+   "category_id_124_name": {
+      "message": "網際網路廣播/電視"
+   },
+   "category_id_125_description": {
+      "message": "與求職相關的網頁，相關內容包括履歷撰寫、面談、轉職、分類廣告及大宗職務資料庫。 此類別也包括列出職缺的企業網頁、薪水比較網站、臨時職缺及公司發佈職位的網站。"
+   },
+   "category_id_125_name": {
+      "message": "求職"
+   },
+   "category_id_126_description": {
+      "message": "合法提供關於資料保護資訊的網頁。 此類別包括企業或個人資料、智慧財產、隱私及網際網路上基礎設施、私人網路或其他頻寬服務，例如電訊等的詳細資訊。 可能的風險包括潛在的駭客攻擊/電腦犯罪。 具有高風險內容及無明顯區分「黑帽」及「白帽」駭客內容的網站也可能在此類別以及可能的駭客/電腦犯罪類別。 有些內容可能被利用來進行違反安全或犯罪的行為。"
+   },
+   "category_id_126_name": {
+      "message": "資訊安全"
+   },
+   "category_id_127_description": {
+      "message": "著重於社交互動的網頁，例如線上約會、交友、同學會、筆友、伴遊服務或媒介潛在配偶。 此類別包括許多允許成員透過即時傳訊發佈進行社交互重的網站。 此類別中的網站也可能促成與非選擇方且個人資訊包含不當內容的成員間連絡。"
+   },
+   "category_id_127_name": {
+      "message": "約會/社交網路"
+   },
+   "category_id_128_description": {
+      "message": "銷售行動電話使用的媒體、軟體或公用程式的網頁，能下載它們並傳送到行動電話上。 例如鈴聲、商標/機面、遊戲、螢幕保護畫面、簡訊音效及 SMS、MMS、WAP 使用的軟體，以及其他行動電話協定。"
+   },
+   "category_id_128_name": {
+      "message": "行動電話"
+   },
+   "category_id_129_description": {
+      "message": "提供音訊或視訊檔案下載網頁，例如 MP3、WAV、AVI 與 MPEG 格式。 這些檔案會儲存至使用者的電腦上，並在那裡播放。"
+   },
+   "category_id_129_name": {
+      "message": "媒體下載"
+   },
+   "category_id_130_description": {
+      "message": "部署專門設計來劫持您電腦設定或活動的網頁。 此類別包括自動安裝應用程式 (所謂的「強迫」執行檔下載)、特洛伊木馬程式、以及利用瀏覽器或其他應用程式安全弱點的病毒。 網頁能在日後擺脫惡意狀態後移至其他類別。 惡意網站意圖對其他電腦採取行動造成破壞。"
+   },
+   "category_id_130_name": {
+      "message": "惡意網站"
+   },
+   "category_id_131_description": {
+      "message": "網頁提供存取 (http://) 至 Usenet 新聞群組及上傳至新聞群組的檔案封存。 此類別也包括提供類似社區導向內容發佈的線上群組。 此類別中的 URL 可能包含不雅內容。"
+   },
+   "category_id_131_name": {
+      "message": "Usenet 新聞"
+   },
+   "category_id_132_description": {
+      "message": "具有非色情裸體影像的網頁。 此類別包括古典雕像與繪畫、藝術裸照、某些裸體主義照片及詳實的醫學插畫。"
+   },
+   "category_id_132_name": {
+      "message": "裸露"
+   },
+   "category_id_133_description": {
+      "message": "來自慈善或教育團隊，為實現宣誓的目標及造福廣大人群而設立的網頁，例如俱樂部、游說團體、社區、非盈利組織、工會及鼓吹團體。 例如共濟會、Elks、男女童軍或大哥哥社工組織。"
+   },
+   "category_id_133_name": {
+      "message": "非營利/倡導/非政府組織"
+   },
+   "category_id_134_description": {
+      "message": "提供線上新聞媒體，例如國際或地區新聞廣播與文章的網頁。 此類別包括提供新聞內容的入口網站。"
+   },
+   "category_id_134_name": {
+      "message": "一般新聞"
+   },
+   "category_id_136_description": {
+      "message": "在線上銷售產品或服務的網頁。 銷售種類繁多產品的網頁可能會存在一種風險，那就是讓使用者存取到通常歸於其他類別的項目，例如色情、武器、裸體或暴力。 有些網站可能會提供對其他類別中項目的存取，例如色情與武器。"
+   },
+   "category_id_136_name": {
+      "message": "線上購物"
+   },
+   "category_id_137_description": {
+      "message": "包含誘人或暴露服裝、 內衣和泳衣、或超模或名人相片集，但沒有裸體的網頁。"
+   },
+   "category_id_137_name": {
+      "message": "挑逗性服飾"
+   },
+   "category_id_138_description": {
+      "message": "允許電腦和使用者為商務或個人應用而進行檔案交換，例如可下載的音樂。 P2P 客戶端允許使用者從對等使用者網路搜尋及交換檔案。 它們經常包含間諜軟體或即時聊天的能力。 此類別包括 BitTorrent 網頁。"
+   },
+   "category_id_138_name": {
+      "message": "P2P/檔案共用"
+   },
+   "category_id_139_description": {
+      "message": "報導政黨、個人政治生活與各種主題觀點的網頁。 此類別也涵蓋關於毒品的法律與政治主張。 此類別包括政黨的 URL、政治宣傳與各種主題的觀點，包括政治辯論。"
+   },
+   "category_id_139_name": {
+      "message": "政治/意見"
+   },
+   "category_id_140_description": {
+      "message": "共用網域的個人家庭網頁，例如那些由網際網路服務供應商、大學/教育伺服器或免費網頁托管的網域。 此類別也包括內含個人資訊的獨特網域，例如個人家庭網頁。 個人家庭網頁可能包含不雅內容。"
+   },
+   "category_id_140_name": {
+      "message": "個人網頁"
+   },
+   "category_id_141_description": {
+      "message": "做為進入網路內容主要匣道或目錄的網頁。 許多門戶網站也提供各種內部網站功能或服務，例如搜尋引擎、電子郵件、新聞及娛樂。 各種內容的郵件清單網站在此類別。"
+   },
+   "category_id_141_name": {
+      "message": "入口網站"
+   },
+   "category_id_142_description": {
+      "message": "提供遠端程式存取、線上服務或完整電腦系統的網頁。 雖然遠端存取經常從遠程位置正當地運行電腦，但這會產生安全性風險，例如後門程式存取。 由原程式師所撰寫的後門程式存取允許系統在使用者不知的狀況下，被其他方控制系統。"
+   },
+   "category_id_142_name": {
+      "message": "遠端存取"
+   },
+   "category_id_143_description": {
+      "message": "不屬於主要宗教的人類心靈信仰和宗教主題相關內容的網頁。 此類別包括宗教討論、信仰、文章與當地集會或團體的資訊，例如教會首頁，除非這網站已歸於主要全球主要宗教類別裡。 此類別也包括比較宗教或包含宗教與意識的網站。"
+   },
+   "category_id_143_name": {
+      "message": "宗教/意識型態"
+   },
+   "category_id_144_description": {
+      "message": "利用閒置或無用的電腦資訊解決一般工作的網頁。 此工作可為公司內或國際之間。 著名的範例為 SETI 計畫和人類基因組專案，利用數以千計的自願電腦閒置時間分析資料。"
+   },
+   "category_id_144_name": {
+      "message": "資源共用"
+   },
+   "category_id_145_description": {
+      "message": "提供讓使用者能根據關鍵字在網際網路上尋找資訊的搜尋結果網頁。"
+   },
+   "category_id_145_name": {
+      "message": "搜尋引擎"
+   },
+   "category_id_146_description": {
+      "message": "與專業或組織休閒運動相關的網頁。 此類別包括運動新聞、活動和運動技巧、策略、賽事分數或運動員交易的資訊。"
+   },
+   "category_id_146_name": {
+      "message": "運動"
+   },
+   "category_id_147_description": {
+      "message": "提供串流媒體或包含外掛程式，在完整檔案尚未傳送完成前即顯示影音資料的網頁。"
+   },
+   "category_id_147_name": {
+      "message": "串流媒體"
+   },
+   "category_id_148_description": {
+      "message": "存放可下載共享軟體和免費軟體的網頁。 共享軟體的散佈是基於榮譽系統免費傳送，但作者會要求若程式合用且經常使用時，使用者支付一小筆的費用。 免費軟體則是不收任何費用提供使用。"
+   },
+   "category_id_148_name": {
+      "message": "共享軟體/免費軟體"
+   },
+   "category_id_149_description": {
+      "message": "McAfee 認為包含意圖煽情或刺激情慾題材的網頁。 此類別包括物戀網頁、動畫、卡通、故事及非法色情。"
+   },
+   "category_id_149_name": {
+      "message": "色情"
+   },
+   "category_id_150_description": {
+      "message": "違反個人或企業隱私及安全的網頁。 此類別包括\u003Cbr/>\u003Cbr/>\u003Cul>\u003Cli>下載軟體或執行程式搜集使用者資訊，並在使用者不明或未明確同意時，傳送給第三方的 URL。\u003C/li>\u003Cli>在其他電腦藉由記錄按鍵 (鍵盤側錄程式) 監視或追蹤活動的軟體。\u003C/li>\u003Cli>分發已知內含間諜軟體或廣告軟體之軟體的網站。\u003C/li>\u003C/ul>此類別與惡意網站類別不同之處為其意圖。 間諜軟體和鍵盤側錄程式隱密地搜集和傳送資訊至其他方。 惡意網站意圖安裝軟體或在未得到使用者同意的情況下採取行動。"
+   },
+   "category_id_150_name": {
+      "message": "間諜軟體/廣告軟體/鍵盤側錄程式"
+   },
+   "category_id_151_description": {
+      "message": "銷售、推廣或倡導菸草產品、菸草用具的網頁，包括香菸、雪茄、菸斗、鼻菸和嚼菸。"
+   },
+   "category_id_151_name": {
+      "message": "菸草"
+   },
+   "category_id_152_description": {
+      "message": "推廣個人或商務旅遊的網頁，例如旅館、勝地、航空公司、地面交通、租車、旅行社和一般旅遊和旅行的資訊。 此類別也包括買票或住宿的網站。"
+   },
+   "category_id_152_name": {
+      "message": "旅遊"
+   },
+   "category_id_153_description": {
+      "message": "包含真實或栩栩如生之影像或文字，表達、描述或倡議對人、動物或機構的實際攻擊，例如對戰爭、自殺、毀傷肢體或分屍的描繪。"
+   },
+   "category_id_153_name": {
+      "message": "暴力"
+   },
+   "category_id_154_description": {
+      "message": "提供廣告託管或建立廣告之程式的網頁。 例子包括連結、來源碼或橫幅、快顯視窗使用的小程式，還有在網頁上出現的其他類靜態或動態產生的廣告。 此類別的目的是封鎖網頁上的廣告，不是提供廣告或廣告服務的公司。"
+   },
+   "category_id_154_name": {
+      "message": "網路廣告"
+   },
+   "category_id_155_description": {
+      "message": "提供關於購買、製造、更改或使用武器之資訊的網頁，例如槍支、刀子、劍、漆畢槍與彈蘗、爆破物和武器配件。"
+   },
+   "category_id_155_name": {
+      "message": "武器和軍事裝備"
+   },
+   "category_id_156_description": {
+      "message": "讓使用者能透過網際網路傳送或接收電子郵件的網頁。 這些網站會讓使用者曝露來自於電子郵件附件的有害的內容下，或者可能會有洩露或遺失專屬資料的安全風險。"
+   },
+   "category_id_156_name": {
+      "message": "網頁郵件"
+   },
+   "category_id_157_description": {
+      "message": "能讓使用者透過網際網路撥打電話，或是因此目的而取得資訊或軟體的網站。 Web 電話服務也稱為網際網路電話或 VoIP。 網路電話服務包括電腦對電腦、電腦對電話以及透過 TCP/IP 網路的電話對電話服務。"
+   },
+   "category_id_157_name": {
+      "message": "網路電話"
+   },
+   "category_id_158_description": {
+      "message": "提供線上拍賣和銷售產品或服務的網頁。 此類別包括主打拍賣和銷售的網頁。 線上拍賣很少被監管。 這些網站也可能讓使用者接觸到也在類別裡的內容，例如色情、武器、裸體或暴力。"
+   },
+   "category_id_158_name": {
+      "message": "拍賣/精選商品"
+   },
+   "category_id_159_description": {
+      "message": "網頁提供存取 (http://) 至 Usenet 新聞群組或主持討論與發佈使用者產生的內容，例如對興趣群組的即時訊息發佈。 此類別也包括上傳至新聞群組的檔案封存。"
+   },
+   "category_id_159_name": {
+      "message": "論壇/電子佈告欄"
+   },
+   "category_id_160_description": {
+      "message": "包含露骨、低俗或猥褻的語言或手勢的網頁。"
+   },
+   "category_id_160_name": {
+      "message": "褻瀆言行"
+   },
+   "category_id_161_description": {
+      "message": "藉由提供免費或付費學期報告、撰寫論文或考試答案而助長抄襲或作弊行為的網頁。"
+   },
+   "category_id_161_name": {
+      "message": "校園作弊資訊"
+   },
+   "category_id_162_description": {
+      "message": "描述或刻畫性行為的網頁，但並非意圖煽情或刺激情慾。 例子有包括性教育、性諷刺、幽默或性相關商品的性題材。"
+   },
+   "category_id_162_name": {
+      "message": "性題材"
+   },
+   "category_id_163_description": {
+      "message": "內容被視為低級、下流、震憾或恐怖的網頁。 此類別包括低級幽默、人體排泄功能、清楚拍攝的醫療或意外現場相片 (包含血液或傷口)、極端的人體改變形式 (刀割、烙印或生殖器穿孔) 或駭人而無人性的動物虐待。"
+   },
+   "category_id_163_name": {
+      "message": "恐怖內容"
+   },
+   "category_id_164_description": {
+      "message": "提供影像搜尋結果的網頁，例如縮圖。"
+   },
+   "category_id_164_name": {
+      "message": "視覺化搜尋引擎"
+   },
+   "category_id_165_description": {
+      "message": "主要針對技術或商業領域提供線上訊息發佈或即時聊天的網頁，例如技術支援或互動業務通訊。 僅管使用者可發佈任何內容，這些論壇一般比較不會有出現不雅內容的風險。 提供各種主題論壇的網站 (包括技術與商業方面的內容) 只會被歸入論壇/電子佈告欄或聊天類別。 主要針對技術或商業的論壇會歸入技術/商業論壇類別。"
+   },
+   "category_id_165_name": {
+      "message": "技術/商業論壇"
+   },
+   "category_id_166_description": {
+      "message": "提供關於賭博資訊，但不提供賭博方法的網頁。 此類別包括賭場相關的網頁，但它們不提供線上賭博、賭博連結、技巧、運動比賽挑選、樂透結果以及賽馬、賽車或賽船。"
+   },
+   "category_id_166_name": {
+      "message": "賭博相關"
+   },
+   "category_id_167_description": {
+      "message": "提供簡訊服務的網頁。 範例包括傳送至行動電話、PDA、傳真機以及內部網站使用者或網站之間彼此的傳訊。"
+   },
+   "category_id_167_name": {
+      "message": "訊息"
+   },
+   "category_id_168_description": {
+      "message": "提供遊戲、漫畫、卡通或繪畫小說裡奇幻或暴力虛構表現的網頁。 此類別包括影像及實體攻擊或徒手對戰的材質描述，以及因武器或爆炸而造成的重大傷害及破壞。"
+   },
+   "category_id_168_name": {
+      "message": "遊戲/卡通暴力"
+   },
+   "category_id_169_description": {
+      "message": "通常來自詐騙電郵、專為偷取使用者帳號資訊的網頁連結。 這些網站偽裝自己成為正當公司的網頁，欺騙並取得使用者帳號資訊好進行詐騙或竊盜。"
+   },
+   "category_id_169_name": {
+      "message": "網路釣魚"
+   },
+   "category_id_170_description": {
+      "message": "允許使用者上傳資料夾和檔案至線上網路伺服器以從任意網路瀏覽器備份、分享、編輯或擷取檔案或資料夾的網頁。"
+   },
+   "category_id_170_name": {
+      "message": "個人網路儲存區"
+   },
+   "category_id_171_description": {
+      "message": "會引來垃圾電子郵件的網頁連結。 垃圾 URL 內容，包括產品行銷與潛在不雅內容或詐騙網站。 此類別包括專門為了發佈垃圾內容而打造的網站，例如垃圾部落格或垃圾回應。"
+   },
+   "category_id_171_name": {
+      "message": "垃圾郵件 URL"
+   },
+   "category_id_172_description": {
+      "message": "提供對即時或互動網路應用存取的網頁，例如基於瀏覽器的辦公室套件和群組軟體。 此類別包括專注於企業、學術或個人的網站。"
+   },
+   "category_id_172_name": {
+      "message": "互動式 Web 應用程式"
+   },
+   "category_id_174_description": {
+      "message": "行銷服裝、化妝品、珠寶和其他流行導向的產品、配件或服務的網頁。 此類別也包括產品點評、比較和一般消費者資訊，還有像是髮廊、日光浴房、紋身與人體穿孔工作室。"
+   },
+   "category_id_174_name": {
+      "message": "時尚/美容"
+   },
+   "category_id_175_description": {
+      "message": "與電腦軟體和硬體相關的網頁，包括廠商、產品行銷與評價、部署和軟硬體維護以及軟體更新和附加元件，例如指令碼、外掛程式或驅動程式。 硬體包括電腦零件、配件和用於電腦與網路的電子設備。 此類別包括軟硬體行銷，以及主要為軟硬體評價或企業趨勢的雜誌。"
+   },
+   "category_id_175_name": {
+      "message": "軟體/硬體"
+   },
+   "category_id_176_description": {
+      "message": "McAfee 認為提供可能為「海盜版」或非法散佈軟體或電子媒體資訊的網站，例如版權音樂或影片，非法授權金鑰產生器、軟體破解及序號。"
+   },
+   "category_id_176_name": {
+      "message": "可能的非法軟體"
+   },
+   "category_id_177_description": {
+      "message": "託管影像、媒體檔案的伺服器 URL，或是用來對現有 Web 伺服器 (例如 Apache) 加速存取的一個或多個網站的 JavaScript。 內容伺服器通常沒有發佈的內容或讓網路瀏覽者全網站導覽的功能。 影像主機內容伺服器不允許使用者瀏覽相片。"
+   },
+   "category_id_177_name": {
+      "message": "內容伺服器"
+   },
+   "category_id_178_description": {
+      "message": "提供網際網路網站維護與發佈的網站，例如網站設計、網域註冊、網際網路供應商以及提供網路服務的寬頻與電訊公司。"
+   },
+   "category_id_178_name": {
+      "message": "網際網路服務"
+   },
+   "category_id_179_description": {
+      "message": "允許使用者上傳、搜尋及分享媒體檔案與相片的網頁，例如線上相簿。 此類別涵蓋一般媒體分享的風險，但並未針對特定內容。 有些 URL 可能也包含不雅內容。"
+   },
+   "category_id_179_name": {
+      "message": "媒體分享"
+   },
+   "category_id_180_description": {
+      "message": "包含非色情的裸體影像的網頁，例如古典雕像與繪畫或醫學影像。"
+   },
+   "category_id_180_name": {
+      "message": "非刻意裸露影像"
+   },
+   "category_id_181_description": {
+      "message": "推廣個人或企業產品或網路服務，但未線上銷售產品或服務的網頁。 此類別包括通常為公司概觀、描述服務及產品的網站，但無法從這些網站直接購買。 例子包括汽車製造商網站、婚紗攝影服務或圖像設計服務。"
+   },
+   "category_id_181_name": {
+      "message": "行銷/商品介紹"
+   },
+   "category_id_183_description": {
+      "message": "曾經伺服內容但網域已被賣掉或棄置而不再註冊的網頁。 寄放網域沒有自己管理的內容，但通常會將使用者重新導向至聲明網域名稱出售的通用網頁，或將使用者重新導向至通用搜尋引擎和入口網頁，其中有些會提供有效的搜尋引擎結果。"
+   },
+   "category_id_183_name": {
+      "message": "寄放網域"
+   },
+   "category_id_184_description": {
+      "message": "提供評等、描述及行銷或銷售處方藥、成藥、避孕或飲食補充品的網頁。"
+   },
+   "category_id_184_name": {
+      "message": "藥品"
+   },
+   "category_id_185_description": {
+      "message": "提供關於餐廳、酒吧、外燴、外帶與外送等資訊的網頁，包括線上點餐。 此類別包括提供關於位置、營業時間、價格、菜單和相關飲食資訊的網站。 此類別也包括餐廳指南和評價，還有咖啡廳與咖啡店。"
+   },
+   "category_id_185_name": {
+      "message": "餐廳"
+   },
+   "category_id_186_description": {
+      "message": "提供商務或房地產服務與資訊的網頁。 服務與資訊包括生活空間的銷售與租賃以及對公寓、住宿和地產的指南還有估價與佣金的資訊。 此類別包括允許您瀏覽樣品屋的網站。"
+   },
+   "category_id_186_name": {
+      "message": "房地產"
+   },
+   "category_id_187_description": {
+      "message": "包含專門提供娛樂活動和嗜好內容的娛樂公司和設施的網頁。 此類別包括有關公共泳池、動物園、市集、慶典、遊樂園、娛樂指南、健行、釣魚、賞鳥或集郵的資訊。"
+   },
+   "category_id_187_name": {
+      "message": "休閒/嗜好"
+   },
+   "category_id_188_description": {
+      "message": "網頁包含動態內容，因為使用者可隨時發表或編輯內容。 此類別包含從無害到不雅之動態內容的風險。 許多部落格和維基百科專注於某一主題或概念。 此類別通常與其他共用，例如爭議性觀點、教育/參考資料和工具書、體育、政治/觀點或裸露，取決於網站的主題或主旨而定。 有些內容可能不雅。"
+   },
+   "category_id_188_name": {
+      "message": "部落格/維基百科"
+   },
+   "category_id_189_description": {
+      "message": "允許人們透過網際網路傳送及接收電子明信片和賀卡的網頁。 電子賀卡表達歡迎或感情的訊息，通常用於生日和佳節時。 有些電子賀卡網站有特定成人幽默的類別。 這些網站可能也會增加對敏感或專屬資訊洩漏、不當內容、惡意軟體或破壞性附檔的疑慮。"
+   },
+   "category_id_189_name": {
+      "message": "電子賀卡"
+   },
+   "category_id_190_description": {
+      "message": "對重要歷史事實否認或提供不同解讀的網頁，例如納粹大屠殺。 此類別包括可能具有正當學術價值的網站，但大多數內容是因為政治意圖而對歷史惡意操弄。 此類別中的 URL 所含內容可能在一些國家被視為非法或不當。"
+   },
+   "category_id_190_name": {
+      "message": "歷史修正主義"
+   },
+   "category_id_191_description": {
+      "message": "主要針對教育領域提供電腦資訊的網頁，例如資訊技術、電腦編程及憑證。 例子包括 Linux 使用者群組、UNIX 命令、軟體教學課程或術語目錄。 類別中的大多數網站可能位為較大網域的子目錄。"
+   },
+   "category_id_191_name": {
+      "message": "技術資訊"
+   },
+   "category_id_192_description": {
+      "message": "提供線上約會網路、拉紅線、伴遊服務或媒介潛在配偶的網頁。 此類別包括提供個人或群組資訊並允許其成員透過即時通訊、發佈訊息、公共佈告欄及媒體分享而進行交流的網站。 此類別中的網站也可能促成與非選擇方且個人資訊包含不當內容的成員間連絡。"
+   },
+   "category_id_192_name": {
+      "message": "約會/個人"
+   },
+   "category_id_193_description": {
+      "message": "消費運輸車輛的製造商與代理商的網站，例如汽車、廂型車、卡車、休旅車、摩托車與速克達。 此類別也包括提供產品行銷、點評、比較、價格資訊、汽車展售會、汽車博覽會以關於機動車輛一般消費者資訊的網站。"
+   },
+   "category_id_193_name": {
+      "message": "機動車輛"
+   },
+   "category_id_194_description": {
+      "message": "針對專業或企業需要提供社交網路的網頁。 此類別包括提供個人或群組資訊的網站，且讓它們的成員能透過即時通訊、訊息發佈、公開佈告欄與媒體分享而互動。 此類別也包含具有網路社交功能的校園網站。"
+   },
+   "category_id_194_name": {
+      "message": "專業社交網路"
+   },
+   "category_id_195_description": {
+      "message": "讓社交網路達到各種目的之網頁，例如交友、約會、專業或興趣主題。 這些類別提供個人或群組資訊的網站，且讓它們的成員能透過即時通訊、訊息發佈、公開佈告欄與媒體分享而互動。 此類別中的網站也可能促成與非選擇方且個人資訊包含不當內容的成員間連絡。"
+   },
+   "category_id_195_name": {
+      "message": "社交網路"
+   },
+   "category_id_196_description": {
+      "message": "允許使用者輸入語詞或一段文字，然後將它翻譯成其他語言的網頁。 此類別也包括語言辨識碼網頁。"
+   },
+   "category_id_196_name": {
+      "message": "文字翻譯工具"
+   },
+   "category_id_197_description": {
+      "message": "託管主要為商務的現場會議、視訊會議與互動簡報的網頁。 網路會議通常包括串流音訊及視訊，並允許資料的傳輸或辦公室導向的應用程式分享，例如線上簡報。 此類別的 URL 可能帶來頻寬風險以及專屬資料連失或洩露的安全風險。"
+   },
+   "category_id_197_name": {
+      "message": "網路會議"
+   },
+   "category_id_198_description": {
+      "message": "包含可能逾越政治或社交敏感度而激發爭議之觀點的網頁。 其內容大多屬於極端的輿論。 例子包括自殺協議、鼓吹厭食、排外、種族主義、基本教義觀、假造資訊或對某一群人的吹毛求疵。"
+   },
+   "category_id_198_name": {
+      "message": "有爭議的觀點"
+   },
+   "category_id_199_description": {
+      "message": "DSL 數據機或纜線數據機用來存取網際網路的 IP 位址 (及任何相關的網域)。 因為此內容通常不是用來透過 HTTP 存取網際網路，透過這些 IP 位址存取網際網路可能表示可疑的行為。 此行為可能和位於家庭電腦的惡意軟體有關，或是家用匣道器設定允許匿名網際網路的存取。"
+   },
+   "category_id_199_name": {
+      "message": "常駐 IP 位址"
+   },
+   "category_id_200_description": {
+      "message": "瀏覽器入侵是指一段程式碼利用網路瀏覽器的軟體漏洞，讓它做出一些不可預期的動作，包括中止執行、讀取或寫入本機檔案、散佈病毒或安裝間諜軟體。 惡意程式碼可能入侵 HTML、JavaScript、影像、ActiveX、Java 及其他網路技術。 入侵有時又稱為強迫下載，能將這些程式在消費者不知情的狀況下，安裝至未接受保護的電腦上，在那裡程式可安裝鍵盤側錄程式 (偷取密碼) 與特洛伊木馬程式 (將電腦變成「殭屍病毒」)。 此類別包括散佈或執行任何瀏覽器入侵的 URL。"
+   },
+   "category_id_200_name": {
+      "message": "瀏覽器入侵碼"
+   },
+   "category_id_201_description": {
+      "message": "試圖掠奪或欺騙消費者的網站。 它們的一些活動例子包括銷售仿冒產品、販賣原本免費贈送的產品或不當使用其他公司的品牌。 此類別包括利用人們善心或無知的作法，例如謊稱慈善募款或進行虛假的投資方案。 此類別也包括許多消費者回報遭到欺騙或未獲得服務的網站。"
+   },
+   "category_id_201_name": {
+      "message": "消費者保護"
+   },
+   "category_id_202_description": {
+      "message": "包含在全球各地託管的兒童性虐待以及在英國託管的非法猥褻與鼓吹的種族仇恨之內容的網站。"
+   },
+   "category_id_202_name": {
+      "message": "非法英國網站"
+   },
+   "category_id_203_description": {
+      "message": "關於宗教主題與主要宗教相關資訊內容的網頁。 此類別包括涵蓋宗教內容的網站，例如討論、信仰、非爭議性的回應、文章以及當地集會的資訊，例如教會或會堂首頁。 此類別的宗教有巴海大同教、佛教、道教、基督教、印度教、伊斯蘭教、耆那教、猶太教、神道教、錫克教、天理教、祆教。"
+   },
+   "category_id_203_name": {
+      "message": "世界主要宗教"
+   },
+   "category_id_204_description": {
+      "message": "允許使用者無意間下載有害或煩人程式碼的網頁。 此類別包括可下載的檔案，例如含廣告軟體、間諜軟體、病毒和其他惡意電腦程式碼的螢幕保護、工具列和檔案分享程式。 有時，惡意軟體是在使用者不知的狀況下加入，例如在他們未詳讀完整的條款即按下「確定」或「我同意」時。 結果可能造成電腦速度變慢、密碼被盜以及重要個人檔案的遺失或破壞。"
+   },
+   "category_id_204_name": {
+      "message": "惡意下載"
+   },
+   "category_id_205_description": {
+      "message": "包含可能不需要的程式 (PUP) 的網頁。 PUP 通常是應善意目的而設計，但它們會改變到電腦安全性或電腦使用者的隱私。 對安全或隱私有顧慮的電腦使用者可能想要被告知這種軟體，有時他們會想要從電 腦移除此軟體。"
+   },
+   "category_id_205_name": {
+      "message": "PUP"
+   },
+   "category_id_600_description": {
+      "message": "適合家庭，特別是年紀約十歲以下小孩的網頁。"
+   },
+   "category_id_600_name": {
+      "message": "適合孩童"
+   },
+   "category_id_601_description": {
+      "message": "提供關於歷史事實的網站。 此類別包括適合高等教育的內容，但教育類別包含基礎教育的內容。 例如，內含納粹大屠殺照片的網站可能令人反感，但卻具有學術價值。"
+   },
+   "category_id_601_name": {
+      "message": "歷程記錄"
+   },
+   "category_id_602_description": {
+      "message": "由具有權限封鎖不當訊息或內容的個別群組管理之電子佈告欄、聊天室、搜尋引擎或網路郵件網站。"
+   },
+   "category_id_602_name": {
+      "message": "受管制"
+   },
+   "category_id_603_description": {
+      "message": "僅含文字或音訊的內容，不包含圖片。 此類別可用於例外情況，當您要使用色情、暴力或性題材類別時封鎖圖片，但允許清晰文字與錄音材料的存取。 圖書館或大學可使用此類別避免在公共設施顯示不雅圖片。"
+   },
+   "category_id_603_name": {
+      "message": "文字/僅限口語"
+   },
+   "crypto_allow_desc": {
+      "message": "當我們封鎖挖礦綁架時，您可選擇允許它的發生。 我們並不建議這麼做，但若您想支持透過挖礦綁架賺錢的網站時，您可以有這選項。"
+   },
+   "crypto_allow_title": {
+      "message": "想要允許挖礦綁架嗎？"
+   },
+   "crypto_footer_message1": {
+      "message": "McAfee 和 McAfee 標誌皆為 McAfee LLC 或其附設公司在美國及其他國家地區的註冊商標。"
+   },
+   "crypto_footer_message2": {
+      "message": "其他名稱和品牌可能是其他公司的財產。 Copyright ©2020 McAfee, LLC"
+   },
+   "crypto_header_subtitle": {
+      "message": "我們協助制止挖礦綁架封鎖程式竊取您的電腦運算力和資訊。"
+   },
+   "crypto_header_title": {
+      "message": "挖礦綁架封鎖程式開啟"
+   },
+   "crypto_own_desc": {
+      "message": "不需要有任何密碼貨幣就可能會被挖礦綁架。 挖礦綁架者會存取您電腦的資源而非您可能擁有的密碼貨幣。"
+   },
+   "crypto_own_title": {
+      "message": "您是否必須擁有密碼貨幣才會遭到挖礦綁架？"
+   },
+   "crypto_protect_desc": {
+      "message": "保持 McAfee WebAdvisor 延伸模組持續開啟，讓我們的挖礦綁架封鎖程式能助您防禦挖礦綁架者。 我們在封鎖挖礦綁架試圖時會通知您。"
+   },
+   "crypto_protect_title": {
+      "message": "您該如何自保？"
+   },
+   "crypto_signs_desc1": {
+      "message": "瀏覽緩慢"
+   },
+   "crypto_signs_desc2": {
+      "message": "電池消耗太快"
+   },
+   "crypto_signs_desc3": {
+      "message": "風扇很吵"
+   },
+   "crypto_signs_desc4": {
+      "message": "耗電量增加"
+   },
+   "crypto_signs_title": {
+      "message": "您遭到挖礦綁架的徵兆？"
+   },
+   "crypto_title": {
+      "message": "McAfee 挖礦綁架封鎖程式"
+   },
+   "crypto_whatis_point1": {
+      "message": "挖礦綁架 (駭客) 在您瀏覽時透過網站存取您的電腦。"
+   },
+   "crypto_whatis_point2": {
+      "message": "它們會綁架電腦的運算能力 (中央處理器及記憶體) 來完成複雜的工作。"
+   },
+   "crypto_whatis_point3": {
+      "message": "它們賺取的是密碼貨幣，也就是線上金錢。"
+   },
+   "crypto_whatis_title": {
+      "message": "挖礦綁架是什麼？"
+   },
+   "cryptojacking_banner_allow_btn": {
+      "message": "允許此網站的挖礦綁架"
+   },
+   "cryptojacking_banner_learn_more": {
+      "message": "深入瞭解。"
+   },
+   "cryptojacking_banner_message": {
+      "message": "我們已封鎖此網站的挖礦綁架。 您的電腦資源安全且可繼續正常瀏覽。$cryptojacking_banner_learn_more$",
+      "placeholders": {
+         "cryptojacking_banner_learn_more": {
+            "content": "$1"
+         }
+      }
+   },
+   "iframe_banner_message": {
+      "message": "我們已測試此網站並且封鎖來自潛在危險或可疑網站的內容。 只有在您確認它來自安全網站的情況下，才能允許此內容。"
+   },
+   "iframe_banner_view_all_btn": {
+      "message": "檢視所有被封鎖的內容"
+   },
+   "overlay_accept_ss": {
+      "message": "Now agree to change your search engine to McAfee® Secure Search"
+   },
+   "overlay_add_ss": {
+      "message": "Add McAfee® Secure Search to your browser"
+   },
+   "overlay_ss_description": {
+      "message": "We flag risky sites in your search results, so you know which sites are safe to visit, and which aren't."
+   },
+   "overlay_step_1": {
+      "message": "STEP 1"
+   },
+   "overlay_step_2": {
+      "message": "STEP 2"
+   },
+   "res_100": {
+      "message": "zh_tw"
+   },
+   "res_1000": {
+      "message": "http://www.siteadvisor.com/restricted.html?domain=%s&originalURL=%s"
+   },
+   "res_1001": {
+      "message": "http://www.siteadvisor.com/phishing.html?domain=%s&originalURL=%s"
+   },
+   "res_101": {
+      "message": "zh-tw"
+   },
+   "res_102": {
+      "message": "zh-tw"
+   },
+   "res_11010": {
+      "message": "安全搜尋"
+   },
+   "res_1102": {
+      "message": "http://www.siteadvisor.com/support/index.html"
+   },
+   "res_1107": {
+      "message": "https://home.mcafee.com/Store/PackageDetail.aspx?pkgid=284&culture=%s"
+   },
+   "res_1110": {
+      "message": "https://home.mcafee.com/Store/PackageDetail.aspx?pkgid=284&culture=%s"
+   },
+   "res_1116": {
+      "message": "http://www.ebates.com/mcafee/index.htm"
+   },
+   "res_114": {
+      "message": "選項…"
+   },
+   "res_120": {
+      "message": "說明"
+   },
+   "res_12001": {
+      "message": "藝術/文化/傳承"
+   },
+   "res_12002": {
+      "message": "酒"
+   },
+   "res_12003": {
+      "message": "匿名者"
+   },
+   "res_12004": {
+      "message": "匿名化公用程式"
+   },
+   "res_12005": {
+      "message": "企業"
+   },
+   "res_12006": {
+      "message": "聊天"
+   },
+   "res_12007": {
+      "message": "公開資訊"
+   },
+   "res_12008": {
+      "message": "可能的犯罪活動"
+   },
+   "res_12009": {
+      "message": "禁藥/毒品"
+   },
+   "res_12010": {
+      "message": "教育/參考資料和工具書"
+   },
+   "res_12011": {
+      "message": "娛樂"
+   },
+   "res_12012": {
+      "message": "極端"
+   },
+   "res_12013": {
+      "message": "理財/金融服務"
+   },
+   "res_12014": {
+      "message": "賭博"
+   },
+   "res_12015": {
+      "message": "遊戲"
+   },
+   "res_12016": {
+      "message": "政府/軍事"
+   },
+   "res_12017": {
+      "message": "潛在的駭客攻擊/電腦犯罪"
+   },
+   "res_12018": {
+      "message": "健康狀態"
+   },
+   "res_12019": {
+      "message": "幽默/漫畫"
+   },
+   "res_12020": {
+      "message": "歧視"
+   },
+   "res_12021": {
+      "message": "即時訊息"
+   },
+   "res_12022": {
+      "message": "股票交易"
+   },
+   "res_12023": {
+      "message": "網際網路廣播/電視"
+   },
+   "res_12024": {
+      "message": "求職"
+   },
+   "res_12025": {
+      "message": "資訊安全"
+   },
+   "res_12026": {
+      "message": "約會/社交網路"
+   },
+   "res_12027": {
+      "message": "行動電話"
+   },
+   "res_12028": {
+      "message": "媒體下載"
+   },
+   "res_12029": {
+      "message": "惡意網站"
+   },
+   "res_12031": {
+      "message": "裸露"
+   },
+   "res_12032": {
+      "message": "非營利/倡導/非政府組織"
+   },
+   "res_12033": {
+      "message": "一般新聞"
+   },
+   "res_12034": {
+      "message": "線上購物"
+   },
+   "res_12035": {
+      "message": "挑逗性服飾"
+   },
+   "res_12036": {
+      "message": "P2P/檔案共用"
+   },
+   "res_12037": {
+      "message": "政治/意見"
+   },
+   "res_12038": {
+      "message": "個人網頁"
+   },
+   "res_12039": {
+      "message": "入口網站"
+   },
+   "res_12040": {
+      "message": "遠端存取"
+   },
+   "res_12041": {
+      "message": "宗教/意識型態"
+   },
+   "res_12042": {
+      "message": "資源共用"
+   },
+   "res_12043": {
+      "message": "搜尋引擎"
+   },
+   "res_12044": {
+      "message": "運動"
+   },
+   "res_12045": {
+      "message": "串流媒體"
+   },
+   "res_12046": {
+      "message": "共享軟體/免費軟體"
+   },
+   "res_12047": {
+      "message": "色情"
+   },
+   "res_12048": {
+      "message": "間諜軟體/廣告軟體/鍵盤側錄程式"
+   },
+   "res_12049": {
+      "message": "菸草"
+   },
+   "res_12050": {
+      "message": "旅遊"
+   },
+   "res_12051": {
+      "message": "暴力"
+   },
+   "res_12052": {
+      "message": "網路廣告"
+   },
+   "res_12053": {
+      "message": "武器和軍事裝備"
+   },
+   "res_12054": {
+      "message": "網頁郵件"
+   },
+   "res_12055": {
+      "message": "網路電話"
+   },
+   "res_12056": {
+      "message": "拍賣/精選商品"
+   },
+   "res_12057": {
+      "message": "論壇/電子佈告欄"
+   },
+   "res_12058": {
+      "message": "褻瀆言行"
+   },
+   "res_12059": {
+      "message": "校園作弊資訊"
+   },
+   "res_12060": {
+      "message": "性題材"
+   },
+   "res_12061": {
+      "message": "恐怖內容"
+   },
+   "res_12062": {
+      "message": "視覺化搜尋引擎"
+   },
+   "res_12063": {
+      "message": "技術/商業論壇"
+   },
+   "res_12064": {
+      "message": "賭博相關"
+   },
+   "res_12065": {
+      "message": "訊息"
+   },
+   "res_12066": {
+      "message": "遊戲/卡通暴力"
+   },
+   "res_12067": {
+      "message": "網路釣魚"
+   },
+   "res_12068": {
+      "message": "個人網路儲存區"
+   },
+   "res_12069": {
+      "message": "垃圾郵件 URL"
+   },
+   "res_12070": {
+      "message": "互動式 Web 應用程式"
+   },
+   "res_12071": {
+      "message": "時尚/美容"
+   },
+   "res_12072": {
+      "message": "軟體/硬體"
+   },
+   "res_12073": {
+      "message": "可能的非法軟體"
+   },
+   "res_12074": {
+      "message": "內容伺服器"
+   },
+   "res_12075": {
+      "message": "網際網路服務"
+   },
+   "res_12076": {
+      "message": "媒體分享"
+   },
+   "res_12077": {
+      "message": "非刻意裸露影像"
+   },
+   "res_12078": {
+      "message": "行銷/商品介紹"
+   },
+   "res_12079": {
+      "message": "寄放網域"
+   },
+   "res_12080": {
+      "message": "藥品"
+   },
+   "res_12081": {
+      "message": "餐廳"
+   },
+   "res_12082": {
+      "message": "房地產"
+   },
+   "res_12083": {
+      "message": "休閒/嗜好"
+   },
+   "res_12084": {
+      "message": "部落格/維基百科"
+   },
+   "res_12085": {
+      "message": "電子賀卡"
+   },
+   "res_12086": {
+      "message": "歷史修正主義"
+   },
+   "res_12087": {
+      "message": "技術資訊"
+   },
+   "res_12088": {
+      "message": "約會/個人"
+   },
+   "res_12089": {
+      "message": "機動車輛"
+   },
+   "res_12090": {
+      "message": "專業社交網路"
+   },
+   "res_12091": {
+      "message": "社交網路"
+   },
+   "res_12092": {
+      "message": "文字翻譯工具"
+   },
+   "res_12093": {
+      "message": "網路會議"
+   },
+   "res_12094": {
+      "message": "適合孩童"
+   },
+   "res_12095": {
+      "message": "歷程記錄"
+   },
+   "res_12096": {
+      "message": "受管制"
+   },
+   "res_12097": {
+      "message": "文字/僅限口語"
+   },
+   "res_12098": {
+      "message": "瀏覽器入侵碼"
+   },
+   "res_12099": {
+      "message": "消費者保護"
+   },
+   "res_121": {
+      "message": "關於"
+   },
+   "res_12100": {
+      "message": "有爭議的觀點"
+   },
+   "res_12101": {
+      "message": "非法英國網站"
+   },
+   "res_12102": {
+      "message": "主要全球區域"
+   },
+   "res_12103": {
+      "message": "惡意下載"
+   },
+   "res_12104": {
+      "message": "PUP"
+   },
+   "res_12105": {
+      "message": "常駐 IP 位址"
+   },
+   "res_122": {
+      "message": "顯示此網站的現金回饋"
+   },
+   "res_123": {
+      "message": "前往安全購物獎勵"
+   },
+   "res_125": {
+      "message": "升級為 [%SITEADVISORPLUS%]"
+   },
+   "res_127": {
+      "message": "立即註冊"
+   },
+   "res_129": {
+      "message": "從 Yahoo! 卸除 工具列"
+   },
+   "res_133": {
+      "message": "同步訂閱"
+   },
+   "res_140": {
+      "message": "升級為 [%SITEADVISORPLUS%] 軟體"
+   },
+   "res_141": {
+      "message": "立即購買"
+   },
+   "res_14100": {
+      "message": "企業、工作與財務。"
+   },
+   "res_14101": {
+      "message": "煙酒與禁藥/毒品"
+   },
+   "res_14102": {
+      "message": "娛樂/文化"
+   },
+   "res_14103": {
+      "message": "遊戲"
+   },
+   "res_14104": {
+      "message": "資訊技術"
+   },
+   "res_14105": {
+      "message": "搜尋、編輯與溝通"
+   },
+   "res_14106": {
+      "message": "生活品味"
+   },
+   "res_14107": {
+      "message": "成人觀眾"
+   },
+   "res_14108": {
+      "message": "成人觀眾"
+   },
+   "res_14109": {
+      "message": "購物與電子商務"
+   },
+   "res_14110": {
+      "message": "具風險"
+   },
+   "res_14111": {
+      "message": "新聞與檢視"
+   },
+   "res_166": {
+      "message": "讀取網站報告"
+   },
+   "res_170": {
+      "message": "版本"
+   },
+   "res_171": {
+      "message": "語言"
+   },
+   "res_172": {
+      "message": "組建"
+   },
+   "res_173": {
+      "message": "上次更新時間"
+   },
+   "res_20017": {
+      "message": "[%COMPANY%] [%SITEADVISOR%] 警告"
+   },
+   "res_20018": {
+      "message": "此電子郵件訊息包含至這些網站的潛在不安全連結："
+   },
+   "res_20022": {
+      "message": "更多資訊..."
+   },
+   "res_20028": {
+      "message": "此連結自動被您的 [%COMPANY%] [%SITEADVISOR%] 安全搜尋設定封鎖"
+   },
+   "res_20029": {
+      "message": "網站內容："
+   },
+   "res_20034": {
+      "message": "McAfee SECURE 網站可能會提供現金回饋。 詳情請造訪網站。"
+   },
+   "res_20040": {
+      "message": "我們已測試此網站並且發現造訪它很危險。"
+   },
+   "res_20043": {
+      "message": "警告：危險網站"
+   },
+   "res_207": {
+      "message": "McAfee"
+   },
+   "res_208": {
+      "message": "SiteAdvisor"
+   },
+   "res_209": {
+      "message": "LIVE"
+   },
+   "res_212": {
+      "message": "SiteAdvisor LIVE"
+   },
+   "res_213": {
+      "message": "SiteAdvisor\u003Csup style='font-size:90%'>&reg;\u003C/sup>&nbsp;LIVE"
+   },
+   "res_30006": {
+      "message": "McAfee WebAdvisor..."
+   },
+   "res_30007": {
+      "message": "檢視網站報告…"
+   },
+   "res_30009": {
+      "message": "McAfee WebAdvisor Live..."
+   },
+   "res_30010": {
+      "message": "McAfee WebAdvisor"
+   },
+   "res_30011": {
+      "message": "McAfee WebAdvisor Live"
+   },
+   "res_3302": {
+      "message": "您正從可能包含潛在垃圾程式的網站下載。 [%COMPANY%] 在過去的測試中已偵測到來自此網站潛在危險的下載。"
+   },
+   "res_3305": {
+      "message": "[%COMPANY%] 發現您將下載的檔案可能有病毒、間諜軟體或其他潛在的垃圾程式。 這可惡的玩意會對您的電腦搞鬼，並且盜取您的個人資訊。"
+   },
+   "res_3306": {
+      "message": "[%COMPANY%] 已偵測到您的下載可能包含病毒、間諜軟體及其他潛在垃圾程式。 這些程式會破壞您的硬碟或偷取您的個人資訊。"
+   },
+   "res_3320": {
+      "message": "該下載非常危險！"
+   },
+   "res_3321": {
+      "message": "偵測到潛在的惱人下載！"
+   },
+   "res_3322": {
+      "message": "警告！"
+   },
+   "res_4000": {
+      "message": "您確定要從 Yahoo! 卸除？ 工具列？ 您將無法復原此變更。"
+   },
+   "res_4001": {
+      "message": "確認： 您已選取解鎖 (分開) 工具列。 請重新啟動瀏覽器，以使變更生效。"
+   },
+   "res_4100": {
+      "message": "網路搜尋"
+   },
+   "res_4101": {
+      "message": "網路搜尋"
+   },
+   "res_4102": {
+      "message": "安全搜尋"
+   },
+   "res_ABOUT": {
+      "message": "關於"
+   },
+   "res_ABOUT_DESCRIPTION": {
+      "message": "{0} 可協助您作出線上相關動作的更佳決定。"
+   },
+   "res_AVOID_DANGEROUS_LINKS": {
+      "message": "避免危險的連結"
+   },
+   "res_CHROME": {
+      "message": "Chrome"
+   },
+   "res_COMPANY_NAME": {
+      "message": "McAfee"
+   },
+   "res_CREATE_SAFER_PASSWORDS": {
+      "message": "建立更安全的密碼"
+   },
+   "res_DONE": {
+      "message": "完成"
+   },
+   "res_DONT_TRUST": {
+      "message": "不要信任"
+   },
+   "res_DOWNLOADS_BLOCKED": {
+      "message": "已封鎖 {1} 個不安全的下載"
+   },
+   "res_DOWNLOADS_SCANNED": {
+      "message": "已掃描 {1} 個下載"
+   },
+   "res_DOWNLOAD_CONFIDENTLY": {
+      "message": "更安心下載"
+   },
+   "res_FIREFOX": {
+      "message": "Firefox"
+   },
+   "res_GET_HELP_NOW": {
+      "message": "立即取得協助"
+   },
+   "res_GET_TECHNICAL_SUPPORT": {
+      "message": "取得協助及技術支援"
+   },
+   "res_HELP": {
+      "message": "說明"
+   },
+   "res_HELP_EMAIL_US": {
+      "message": "透過電子郵件與我們聯繫"
+   },
+   "res_HELP_FAQ_SECTION_FOUR_CONTENT": {
+      "message": "天有不測風雲，人有旦夕禍福。 我們的技術支援人員將全天候待命。 {0}"
+   },
+   "res_HELP_FAQ_SECTION_FOUR_HEADER": {
+      "message": "協助！ 我需要技術支援"
+   },
+   "res_HELP_FAQ_SECTION_ONE_CONTENT": {
+      "message": "{0} 可協助您作出線上相關動作的更佳決定。"
+   },
+   "res_HELP_FAQ_SECTION_ONE_HEADER": {
+      "message": "何謂 {0}？"
+   },
+   "res_HELP_FAQ_SECTION_THREE_HEADER": {
+      "message": "我如何知道我擁有的 {0} 是什麼版本？"
+   },
+   "res_HELP_FAQ_SECTION_TWO_CONTENT": {
+      "message": "或共用此連結：{0}"
+   },
+   "res_HELP_FAQ_SECTION_TWO_HEADER": {
+      "message": "我如何與其他人共用 {0}？"
+   },
+   "res_HELP_FAQ_TITLE": {
+      "message": "常見問題集 (FAQ)"
+   },
+   "res_HELP_SUPPORT_TITLE": {
+      "message": "支援"
+   },
+   "res_IE": {
+      "message": "Internet Explorer"
+   },
+   "res_LICENSE_AGREEMENT_URL": {
+      "message": "https://home.mcafee.com/supportpages/eula.aspx?culture=zh-tw"
+   },
+   "res_OK": {
+      "message": "確定"
+   },
+   "res_PAGES_BLOCKED": {
+      "message": "已封鎖 {1} 個危險的頁面"
+   },
+   "res_PAGES_SCANNED": {
+      "message": "已掃描 {1} 個頁面"
+   },
+   "res_POPUP_BACK": {
+      "message": "上一步"
+   },
+   "res_POPUP_CLEAR": {
+      "message": "清除清單"
+   },
+   "res_POPUP_DONE_SO_FAR": {
+      "message": "以下是我們目前完成的項目："
+   },
+   "res_POPUP_DONT_WARN_DESCRIPTION": {
+      "message": "不想要我們向您警告特定網站嗎？ 將其新增至此處。"
+   },
+   "res_POPUP_ENABLE_WEB_BOOST": {
+      "message": "啟用 Web Boost"
+   },
+   "res_POPUP_ENTER_WEB_ADDRESS": {
+      "message": "請鍵入網址..."
+   },
+   "res_POPUP_GET_HELP": {
+      "message": "取得協助"
+   },
+   "res_POPUP_GET_HELP_URL": {
+      "message": "https://service.mcafee.com/webcenter/portal/cp/home"
+   },
+   "res_POPUP_GET_WEB_BOOST": {
+      "message": "取得 Web Boost"
+   },
+   "res_POPUP_ITEMS_BLOCKED": {
+      "message": "已封鎖不安全的項目"
+   },
+   "res_POPUP_PAGES_BLOCKED": {
+      "message": "已封鎖危險的頁面"
+   },
+   "res_POPUP_PAGES_SCANNED": {
+      "message": "已掃描頁面"
+   },
+   "res_POPUP_PURPOSE_DESCRIPTION": {
+      "message": "我們於此協助您的線上安全。"
+   },
+   "res_POPUP_START_FRESH": {
+      "message": "想要重新開始嗎？"
+   },
+   "res_POPUP_TERMS_AND_CONDITIONS": {
+      "message": "條款與條件"
+   },
+   "res_POPUP_TERMS_AND_CONDITIONS_URL": {
+      "message": "https://home.mcafee.com/supportpages/eula.aspx"
+   },
+   "res_POPUP_VIEW_SITE_REPORT": {
+      "message": "檢視網站報告"
+   },
+   "res_PRIVACY_NOTICE": {
+      "message": "隱私權聲明"
+   },
+   "res_PRIVACY_URL": {
+      "message": "http://www.mcafee.com/common/privacy/consumer/chinese-traditional/"
+   },
+   "res_PRODUCT_NAME": {
+      "message": "McAfee WebAdvisor"
+   },
+   "res_PRODUCT_NAME_LIVE": {
+      "message": "McAfee WebAdvisor Live"
+   },
+   "res_PRODUCT_NAME_TRADEMARKED": {
+      "message": "McAfee® WebAdvisor"
+   },
+   "res_PRODUCT_NAME_TRADEMARKED_PPS": {
+      "message": "McAfee® Security"
+   },
+   "res_READ_PRIVACY_NOTICE": {
+      "message": "閱讀隱私權聲明"
+   },
+   "res_RESET": {
+      "message": "重設"
+   },
+   "res_SETTINGS": {
+      "message": "設定"
+   },
+   "res_SETTINGS_DEFAULT_TRUSTED_TEXT": {
+      "message": "貼上或鍵入您的 URL"
+   },
+   "res_SETTINGS_MANAGE_TRUSTED": {
+      "message": "管理您信任的網站"
+   },
+   "res_SETTINGS_RESET_CAPTION": {
+      "message": "重設 {0}"
+   },
+   "res_SETTINGS_RESET_DESCRIPTION": {
+      "message": "您是否忽略了通知並想要再次看到該通知? 別擔心 - 在您重設後，所有的通知將如同您第一次看到的樣子重新顯示在您的瀏覽器中。"
+   },
+   "res_SETTINGS_RESET_HEADER": {
+      "message": "重設設定"
+   },
+   "res_SETTINGS_SS_CAPTION": {
+      "message": "安全地瀏覽 Web"
+   },
+   "res_SETTINGS_SS_HEADER": {
+      "message": "搜尋結果"
+   },
+   "res_SETTINGS_SS_OPTION_ALL": {
+      "message": "告訴我搜尋結果是否在任何搜尋引擎中皆安全"
+   },
+   "res_SETTINGS_SS_OPTION_NONE": {
+      "message": "不要告訴我搜尋結果的相關資訊"
+   },
+   "res_SETTINGS_SS_OPTION_SS": {
+      "message": "告訴我搜尋結果是否僅在安全搜尋中為安全"
+   },
+   "res_SETTINGS_TRUSTED_SITES": {
+      "message": "您信任的網站"
+   },
+   "res_STAT_HEADER": {
+      "message": "以下只是我們目前已完成的一些事項："
+   },
+   "res_TAKE_PRIVACY_SERIOUSLY": {
+      "message": "{0} 慎重看待您的隱私權。 閱讀{1}。"
+   },
+   "res_TRUST_SITE": {
+      "message": "信任網站"
+   },
+   "res_VERSION": {
+      "message": "版本"
+   },
+   "res_WEBADVISOR": {
+      "message": "WebAdvisor"
+   },
+   "res_YOUR_PROTECTED": {
+      "message": "我們保護您的密碼並守護您免於身分竊取的攻擊"
+   },
+   "res_menuid1": {
+      "message": "測試"
+   },
+   "search_engine_bing": {
+      "message": "Bing"
+   },
+   "search_engine_yahoo": {
+      "message": "Yahoo"
+   },
+   "search_engine_yandex": {
+      "message": "Yandex"
+   },
+   "search_toast_body_text_compliant": {
+      "message": "您是否想加入安全搜尋，永遠比壞人早一步？"
+   },
+   "search_toast_body_text_test": {
+      "message": "Want to add Secure Search and know which sites are safe to visit?"
+   },
+   "search_toast_done": {
+      "message": "完成"
+   },
+   "search_toast_heading_compliant": {
+      "message": "您沒有安全搜尋 — 請注意"
+   },
+   "search_toast_heading_test": {
+      "message": "Get safety advice in your search results"
+   },
+   "search_toast_no_thanks": {
+      "message": "不，謝謝"
+   },
+   "search_toast_ok": {
+      "message": "確定"
+   },
+   "search_toast_option_compliant": {
+      "message": "是的，請將安全搜尋加入我的瀏覽器，並將我的預設搜尋更改為 $search_provider$。",
+      "placeholders": {
+         "search_provider": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_toast_option_test": {
+      "message": "Yes, add Secure Search and change my default search to $search_provider$.",
+      "placeholders": {
+         "search_provider": {
+            "content": "$1"
+         }
+      }
+   },
+   "search_toast_sub_heading_compliant": {
+      "message": "「安全搜尋」可讓您避開搜尋結果中有風險的網站。"
+   },
+   "search_toast_sub_heading_test": {
+      "message": "Secure Search flags risky sites in your search results."
+   },
+   "search_toast_yes": {
+      "message": "是"
+   },
+   "settings_about_adblock": {
+      "message": "Block ads and pop-ups that could track you"
+   },
+   "settings_about_adblock_tracking": {
+      "message": "Block cookies that track you and collect your info"
+   },
+   "settings_about_block_download": {
+      "message": "Block risky downloads"
+   },
+   "settings_about_cryptojackers": {
+      "message": "Blocking $settings_about_cryptojackers_link$ from stealing your computer's resources",
+      "placeholders": {
+         "settings_about_cryptojackers_link": {
+            "content": "$1"
+         }
+      }
+   },
+   "settings_about_cryptojackers_link": {
+      "message": "cryptojackers"
+   },
+   "settings_about_firewall_antivirus": {
+      "message": "Make sure your firewall and anti-virus are on"
+   },
+   "settings_about_flag_website": {
+      "message": "Flag dangerous websites"
+   },
+   "settings_about_help_link_message": {
+      "message": "Get help now"
+   },
+   "settings_about_help_message": {
+      "message": "We all need a hand sometimes."
+   },
+   "settings_about_help_title": {
+      "message": "Get help and technical support"
+   },
+   "settings_about_privacy_link_message": {
+      "message": "Read the Privacy Notice"
+   },
+   "settings_about_privacy_message": {
+      "message": "McAfee takes your privacy seriously."
+   },
+   "settings_about_privacy_title": {
+      "message": "Privacy Notice"
+   },
+   "settings_about_share_title": {
+      "message": "Share %PRODUCTNAME% with friends"
+   },
+   "settings_about_subtitle": {
+      "message": "%PRODUCTNAME% helps you make better decisions about what you do online."
+   },
+   "settings_about_title": {
+      "message": "ABOUT"
+   },
+   "settings_preference_annotation_all": {
+      "message": "Tell me if a search result is safe in any search engine."
+   },
+   "settings_preference_annotation_none": {
+      "message": "Don't tell me about search results."
+   },
+   "settings_preference_annotation_ss": {
+      "message": "Tell me if a search result is safe only in Secure Search."
+   },
+   "settings_preference_annotation_subtitle": {
+      "message": "We'll color-code your search results to show you which sites are safe."
+   },
+   "settings_preference_annotation_title": {
+      "message": "Secure Search"
+   },
+   "settings_preference_ap_ab_protection_first_point": {
+      "message": "Stops intrusive ads and pop-ups froms lowing down your browser"
+   },
+   "settings_preference_ap_ab_protection_second_point": {
+      "message": "Keeps out cookies that track you and collect your info"
+   },
+   "settings_preference_ap_ab_title": {
+      "message": "Ad Blocker and Tracker Blocker"
+   },
+   "settings_preference_ap_alert_add": {
+      "message": "Add"
+   },
+   "settings_preference_ap_alert_allow": {
+      "message": "Allow"
+   },
+   "settings_preference_ap_alert_disabled": {
+      "message": "You don't have Added Protection because the McAfee® Secure Search extension that's part of it isn't enabled. Enable it now and choose $allow$ when asked for permission.",
+      "placeholders": {
+         "allow": {
+            "content": "$1"
+         }
+      }
+   },
+   "settings_preference_ap_alert_enable": {
+      "message": "Enable"
+   },
+   "settings_preference_ap_alert_not_installed": {
+      "message": "You don't have Added Protection because the McAfee® Secure Search extension that's part of it isn't installed. Add it now from the Chrome Web Store."
+   },
+   "settings_preference_ap_ss_protection_first_point": {
+      "message": "Uses our cloud-based threat intelligence service to identify threats"
+   },
+   "settings_preference_ap_ss_protection_second_point": {
+      "message": "Color-codes search results to show you which sites are safe to visit"
+   },
+   "settings_preference_ap_ss_protection_third_point": {
+      "message": "Flags websites in your search results that are unsafe to visit"
+   },
+   "settings_preference_ap_ss_title": {
+      "message": "McAfee Secure Search"
+   },
+   "settings_preference_ap_subtitle": {
+      "message": "Protect your privacy and data."
+   },
+   "settings_preference_ap_title": {
+      "message": "Added Protection"
+   },
+   "settings_preference_reset_button": {
+      "message": "Reset"
+   },
+   "settings_preference_reset_subtitle": {
+      "message": "Did you ignore a %PRODUCTNAME% notification and wish you didn't? Reset notifications to start getting every type of %PRODUCTNAME% message again."
+   },
+   "settings_preference_reset_title": {
+      "message": "Reset Settings"
+   },
+   "settings_preference_sma_facebook": {
+      "message": "Facebook"
+   },
+   "settings_preference_sma_instagram": {
+      "message": "Instagram"
+   },
+   "settings_preference_sma_linkedin": {
+      "message": "Linkedin"
+   },
+   "settings_preference_sma_message": {
+      "message": "These are the sites we'll annotate."
+   },
+   "settings_preference_sma_reddit": {
+      "message": "Reddit"
+   },
+   "settings_preference_sma_subtitle": {
+      "message": "We'll color-code links in your social media feeds to show you which ones are safe."
+   },
+   "settings_preference_sma_title": {
+      "message": "Social Media Protection"
+   },
+   "settings_preference_sma_twitter": {
+      "message": "Twitter"
+   },
+   "settings_preference_sma_youtube": {
+      "message": "Youtube"
+   },
+   "settings_preference_title": {
+      "message": "ADDITIONAL SERVICES"
+   },
+   "settings_statistics_ads_blocked": {
+      "message": "intrusive ads blocked"
+   },
+   "settings_statistics_crypto_blocked": {
+      "message": "cryptojacking attempts blocked"
+   },
+   "settings_statistics_downloads_blocked": {
+      "message": "unsafe downloads blocked"
+   },
+   "settings_statistics_downloads_scanned": {
+      "message": "downloads scanned"
+   },
+   "settings_statistics_links_scanned": {
+      "message": "links scanned"
+   },
+   "settings_statistics_message": {
+      "message": "Here's what we've done so far:"
+   },
+   "settings_statistics_pages_blocked": {
+      "message": "dangerous pages blocked"
+   },
+   "settings_statistics_pages_scanned": {
+      "message": "pages scanned"
+   },
+   "settings_statistics_subtitle": {
+      "message": "We're here to keep you safe online."
+   },
+   "settings_statistics_title": {
+      "message": "STATISTICS"
+   },
+   "settings_statistics_trackers_blocked": {
+      "message": "trackers blocked"
+   },
+   "settings_subtitle": {
+      "message": "Customize your web protection."
+   },
+   "settings_tab_about": {
+      "message": "About"
+   },
+   "settings_tab_preference": {
+      "message": "Preference"
+   },
+   "settings_tab_statistics": {
+      "message": "Statistics"
+   },
+   "settings_tab_whitelist": {
+      "message": "Whitelist"
+   },
+   "settings_title": {
+      "message": "Web Protection"
+   },
+   "settings_whitelist_input": {
+      "message": "Type in a web address..."
+   },
+   "settings_whitelist_title": {
+      "message": "SITE YOU TRUST"
+   },
+   "sidebar_action_panel_settings_link": {
+      "message": "Customize your $1."
+   },
+   "sidebar_action_panel_web_protection_preferences": {
+      "message": "Web Protection Preferences"
+   },
+   "sidebar_adblock_subtitle": {
+      "message": "Here's how we're protecting you now."
+   },
+   "sidebar_adblock_toggle": {
+      "message": "Show ads on this page this visit only"
+   },
+   "sidebar_ads_blocked": {
+      "message": "intrusive ads blocked on this page"
+   },
+   "sidebar_badge_collection_block_page_btn_accept": {
+      "message": "High-five!"
+   },
+   "sidebar_badge_collection_block_page_description": {
+      "message": "We don't know what's better - that we get to help protect you, or that $1 helping protect you...",
+      "placeholders": {
+         "you_are": {
+            "content": "$1"
+         }
+      }
+   },
+   "sidebar_badge_collection_block_page_description_italic": {
+      "message": "you're"
+   },
+   "sidebar_badge_collection_block_page_description_sub": {
+      "message": "Let's call it a win-win."
+   },
+   "sidebar_badge_collection_block_page_phishing_title": {
+      "message": "That site can't bait you"
+   },
+   "sidebar_badge_collection_block_page_red_title": {
+      "message": "Those threats don't stand a chance"
+   },
+   "sidebar_badge_collection_block_page_yellow_title": {
+      "message": "It's blocked - safe is better than sorry!"
+   },
+   "sidebar_badge_collection_iframe_block_btn_accept": {
+      "message": "Thanks for cleaning it up!"
+   },
+   "sidebar_badge_collection_iframe_block_description": {
+      "message": "Thanks for letting us block that content. Now let's get back to looking at stuff you care about."
+   },
+   "sidebar_badge_collection_iframe_block_title": {
+      "message": "We're keeping this site clear of clutter!"
+   },
+   "sidebar_block_page_actions_description": {
+      "message": "If you choose to visit anyway, we'll add this site to your list of trusted sites."
+   },
+   "sidebar_block_page_btn_accept_risk": {
+      "message": "Take me there anyway"
+   },
+   "sidebar_block_page_btn_block": {
+      "message": "Keep it blocked"
+   },
+   "sidebar_block_page_description_phishing": {
+      "message": "It looks like a 'phishing' site. That means it could send you emails pretending to be a trusted organization to trick you into sharing personal info like passwords and credit card details."
+   },
+   "sidebar_block_page_description_phishing_variant_2": {
+      "message": "It'll have to go 'phish' somewhere else to steal personal information because you're not taking the bait."
+   },
+   "sidebar_block_page_description_red": {
+      "message": "We're here to keep you safe, so we stopped you for good reasons."
+   },
+   "sidebar_block_page_description_red_variant_2": {
+      "message": "It looks too risky, so we wouldn't send our worst enemies there (if we had any)."
+   },
+   "sidebar_block_page_description_yellow": {
+      "message": "We aren't 100% sure, but we blocked it because it might catch you with these types of threats:"
+   },
+   "sidebar_block_page_description_yellow_variant_2": {
+      "message": "Like driving with no seat belt, why take the chance?"
+   },
+   "sidebar_block_page_threats_title_phishing": {
+      "message": "Learn more about this site's threats:"
+   },
+   "sidebar_block_page_threats_title_phishing_variant_2": {
+      "message": "Learn more about this site's threats:"
+   },
+   "sidebar_block_page_threats_title_red": {
+      "message": "This site's full of these threats:"
+   },
+   "sidebar_block_page_threats_title_red_variant_2": {
+      "message": "These types of threats are lying in wait:"
+   },
+   "sidebar_block_page_threats_title_yellow": {
+      "message": "This site's full of these threats:"
+   },
+   "sidebar_block_page_threats_title_yellow_variant_2": {
+      "message": "These types of threats are lying in wait:"
+   },
+   "sidebar_block_page_title_phishing": {
+      "message": "We blocked this site so it can't steal your personal info"
+   },
+   "sidebar_block_page_title_phishing_variant_2": {
+      "message": "This 'phishing' site's blocked"
+   },
+   "sidebar_block_page_title_red": {
+      "message": "We blocked this dangerous site"
+   },
+   "sidebar_block_page_title_red_variant_2": {
+      "message": "This dangerous site's blocked"
+   },
+   "sidebar_block_page_title_yellow": {
+      "message": "This site might be a trap"
+   },
+   "sidebar_block_page_title_yellow_variant_2": {
+      "message": "This risky site's blocked"
+   },
+   "sidebar_crypto_blocked": {
+      "message": "cryptojacking attempts blocked"
+   },
+   "sidebar_dangerous_blocked": {
+      "message": "dangerous pages blocked"
+   },
+   "sidebar_ds_file_deleted_description": {
+      "message": "Thanks for letting us trash that file before it could harm you. We're a pretty good security team!"
+   },
+   "sidebar_ds_file_deleted_high_five": {
+      "message": "High-five!"
+   },
+   "sidebar_ds_file_deleted_settings": {
+      "message": "Customize your"
+   },
+   "sidebar_ds_file_deleted_settings_link": {
+      "message": "Web Protection Preferences"
+   },
+   "sidebar_ds_file_deleted_title": {
+      "message": "We deleted that bad file"
+   },
+   "sidebar_ds_file_not_deleted_description": {
+      "message": "Maybe you'll have better luck deleting them manually. Navigate to where the file's saved, and try deleting it from there."
+   },
+   "sidebar_ds_file_not_deleted_filename": {
+      "message": "Name:"
+   },
+   "sidebar_ds_file_not_deleted_got_it": {
+      "message": "Got it"
+   },
+   "sidebar_ds_file_not_deleted_location": {
+      "message": "Location:"
+   },
+   "sidebar_ds_file_not_deleted_settings": {
+      "message": "Customize your"
+   },
+   "sidebar_ds_file_not_deleted_settings_link": {
+      "message": "Web Protection Preferences"
+   },
+   "sidebar_ds_file_not_deleted_title": {
+      "message": "Sorry, it's not working"
+   },
+   "sidebar_ds_malicious_delete_file": {
+      "message": "Delete it"
+   },
+   "sidebar_ds_malicious_file_location": {
+      "message": "Download source:"
+   },
+   "sidebar_ds_malicious_filename": {
+      "message": "Name:"
+   },
+   "sidebar_ds_malicious_first_description": {
+      "message": "It looks like it includes viruses, spyware, or other potentially unwanted programs."
+   },
+   "sidebar_ds_malicious_keep_file": {
+      "message": "I want to keep it anyway"
+   },
+   "sidebar_ds_malicious_second_description": {
+      "message": "If we delete it now before you open it, we can keep you out of harm's way."
+   },
+   "sidebar_ds_malicious_title": {
+      "message": "The file you downloaded is dangerous"
+   },
+   "sidebar_everything_looks_good": {
+      "message": "Everything looks good!"
+   },
+   "sidebar_everything_looks_good_desc": {
+      "message": "Your web protection is on and looking out for you. Want to review your settings or see your stats?"
+   },
+   "sidebar_get_help": {
+      "message": "Get help"
+   },
+   "sidebar_go_to_web_protection": {
+      "message": "Go to Web Protection preferences"
+   },
+   "sidebar_iframe_block_accept_risk": {
+      "message": "I want to see it anyway"
+   },
+   "sidebar_iframe_block_btn_block": {
+      "message": "Keep it blocked"
+   },
+   "sidebar_iframe_block_description": {
+      "message": "It looks suspicious and could cause you harm. If you're sure this content is safe and you want to see it, you can allow it."
+   },
+   "sidebar_iframe_block_title": {
+      "message": "We blocked this content to keep you safe"
+   },
+   "sidebar_pages_scanned": {
+      "message": "pages scanned"
+   },
+   "sidebar_privacy": {
+      "message": "Privacy Notice"
+   },
+   "sidebar_site_report_description_green": {
+      "message": "We scanned it and didn't find any threats."
+   },
+   "sidebar_site_report_description_red": {
+      "message": "We regularly scan sites for suspicious and dangerous activity. This one's not safe."
+   },
+   "sidebar_site_report_description_unknown": {
+      "message": "We'll dig deeper and let you know if this site looks safe or risky the next time we scan it."
+   },
+   "sidebar_site_report_description_yellow": {
+      "message": "We scanned this site and found that it's not as secure as it should be. Visit with caution."
+   },
+   "sidebar_site_report_threats_title_green": {
+      "message": "Looks like it's this type of website:"
+   },
+   "sidebar_site_report_threats_title_red": {
+      "message": "Website threats:"
+   },
+   "sidebar_site_report_threats_title_unknown": {
+      "message": "Possible website type or threats:"
+   },
+   "sidebar_site_report_threats_title_yellow": {
+      "message": "Website threats:"
+   },
+   "sidebar_site_report_title_green": {
+      "message": "This site looks safe"
+   },
+   "sidebar_site_report_title_red": {
+      "message": "This site's dangerous"
+   },
+   "sidebar_site_report_title_unknown": {
+      "message": "This site's safety status is unknown"
+   },
+   "sidebar_site_report_title_yellow": {
+      "message": "This site looks risky"
+   },
+   "sidebar_ss_accepted_btn_got_it": {
+      "message": "Got it"
+   },
+   "sidebar_ss_accepted_description": {
+      "message": "You turned on Secure Search, so now we can show you which sites look safe or dangerous before you visit."
+   },
+   "sidebar_ss_accepted_sub_description": {
+      "message": "In your search results, you'll see color-coded icons next to each website. Feel free to visit green ones, and stay away from risky yellow and dangerous red ones."
+   },
+   "sidebar_ss_accepted_title": {
+      "message": "Now you'll know which sites to avoid"
+   },
+   "sidebar_subtitle": {
+      "message": "Here's what we've done so far:"
+   },
+   "sidebar_terms": {
+      "message": "Terms & Conditions"
+   },
+   "sidebar_title": {
+      "message": "We're here to help keep you safe online."
+   },
+   "sidebar_tracker_blocked": {
+      "message": "trackers blocked on this page"
+   },
+   "sidebar_unsafe_blocked": {
+      "message": "unsafe items blocked"
+   },
+   "sidebar_version": {
+      "message": "Version"
+   },
+   "sidebar_view_site_report": {
+      "message": "View site report"
+   },
+   "sidebar_view_stats": {
+      "message": "See all the ways we've protected you"
+   },
+   "site_report_category_subtitle": {
+      "message": "網站類別："
+   },
+   "site_report_category_title": {
+      "message": "關於此網站"
+   },
+   "site_report_main_message_danger": {
+      "message": "我們會定期掃描網站以辨識出可疑和惡意的活動，此網站真的不安全。 更多資訊於底下詳述。"
+   },
+   "site_report_main_message_safe": {
+      "message": "我們已仔細檢查此網站，一切都沒問題。 盡情使用！"
+   },
+   "site_report_main_message_unknown": {
+      "message": "目前沒有可分享的資料。 下次掃描此網站時會再更新威脅層級。"
+   },
+   "site_report_main_message_warning": {
+      "message": "我們已掃描此網站並發現它不如要求那樣安全。 請點選時小心。"
+   },
+   "site_report_main_title": {
+      "message": "網站報告"
+   },
+   "site_report_main_url_danger": {
+      "message": "$1 可能危險的原因"
+   },
+   "site_report_main_url_safe": {
+      "message": "看來 $1 是安全的"
+   },
+   "site_report_main_url_unknown": {
+      "message": "我們需要深入了解才能做出決定"
+   },
+   "site_report_main_url_warning": {
+      "message": "$1 可能有風險的原因"
+   },
+   "site_report_status_rating_danger": {
+      "message": "非常危險"
+   },
+   "site_report_status_rating_safe": {
+      "message": "安全"
+   },
+   "site_report_status_rating_unknown": {
+      "message": "未知"
+   },
+   "site_report_status_rating_warning": {
+      "message": "有些風險"
+   },
+   "site_report_status_text": {
+      "message": "網站狀態："
+   },
+   "site_report_title": {
+      "message": "McAfee SiteAdvisor 軟體 - 網站安全評等及安全搜尋"
+   },
+   "sma_personalize_button": {
+      "message": "Personalize my protection"
+   },
+   "sma_subtitle": {
+      "message": "We'll color-code links on these social media feeds to show you which ones are safe."
+   },
+   "sma_title": {
+      "message": "Want added safety?"
+   },
+   "sma_turn_on": {
+      "message": "Turn on Social Media Protection"
+   },
+   "typosquatting_action_accept": {
+      "message": "接受風險並繼續"
+   },
+   "typosquatting_action_back": {
+      "message": "返回"
+   },
+   "typosquatting_footer_description": {
+      "message": "當您誤植網站位址，就可能會到達不是您想去的網站。 這些網站可能會以假冒安全軟體或惡意軟體攻擊您、要求您的個人資訊、詐取密碼等。 McAfee WebAdvisor 就是要確保您避開這些網站。"
+   },
+   "typosquatting_footer_link": {
+      "message": "瞭解更多「註冊近似網域名稱詐騙」的資訊"
+   },
+   "typosquatting_footer_title": {
+      "message": "我怎會來到這裡？"
+   },
+   "typosquatting_message_button_direct": {
+      "message": "帶我前往"
+   },
+   "typosquatting_message_button_search": {
+      "message": "搜尋"
+   },
+   "typosquatting_message_description_direct": {
+      "message": "讓 McAfee WebAdvisor 帶您到正確的網站。"
+   },
+   "typosquatting_message_description_search": {
+      "message": "您好像打錯了網址。 讓 McAfee WebAdvisor 導引您至正確的網站。"
+   },
+   "typosquatting_message_title": {
+      "message": "您是否想找"
+   },
+   "typosquatting_title": {
+      "message": "McAfee WebAdvisor - Typosquatting"
+   }
+}

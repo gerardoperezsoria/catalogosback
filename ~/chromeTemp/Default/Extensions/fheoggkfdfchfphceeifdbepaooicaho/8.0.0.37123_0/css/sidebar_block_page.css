@@ -1,0 +1,51 @@
+/*!
+ * 
+ * MCAFEE RESTRICTED CONFIDENTIAL
+ * Copyright (c) 2020 McAfee, LLC
+ * 
+ * The source code contained or described herein and all documents related
+ * to the source code ("Material") are owned by McAfee or its
+ * suppliers or licensors. Title to the Material remains with McAfee
+ * or its suppliers and licensors. The Material contains trade
+ * secrets and proprietary and confidential information of McAfee or its
+ * suppliers and licensors. The Material is protected by worldwide copyright
+ * and trade secret laws and treaty provisions. No part of the Material may
+ * be used, copied, reproduced, modified, published, uploaded, posted,
+ * transmitted, distributed, or disclosed in any way without McAfee's prior
+ * express written permission.
+ * 
+ * No license under any patent, copyright, trade secret or other intellectual
+ * property right is granted to or conferred upon you by disclosure or
+ * delivery of the Materials, either expressly, by implication, inducement,
+ * estoppel or otherwise. Any license under such intellectual property rights
+ * must be expressed and approved by McAfee in writing.
+ * 
+ * 
+ */
+#block-page-container .action-panel-container__jumbo > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+#block-page-container .action-panel-container__jumbo__description-container #jumbo__title {
+  font-size: 21px; }
+
+#block-page-container .action-panel-container__jumbo.jumbo__phishing .action-panel-container__jumbo__description-container {
+  text-align: left; }
+
+#block-page-container .action-panel-container__jumbo.jumbo__phishing .centered {
+  text-align: center; }
+
+@media (max-height: 692px) {
+  #block-page-container .action-panel-container__jumbo {
+    padding: 16px 0; }
+    #block-page-container .action-panel-container__jumbo img {
+      margin-bottom: 16px; }
+    #block-page-container .action-panel-container__jumbo__description-container {
+      margin-top: 10px; }
+  #block-page-container .action-panel-container__jumbo.jumbo__phishing img {
+    display: none; } }
+
+
+/*# sourceMappingURL=../../sourceMap/chrome/sidebar_block_page.map*/
