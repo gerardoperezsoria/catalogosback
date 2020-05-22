@@ -19,8 +19,8 @@ const Sequelize = require('sequelize');
 // initialize an instance of Sequelize
 const sequelize = new Sequelize({
   database: 'catalogos',
-  username: 'root',
-  password: '',
+  username: 'carrery',
+  password: '!A1c3e5g7',
   dialect: 'mysql',
 });
 // check the databse connection
@@ -1079,12 +1079,11 @@ app.get('/consultaproductos/:page', async (req, res) => {
   .then(producto => {
     return producto;
   })
-
   if (data === null) {
-    res.json(JSON.stringify({ status: 204, mensaje: "Sin datos" }))
+    res.json([])
   }
   if (data !== null) {
-    res.json(JSON.stringify({ status: 200, data: data }))
+    res.json(data)
   }
 });
 
